@@ -14,6 +14,13 @@
   </a>
 </p>
 
+...
+
+⭐️ *Thanks for visiting my GitHub! Follow to stay updated on my work in AI, NLP, and beyond.*
+---
+
+## 📊 GitHub Stats & Experience
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kprakashofficial&label=Profile%20Views&color=blue&style=flat-square" />
   <img src="https://img.shields.io/badge/Repositories-30+-informational?style=flat-square&logo=github" />
@@ -22,10 +29,9 @@
 
 ---
 
-## ⚙️ Core Tech Stack
+## 🧠 Additional Skills
 
 <table>
-  <!-- existing icons -->
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40"/><br/>Linux</td>
   </tr>
@@ -33,22 +39,15 @@
 
 ---
 
-## 🏅 Certifications
+## 🏅 Additional Certifications with Logos
 
-- 🧠 Microsoft: Azure AI Engineer Associate (AI-102) <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="20"/>
-- 🧠 Microsoft: Azure AI Fundamentals (AI-900) <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" width="20"/>
-- 🧠 DataCamp: Data Scientist with Python <img src="https://cdn.datacamp.com/main-app/assets/brand/logos/DataCamp_Logo_Full_Black.png" width="60"/>
-- 🧠 DataCamp: AI Engineer / Machine Learning Scientist <img src="https://cdn.datacamp.com/main-app/assets/brand/logos/DataCamp_Logo_Full_Black.png" width="60"/>
-- 🧠 Microsoft: Copilot for Productivity by Microsoft & LinkedIn <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Microsoft_Copilot_Logo.svg/2048px-Microsoft_Copilot_Logo.svg.png" width="20"/>
-- 🎓 Microsoft: AI & ML Engineering Specialization  
-- 🧪 Wolfram Research: Machine Learning Statistical Foundations  
-- 📊 Anaconda: Python for Data Science Professional Certificate  
-- 🎓 Atlassian: Agile Project Management Professional Certificate  
-- 📈 Microsoft + LinkedIn: Career Essentials in Data Analysis  
-- 🤖 Microsoft + LinkedIn: Career Essentials in Generative AI  
-- 🧠 Microsoft + LinkedIn: Human Skills in the Age of AI  
-- 🧾 HackerRank: SQL (Advanced)  
-- 🧾 HackerRank: Problem Solving (Intermediate)  
-- 🐳 Docker: Docker Foundations  
-- 🐙 GitHub: GitHub Professional Certificate  
-- 🐍 Python Professional (OpenEDG Python Institute)
+<table>
+  <tr>
+    <td align="center"><img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" width="60"/><br/>Azure AI Engineer Associate</td>
+    <td align="center"><img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" width="60"/><br/>Azure AI Fundamentals</td>
+    <td align="center"><img src="https://cdn.datacamp.com/main-app/assets/brand/logos/DataCamp_Logo_Full_Black.png" width="80"/><br/>DataCamp Data Scientist</td>
+    <td align="center"><img src="https://cdn.datacamp.com/main-app/assets/brand/logos/DataCamp_Logo_Full_Black.png" width="80"/><br/>DataCamp AI Engineer</td>
+    <td align="center"><img src="https://cdn.datacamp.com/main-app/assets/brand/logos/DataCamp_Logo_Full_Black.png" width="80"/><br/>DataCamp ML Engineer</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Microsoft_Copilot_Logo.svg/2048px-Microsoft_Copilot_Logo.svg.png" width="50"/><br/>Microsoft Copilot for Productivity</td>
+  </tr>
+</table>
