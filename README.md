@@ -130,15 +130,15 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>SQL (Advanced), Problem Solving (Intermediate)</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/docker.svg" width="30"/> <b>Docker</b></td>
+    <td><img src="assets/logos/docker.png" width="30"/> <b>Docker</b></td>
     <td>Docker Foundations</td>
   </tr>
   <tr>
-    <td><img src="assets/logosgithub copilot.pngg" width="30"/> <b>GitHub</b></td>
+    <td><img src="assets/github copilot.png" width="30"/> <b>GitHub</b></td>
     <td>GitHub Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/python.svg" width="30"/> <b>Python Institute</b></td>
+    <td><img src="assets/logos/pythoninstitute.png" width="30"/> <b>Python Institute</b></td>
     <td>Python Professional (OpenEDG)</td>
   </tr>
   <tr>
