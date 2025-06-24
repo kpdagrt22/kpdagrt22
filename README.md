@@ -134,7 +134,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Docker Foundations</td>
   </tr>
   <tr>
-    <td><img src="assets/GitHub-Logo.png" width="30"/> <b>GitHub</b></td>
+    <td><img src="https://camo.githubusercontent.com/2e3402a95bea6acba7dd5d26566d797607b63a6bdec43942c8286fbf7db4a177/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769746875622f6769746875622d6f726967696e616c2e737667" width="30"/> <b>GitHub</b></td>
     <td>GitHub Professional Certificate</td>
   </tr>
   <tr>
