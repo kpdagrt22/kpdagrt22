@@ -28,21 +28,38 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 <table>
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/><br/>Python</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="40"/><br/>R</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/><br/>SQL</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40"/><br/>Azure</td>
-    <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>HuggingFace</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40"/><br/>NumPy</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40"/><br/>Pandas</td>
+    <td align="center"><img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="70"/><br/>Seaborn</td>
+    <td align="center"><img src="https://matplotlib.org/_static/images/logo2.svg" width="70"/><br/>Matplotlib</td>
+    <td align="center"><img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="40"/><br/>Scikit-learn</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="40"/><br/>Keras</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40"/><br/>TensorFlow</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40"/><br/>PyTorch</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40"/><br/>FastAPI</td>
-    <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40"/><br/>TensorFlow</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pyspark.svg" width="40"/><br/>PySpark</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Microsoft_Office_Excel_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Excel_%282018%E2%80%93present%29.svg.png" width="40"/><br/>Excel</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Power_BI_logo.svg" width="40"/><br/>Power BI</td>
+    <td align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Copilot.png" width="60"/><br/>Copilot</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/github/explore/main/topics/shap/shap.png" width="40"/><br/>SHAP</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/github/explore/main/topics/lime/lime.png" width="40"/><br/>LIME</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40"/><br/>Azure</td>
+    <td align="center"><img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" width="60"/><br/>GCP</td>
+    <td align="center"><img src="https://learn.microsoft.com/en-us/fabric/media/fabric-logo.png" width="60"/><br/>MS Fabric</td>
+  </tr>
+  <tr>
     <td align="center"><img src="https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
     <td align="center"><img src="https://raw.githubusercontent.com/github/explore/main/topics/langchain/langchain.png" width="40"/><br/>LangChain</td>
+    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/openai-icon.svg" width="40"/><br/>OpenAI</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40"/><br/>FastAPI</td>
+    <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td>
+    <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>Hugging Face</td>
   </tr>
 </table>
 
@@ -60,7 +77,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 - 🧠 Microsoft: Azure AI Engineer Associate (AI-102)  
 - 🧠 Microsoft: Azure AI Fundamentals (AI-900)  
-- 🧪 DataCamp: Machine Learning Scientist / AI Engineer with Python  
+- 🧪 DataCamp: Data Scientist with Python / Machine Learning Scientist / AI Engineer with Python  
 - 🧪 Vanderbilt University: AI Agent Developer  
 - 🧪 KNIME: Data Science Professional Certificate  
 - 🐳 Docker: Docker Foundations  
