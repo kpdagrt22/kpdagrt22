@@ -1,6 +1,15 @@
 <h1 align="center">Hi 👋, I'm Prakash Kantumutchu</h1>
 <h3 align="center">AI/ML Engineer | Data Scientist | LLMs & MLOps Enthusiast</h3>
 <p align="center"><i>Turning cutting-edge AI into real-world impact with NLP, LLMs, and MLOps 🚀</i></p>
+<p align="center">
+  <img src="https://github.com/kprakashofficial/kprakashofficial/raw/output/github-contribution-grid-snake.svg" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kprakashofficial&show_icons=true&theme=radical&count_private=true" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kprakashofficial&theme=radical&date_format=M%20j%5B%2C%20Y%5D" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Kolkata,%20India-blue?style=flat-square&logo=google-maps" />
@@ -154,6 +163,14 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 ---
 
 ## 🤝 Let’s Connect
+<details>
+  <summary>📈 GitHub Activity Stats</summary>
+
+  <p align="center">
+    <img src="..." />
+    ...
+  </p>
+</details>
 
 I'm always open to collaborating on AI product development, research projects, and cool ideas that push boundaries.
 📩 Reach out via [LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu/) or [Email](mailto:k.prakashofficial@gmail.com)
