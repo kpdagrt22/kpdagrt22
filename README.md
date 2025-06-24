@@ -61,6 +61,11 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td>
     <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>Hugging Face</td>
   </tr>
+  <tr>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Scrum_Alliance_logo.png" width="50"/><br/>Scrum</td>
+    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="40"/><br/>Jira</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Kanban_board_example.svg/600px-Kanban_board_example.svg.png" width="50"/><br/>Kanban</td>
+  </tr>
 </table>
 
 ---
@@ -77,14 +82,20 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 - 🧠 Microsoft: Azure AI Engineer Associate (AI-102)  
 - 🧠 Microsoft: Azure AI Fundamentals (AI-900)  
-- 🧪 DataCamp: Data Scientist with Python / Machine Learning Scientist / AI Engineer with Python  
-- 🧪 Vanderbilt University: AI Agent Developer  
-- 🧪 KNIME: Data Science Professional Certificate  
+- 🎓 Microsoft: AI & ML Engineering Specialization  
+- 🧠 DataCamp: Data Scientist with Python  
+- 🧠 DataCamp: Machine Learning Scientist / AI Engineer with Python  
+- 🧪 Wolfram Research: Machine Learning Statistical Foundations  
+- 📊 Anaconda: Python for Data Science Professional Certificate  
+- 🎓 Atlassian: Agile Project Management Professional Certificate  
+- 📈 Microsoft + LinkedIn: Career Essentials in Data Analysis  
+- 🤖 Microsoft + LinkedIn: Career Essentials in Generative AI  
+- 🧠 Microsoft + LinkedIn: Human Skills in the Age of AI  
+- 🧾 HackerRank: SQL (Advanced)  
+- 🧾 HackerRank: Problem Solving (Intermediate)  
 - 🐳 Docker: Docker Foundations  
 - 🐙 GitHub: GitHub Professional Certificate  
-- 🐍 Python Professional (OpenEDG Python Institute)  
-- 🧾 HackerRank: SQL (Advanced)  
-- 🧾 HackerRank: Problem Solving (Intermediate)
+- 🐍 Python Professional (OpenEDG Python Institute)
 
 ---
 
