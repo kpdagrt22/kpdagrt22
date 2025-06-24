@@ -112,8 +112,9 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   <tr>
     <td><img src="assets/logos/datacamp.png" width="30"/> <b>DataCamp</b></td>
     <td>
-      - Data Scientist with Python<br/>
-      - Machine Learning Scientist / AI Engineer
+      - Data Scientist in Python<br/>
+      - Machine Learning Scientist in Python<br/>
+      - AI Engineer for Data Scientist
     </td>
   </tr>
   <tr>
