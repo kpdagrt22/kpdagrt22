@@ -101,7 +101,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td><img src="assets/logos/microsoft.jpg" width="30"/> <b>Microsoft</b></td>
+    <td><img src="assets/logos/microsoftlogo.png" width="30"/> <b>Microsoft</b></td>
     <td>
       - Azure AI Engineer Associate (AI-102)<br/>
       - Azure AI Fundamentals (AI-900)<br/>
@@ -118,11 +118,11 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="assets/logos/anaconda.svg" width="30"/> <b>Anaconda</b></td>
+    <td><img src="assets/logos/anaconda.jpg" width="30"/> <b>Anaconda</b></td>
     <td>Python for Data Science Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/atlassian.svg" width="30"/> <b>Atlassian</b></td>
+    <td><img src="assets/logos/atlassian.jpg" width="30"/> <b>Atlassian</b></td>
     <td>Agile Project Management Professional Certificate</td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Docker Foundations</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/github-copilot-logo-png_seeklogo-407787.png" width="30"/> <b>GitHub</b></td>
+    <td><img src="assets/logosgithub copilot.pngg" width="30"/> <b>GitHub</b></td>
     <td>GitHub Professional Certificate</td>
   </tr>
   <tr>
