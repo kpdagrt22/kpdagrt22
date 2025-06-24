@@ -90,7 +90,8 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 - 🎓 Atlassian: Agile Project Management Professional Certificate  
 - 📈 Microsoft + LinkedIn: Career Essentials in Data Analysis  
 - 🤖 Microsoft + LinkedIn: Career Essentials in Generative AI  
-- 🧠 Microsoft + LinkedIn: Human Skills in the Age of AI  
+- 🧠 Microsoft + LinkedIn: Human Skills in the Age of AI
+- 🧠 Microsoft Copilot for Productivity by Microsoft and LinkedIn  
 - 🧾 HackerRank: SQL (Advanced)  
 - 🧾 HackerRank: Problem Solving (Intermediate)  
 - 🐳 Docker: Docker Foundations  
