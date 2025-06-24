@@ -98,7 +98,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 ---
 
-## 🏅 Certifications
+## 🏅 Professional Certifications
 
 <table>
   <tr>
