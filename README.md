@@ -58,7 +58,6 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td align="center"><img src="assets/logos/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
     <td align="center"><img src="assets/logos/langchain.png" width="40"/><br/>LangChain</td>
     <td align="center"><img src="assets/logos/openAI.png" width="40"/><br/>OpenAI</td>
-    <td align="center"><img src="assets/logos/github-copilot-logo-png_seeklogo-407787.png.png" width="60"/><br/>Copilot</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
