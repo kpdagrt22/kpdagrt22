@@ -17,9 +17,9 @@
 
 ---
 
-## 🧠 About Me
+## 🧬 About Me
 
-I’m a passionate AI/ML Engineer with a background in aerospace and academia, now focused on building intelligent, scalable, and explainable machine learning solutions.  
+I’m a passionate AI/ML Engineer with a background in aerospace and academia, now focused on building intelligent, scalable, and explainable machine learning solutions.
 I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world AI systems that make a difference.
 
 ---
@@ -37,6 +37,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 ## ⚙️ Core Tech Stack
 
 ### 🧪 Data Science & ML Libraries
+
 <table>
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/><br/>Python</td>
@@ -53,13 +54,13 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40"/><br/>PyTorch</td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40"/><br/>TensorFlow</td>
+    <td align="center"><img src="assets/logos/mlflow.png" width="60"/><br/>MLflow</td>
+    <td align="center"><img src="assets/logos/langchain.png" width="40"/><br/>LangChain</td>
+    <td align="center"><img src="assets/logos/openai.svg" width="40"/><br/>OpenAI</td>
+    <td align="center"><img src="assets/logos/github-copilot.png" width="60"/><br/>Copilot</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
-    <td align="center"><img src="https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
-    <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>HuggingFace</td>
   </tr>
 </table>
 
@@ -69,22 +70,20 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40"/><br/>Azure</td>
     <td align="center"><img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" width="60"/><br/>GCP</td>
-    <td align="center"><img src="https://learn.microsoft.com/en-us/fabric/media/fabric-logo.png" width="60"/><br/>MS Fabric</td>
-    <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/openai-icon.svg" width="40"/><br/>OpenAI</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/github/explore/main/topics/langchain/langchain.png" width="40"/><br/>LangChain</td>
+    <td align="center"><img src="assets/logos/fabric.png" width="60"/><br/>MS Fabric</td>
     <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40"/><br/>FastAPI</td>
     <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td>
+    <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>HuggingFace</td>
   </tr>
 </table>
 
-### 🧭 Agile & Collaboration
+### 🧽 Agile & Collaboration
 
 <table>
   <tr>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Scrum_Alliance_logo.png" width="50"/><br/>Scrum</td>
+    <td align="center"><img src="assets/logos/scrum.png" width="50"/><br/>Scrum</td>
     <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="40"/><br/>Jira</td>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Kanban_board_example.svg/600px-Kanban_board_example.svg.png" width="50"/><br/>Kanban</td>
-    <td align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Copilot.png" width="60"/><br/>Copilot</td>
+    <td align="center"><img src="assets/logos/kanban.svg" width="50"/><br/>Kanban</td>
   </tr>
 </table>
 
@@ -92,9 +91,9 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 ## 🚀 Currently Exploring
 
-- 🔍 Fine-tuning LLMs for summarization and retrieval-based Q&A  
-- ☁️ Azure ML & scalable MLOps pipelines  
-- 🧠 AI agent frameworks & multimodal foundation models
+* 🔍 Fine-tuning LLMs for summarization and retrieval-based Q\&A
+* ☁️ Azure ML & scalable MLOps pipelines
+* 🧠 AI agent frameworks & multimodal foundation models
 
 ---
 
@@ -102,7 +101,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/microsoft.svg" width="30"/> <b>Microsoft</b></td>
+    <td><img src="assets/logos/microsoft.svg" width="30"/> <b>Microsoft</b></td>
     <td>
       - Azure AI Engineer Associate (AI-102)<br/>
       - Azure AI Fundamentals (AI-900)<br/>
@@ -112,39 +111,43 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/datacamp.svg" width="30"/> <b>DataCamp</b></td>
+    <td><img src="assets/logos/datacamp.svg" width="30"/> <b>DataCamp</b></td>
     <td>
       - Data Scientist with Python<br/>
       - Machine Learning Scientist / AI Engineer
     </td>
   </tr>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/anaconda.svg" width="30"/> <b>Anaconda</b></td>
+    <td><img src="assets/logos/anaconda.svg" width="30"/> <b>Anaconda</b></td>
     <td>Python for Data Science Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/atlassian.svg" width="30"/> <b>Atlassian</b></td>
+    <td><img src="assets/logos/atlassian.svg" width="30"/> <b>Atlassian</b></td>
     <td>Agile Project Management Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://www.hackerrank.com/img/hackerrank_logo.png" width="30"/> <b>HackerRank</b></td>
+    <td><img src="assets/logos/hackerrank.svg" width="30"/> <b>HackerRank</b></td>
     <td>SQL (Advanced), Problem Solving (Intermediate)</td>
   </tr>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/docker.svg" width="30"/> <b>Docker</b></td>
+    <td><img src="assets/logos/docker.svg" width="30"/> <b>Docker</b></td>
     <td>Docker Foundations</td>
   </tr>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="30"/> <b>GitHub</b></td>
+    <td><img src="assets/logos/github.svg" width="30"/> <b>GitHub</b></td>
     <td>GitHub Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30"/> <b>Python Institute</b></td>
+    <td><img src="assets/logos/python.svg" width="30"/> <b>Python Institute</b></td>
     <td>Python Professional (OpenEDG)</td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Wolfram_logo.svg" width="30"/> <b>Wolfram</b></td>
+    <td><img src="assets/logos/wolfram.svg" width="30"/> <b>Wolfram</b></td>
     <td>Machine Learning Statistical Foundations</td>
+  </tr>
+  <tr>
+    <td><img src="assets/logos/vanderbilt.svg" width="30"/> <b>Vanderbilt University</b></td>
+    <td>AI Agent Developer (Coursera)</td>
   </tr>
 </table>
 
@@ -152,7 +155,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 ## 🤝 Let’s Connect
 
-I'm always open to collaborating on AI product development, research projects, and cool ideas that push boundaries.  
+I'm always open to collaborating on AI product development, research projects, and cool ideas that push boundaries.
 📩 Reach out via [LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu/) or [Email](mailto:k.prakashofficial@gmail.com)
 
 ---
@@ -164,4 +167,4 @@ I'm always open to collaborating on AI product development, research projects, a
 
 ---
 
-⭐️ *Thanks for visiting my GitHub! Follow to stay updated on my work in AI, NLP, and beyond.*
+🌟 *Thanks for visiting my GitHub! Follow to stay updated on my work in AI, NLP, and beyond.*
