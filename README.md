@@ -26,12 +26,10 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 ---
 [![trophy](https://github-profile-trophy.vercel.app/?username=kpdagrt22&theme=juicyfresh)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 📊 Profile Snapshot
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kprakashofficial&label=Visitors&style=flat-square&color=blue" />
-  <img src="https://img.shields.io/github/repo-count/kprakashofficial?style=flat-square&color=green" />
-  <img src="https://badgen.net/badge/experience/3+yrs/green?icon=terminal" />
+   <img src="https://badgen.net/badge/experience/3+yrs/green?icon=terminal" />
 </p>
 
 ---
