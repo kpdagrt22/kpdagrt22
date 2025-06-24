@@ -54,10 +54,10 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="assets/logos/mlflow.png" width="60"/><br/>MLflow</td>
+    <td align="center"><img src="assets/logos/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
     <td align="center"><img src="assets/logos/langchain.png" width="40"/><br/>LangChain</td>
-    <td align="center"><img src="assets/logos/openai.svg" width="40"/><br/>OpenAI</td>
-    <td align="center"><img src="assets/logos/github-copilot.png" width="60"/><br/>Copilot</td>
+    <td align="center"><img src="assets/logos/openAI.png" width="40"/><br/>OpenAI</td>
+    <td align="center"><img src="assets/logos/github-copilot-logo-png_seeklogo-407787.png.png" width="60"/><br/>Copilot</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
@@ -70,7 +70,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   <tr>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40"/><br/>Azure</td>
     <td align="center"><img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" width="60"/><br/>GCP</td>
-    <td align="center"><img src="assets/logos/fabric.png" width="60"/><br/>MS Fabric</td>
+    <td align="center"><img src="assets/logos/microsoft fabrix.png" width="60"/><br/>MS Fabric</td>
     <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40"/><br/>FastAPI</td>
     <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td>
     <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>HuggingFace</td>
@@ -83,7 +83,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   <tr>
     <td align="center"><img src="assets/logos/scrum.png" width="50"/><br/>Scrum</td>
     <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="40"/><br/>Jira</td>
-    <td align="center"><img src="assets/logos/kanban.svg" width="50"/><br/>Kanban</td>
+    <td align="center"><img src="assets/logos/kanban.jpg" width="50"/><br/>Kanban</td>
   </tr>
 </table>
 
@@ -101,7 +101,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td><img src="assets/logos/microsoft.svg" width="30"/> <b>Microsoft</b></td>
+    <td><img src="assets/logos/microsoft.jpg" width="30"/> <b>Microsoft</b></td>
     <td>
       - Azure AI Engineer Associate (AI-102)<br/>
       - Azure AI Fundamentals (AI-900)<br/>
@@ -111,7 +111,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="assets/logos/datacamp.svg" width="30"/> <b>DataCamp</b></td>
+    <td><img src="assets/logos/datacamp.png" width="30"/> <b>DataCamp</b></td>
     <td>
       - Data Scientist with Python<br/>
       - Machine Learning Scientist / AI Engineer
@@ -126,7 +126,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Agile Project Management Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/hackerrank.svg" width="30"/> <b>HackerRank</b></td>
+    <td><img src="assets/logos/hackerrank.png" width="30"/> <b>HackerRank</b></td>
     <td>SQL (Advanced), Problem Solving (Intermediate)</td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Docker Foundations</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/github.svg" width="30"/> <b>GitHub</b></td>
+    <td><img src="assets/logos/github-copilot-logo-png_seeklogo-407787.png" width="30"/> <b>GitHub</b></td>
     <td>GitHub Professional Certificate</td>
   </tr>
   <tr>
@@ -142,11 +142,11 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Python Professional (OpenEDG)</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/wolfram.svg" width="30"/> <b>Wolfram</b></td>
+    <td><img src="assets/logos/wolfram.png" width="30"/> <b>Wolfram</b></td>
     <td>Machine Learning Statistical Foundations</td>
   </tr>
   <tr>
-    <td><img src="assets/logos/vanderbilt.svg" width="30"/> <b>Vanderbilt University</b></td>
+    <td><img src="assets/logos/vanderbiltUniversity.png" width="30"/> <b>Vanderbilt University</b></td>
     <td>AI Agent Developer (Coursera)</td>
   </tr>
 </table>
