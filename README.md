@@ -160,13 +160,5 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 I'm always open to collaborating on AI product development, research projects, and cool ideas that push boundaries.
 📩 Reach out via [LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu/) or [Email](mailto:k.prakashofficial@gmail.com)
 
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kprakashofficial&show_icons=true&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kprakashofficial&layout=compact&theme=radical" />
-</p>
-
----
 
 🌟 *Thanks for visiting my GitHub! Follow to stay updated on my work in AI, NLP, and beyond.*
