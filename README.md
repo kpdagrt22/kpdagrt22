@@ -24,7 +24,7 @@ I’m a passionate AI/ML Engineer with a background in aerospace and academia, n
 I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world AI systems that make a difference.
 
 ---
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=kpdagrt22)](https://github.com/ryo-ma/github-profile-trophy)
 ## 📊 Profile Snapshot
 
 <p align="center">
