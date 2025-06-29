@@ -144,7 +144,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>AI Agent Developer Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/KNIME_Logo.png" width="30"/> <b>KNIME</b></td>
+    <td><img src="assets/logos/KNIME.png" width="30"/> <b>KNIME</b></td>
     <td>Data Science Professional Certificate</td>
   </tr>
   <tr>
@@ -152,7 +152,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Machine Learning Statistical Foundations Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://cdn.worldvectorlogo.com/logos/linkedin-learning-logo.svg" width="30"/> <b>LinkedIn Learning</b></td>
+    <td><img src="assets/logos/linkedin-learning-logo-clipart-rz5ja.jpg" width="30"/> <b>LinkedIn Learning</b></td>
     <td>Building AI Products: Prototyping Essentials Professional Certificate</td>
   </tr>
 </table>
