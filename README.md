@@ -19,7 +19,7 @@
 
 ## 🧬 About Me
 
-I’m a passionate AI/ML Engineer with a background in aerospace and academia, now focused on building intelligent, scalable, and explainable machine learning solutions.
+I’m a passionate AI/ML Engineer with a background in aerospace and academia, now focused on building intelligent, scalable, and explainable machine learning solutions.  
 I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world AI systems that make a difference.
 
 ---
@@ -60,7 +60,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Mlflow-logo-black-background.png" width="60"/><br/>MLflow</td>
+    <td align="center"><img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/114604206?s=200&v=4" width="40"/><br/>LangChain</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo_2023.svg" width="40"/><br/>OpenAI</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
@@ -86,8 +86,8 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Scrum_Alliance_logo.svg" width="50"/><br/>Scrum</td>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Kanban-board.svg" width="50"/><br/>Kanban</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Agile_Project_Management_icon.png" width="40"/><br/>Scrum</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Kanban-logo.png" width="40"/><br/>Kanban</td>
     <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="40"/><br/>Jira</td>
   </tr>
 </table>
@@ -116,7 +116,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/DataCamp_logo.png" width="30"/> <b>DataCamp</b></td>
+    <td><img src="https://assets.datacamp.com/favicon/favicon-32x32.png" width="30"/> <b>DataCamp</b></td>
     <td>
       - Data Scientist in Python<br/>
       - Machine Learning Scientist in Python<br/>
@@ -140,4 +140,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Docker Foundations</td>
   </tr>
 </table>
-© 2025 Prakash Kantumutchu
+
+---
+
+<p align="center">© 2025 Prakash Kantumutchu</p>
