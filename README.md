@@ -140,3 +140,4 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Docker Foundations</td>
   </tr>
 </table>
+© 2025 Prakash Kantumutchu
