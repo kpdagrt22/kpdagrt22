@@ -140,7 +140,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   </tr>
   <!--‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ NEW ENTRIES BELOW ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑-->
   <tr>
-    <td><img src="assets/logo/vanderbiltUniversity.png" width="30"/> <b>Vanderbilt University</b></td>
+    <td><img src="assets/logos/vanderbiltUniversity.png" width="30"/> <b>Vanderbilt University</b></td>
     <td>AI Agent Developer Certificate</td>
   </tr>
   <tr>
