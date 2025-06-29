@@ -46,8 +46,13 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td align="center"><img src="https://matplotlib.org/_static/images/logo2.svg" width="70"/><br/>Matplotlib</td>
     <td align="center"><img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="40"/><br/>Scikit-learn</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="40"/><br/>Keras</td>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Scipy_logo.svg" width="40"/><br/>SciPy</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Scipy_logo_blue.svg" width="40"/><br/>SciPy</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" width="60"/><br/>spaCy</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="40"/><br/>PySpark</td>
+    <td align="center"><img src="https://pytorch.org/assets/images/pytorch-logo.png" width="40"/><br/>PyTorch</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="40"/><br/>TensorFlow</td>
   </tr>
 </table>
 
@@ -55,9 +60,9 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Mlflow-logo-black-background.png" width="60"/><br/>MLflow</td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/114604206?s=200&v=4" width="40"/><br/>LangChain</td>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/OpenAI_Logo.svg" width="40"/><br/>OpenAI</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo_2023.svg" width="40"/><br/>OpenAI</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
