@@ -61,7 +61,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 <table>
   <tr>
     <td align="center"><img src="assets/logos/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
-    <td align="center"><img src="https://avatars.githubusercontent.com/u/114604206?s=200&v=4" width="40"/><br/>LangChain</td>
+    <td align="center"><img src="assets/logos/langchain.png" width="40"/><br/>LangChain</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo_2023.svg" width="40"/><br/>OpenAI</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
@@ -86,7 +86,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Agile_Project_Management_icon.png" width="40"/><br/>Scrum</td>
+    <td align="center"><img src="assets/logos/scrum.png" width="40"/><br/>Scrum</td>
     <td align="center"><img src="assets/logos/kanban.jpg" width="40"/><br/>Kanban</td>
     <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="40"/><br/>Jira</td>
   </tr>
