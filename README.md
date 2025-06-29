@@ -101,18 +101,17 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 * 🧠 AI agent frameworks & multimodal foundation models  
 
 ---
-
 ## 🏅 Professional Certifications
 
 <table>
   <tr>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="30"/> <b>Microsoft</b></td>
     <td>
-      - Azure AI Engineer Associate (AI-102)<br/>
-      - Azure AI Fundamentals (AI-900)<br/>
-      - Career Essentials in Data Analysis / Generative AI / Human Skills<br/>
-      - AI & ML Engineering Specialization<br/>
-      - Copilot for Productivity
+      - Azure AI Engineer Associate (AI‑102)<br/>
+      - Azure AI Fundamentals (AI‑900)<br/>
+      - Career Essentials in Data Analysis / Generative AI / <b>Human Skills in the Age of AI</b><br/>
+      - AI & ML Engineering Specialization<br/>
+      - Copilot for Productivity
     </td>
   </tr>
   <tr>
@@ -133,11 +132,28 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   </tr>
   <tr>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" width="30"/> <b>HackerRank</b></td>
-    <td>SQL (Advanced), Problem Solving (Intermediate)</td>
+    <td>SQL (Advanced), Problem Solving (Intermediate)</td>
   </tr>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30"/> <b>Docker</b></td>
     <td>Docker Foundations</td>
+  </tr>
+  <!--‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ NEW ENTRIES BELOW ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑-->
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Vanderbilt_University_logo_2019.svg" width="30"/> <b>Vanderbilt University</b></td>
+    <td>AI Agent Developer Certificate</td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/KNIME_Logo.png" width="30"/> <b>KNIME</b></td>
+    <td>Data Science Professional Certificate</td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Wolfram_logo_2015.svg" width="30"/> <b>Wolfram Research</b></td>
+    <td>Machine Learning Statistical Foundations Professional Certificate</td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.worldvectorlogo.com/logos/linkedin-learning-logo.svg" width="30"/> <b>LinkedIn Learning</b></td>
+    <td>Building AI Products: Prototyping Essentials Professional Certificate</td>
   </tr>
 </table>
 
