@@ -1,3 +1,7 @@
+from pathlib import Path
+
+# Define the README content from the created textdoc
+readme_content = """
 <h1 align="center">Hi 👋, I'm Prakash Kantumutchu</h1>
 <h3 align="center">AI/ML Engineer | Data Scientist | LLMs & MLOps Enthusiast</h3>
 <p align="center"><i>Turning cutting-edge AI into real-world impact with NLP, LLMs, and MLOps 🚀</i></p>
@@ -45,6 +49,8 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td align="center"><img src="https://matplotlib.org/_static/images/logo2.svg" width="70"/><br/>Matplotlib</td>
     <td align="center"><img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="40"/><br/>Scikit-learn</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="40"/><br/>Keras</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Scipy_logo.svg" width="40"/><br/>SciPy</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" width="60"/><br/>spaCy</td>
   </tr>
 </table>
 
@@ -52,9 +58,9 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://brandfetch.com/mlflow.org/logo.svg" width="60"/><br/>MLflow</td>
-    <td align="center"><img src="https://seeklogo.com/images/L/langchain-logo-528369/vector-logo.svg" width="40"/><br/>LangChain</td>
-    <td align="center"><img src="https://vectorseek.com/wp-content/uploads/2023/03/OpenAI-Logo-Vector.svg" width="40"/><br/>OpenAI</td>
+    <td align="center"><img src="https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/114604206?s=200&v=4" width="40"/><br/>LangChain</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/OpenAI_Logo.svg" width="40"/><br/>OpenAI</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/><br/>GitHub</td>
@@ -78,9 +84,9 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://logodix.com/logo/2043776.png" width="50"/><br/>Scrum</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Scrum_Alliance_logo.svg" width="50"/><br/>Scrum</td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Kanban-board.svg" width="50"/><br/>Kanban</td>
     <td align="center"><img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="40"/><br/>Jira</td>
-    <td align="center"><img src="https://seeklogo.com/images/K/kanban-logo-6A3F3E7F3E-seeklogo.com.png" width="50"/><br/>Kanban</td>
   </tr>
 </table>
 
@@ -98,7 +104,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td><img src="https://seeklogo.com/images/M/microsoft-logo-4BA5F3F8B4-seeklogo.com.png" width="30"/> <b>Microsoft</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="30"/> <b>Microsoft</b></td>
     <td>
       - Azure AI Engineer Associate (AI-102)<br/>
       - Azure AI Fundamentals (AI-900)<br/>
@@ -108,7 +114,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://brandfetch.com/datacamp.com/logo.svg" width="30"/> <b>DataCamp</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/DataCamp_logo.svg" width="30"/> <b>DataCamp</b></td>
     <td>
       - Data Scientist in Python<br/>
       - Machine Learning Scientist in Python<br/>
@@ -116,7 +122,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://seeklogo.com/images/A/anaconda-logo-453476/vector-logo.svg" width="30"/> <b>Anaconda</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Anaconda_Logo.png" width="30"/> <b>Anaconda</b></td>
     <td>Python for Data Science Professional Certificate</td>
   </tr>
   <tr>
@@ -124,12 +130,17 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Agile Project Management Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://logowik.com/content/uploads/images/hackerrank-1-logo-vector.svg" width="30"/> <b>HackerRank</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" width="30"/> <b>HackerRank</b></td>
     <td>SQL (Advanced), Problem Solving (Intermediate)</td>
   </tr>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30"/> <b>Docker</b></td>
     <td>Docker Foundations</td>
   </tr>
-  <tr>
-    <td><img src="https://camo.githubusercontent.com/2e3402a95bea6acba7dd5d26566d797607b63a6bdec43942c8286fbf7db4a177/68747470733a2f2f636
+</table>
+"""
+
+# Save the README content to a markdown file
+readme_path = Path("/mnt/data/README.md")
+readme_path.write_text(readme_content, encoding="utf-8")
+readme_path
