@@ -1,7 +1,4 @@
-from pathlib import Path
 
-# Define the README content from the created textdoc
-readme_content = """
 <h1 align="center">Hi 👋, I'm Prakash Kantumutchu</h1>
 <h3 align="center">AI/ML Engineer | Data Scientist | LLMs & MLOps Enthusiast</h3>
 <p align="center"><i>Turning cutting-edge AI into real-world impact with NLP, LLMs, and MLOps 🚀</i></p>
@@ -138,9 +135,3 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Docker Foundations</td>
   </tr>
 </table>
-"""
-
-# Save the README content to a markdown file
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content, encoding="utf-8")
-readme_path
