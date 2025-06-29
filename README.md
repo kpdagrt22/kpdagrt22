@@ -1,7 +1,7 @@
-
 <h1 align="center">Hi 👋, I'm Prakash Kantumutchu</h1>
 <h3 align="center">AI/ML Engineer | Data Scientist | LLMs & MLOps Enthusiast</h3>
 <p align="center"><i>Turning cutting-edge AI into real-world impact with NLP, LLMs, and MLOps 🚀</i></p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/-Kolkata,%20India-blue?style=flat-square&logo=google-maps" />
   <a href="mailto:k.prakashofficial@gmail.com">
@@ -111,7 +111,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/DataCamp_logo.svg" width="30"/> <b>DataCamp</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/DataCamp_logo.png" width="30"/> <b>DataCamp</b></td>
     <td>
       - Data Scientist in Python<br/>
       - Machine Learning Scientist in Python<br/>
@@ -119,11 +119,11 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Anaconda_Logo.png" width="30"/> <b>Anaconda</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Anaconda_Logo.png" width="30"/> <b>Anaconda</b></td>
     <td>Python for Data Science Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Atlassian-logo.svg" width="30"/> <b>Atlassian</b></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Atlassian_Logo.png" width="30"/> <b>Atlassian</b></td>
     <td>Agile Project Management Professional Certificate</td>
   </tr>
   <tr>
