@@ -60,7 +60,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 <table>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/MLflow-logo-final-black.png" width="60"/><br/>MLflow</td>
+    <td align="center"><img src="assets/logos/mlflow.png" width="60"/><br/>MLflow</td>
     <td align="center"><img src="https://avatars.githubusercontent.com/u/114604206?s=200&v=4" width="40"/><br/>LangChain</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo_2023.svg" width="40"/><br/>OpenAI</td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
@@ -124,7 +124,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="assets/logos/anaconda.png" width="30"/> <b>Anaconda</b></td>
+    <td><img src="assets/logos/anaconda.jpg" width="30"/> <b>Anaconda</b></td>
     <td>Python for Data Science Professional Certificate</td>
   </tr>
   <tr>
