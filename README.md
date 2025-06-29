@@ -33,6 +33,9 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 ---
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kpdagrt22&show_icons=true&theme=radical)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
 ## ⚙️ Core Tech Stack
 
 ### 🧪 Data Science & ML Libraries
