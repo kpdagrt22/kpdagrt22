@@ -46,7 +46,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td align="center"><img src="https://matplotlib.org/_static/images/logo2.svg" width="70"/><br/>Matplotlib</td>
     <td align="center"><img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="40"/><br/>Scikit-learn</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="40"/><br/>Keras</td>
-    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Scipy_logo_blue.svg" width="40"/><br/>SciPy</td>
+    <td align="center"><img src="assets/logos/logo.svg" width="40"/><br/>SciPy</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" width="60"/><br/>spaCy</td>
   </tr>
   <tr>
