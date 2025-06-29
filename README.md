@@ -116,7 +116,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://assets.datacamp.com/favicon/favicon-32x32.png" width="30"/> <b>DataCamp</b></td>
+    <td><img src="assets/logos/datacamp.png" width="30"/> <b>DataCamp</b></td>
     <td>
       - Data Scientist in Python<br/>
       - Machine Learning Scientist in Python<br/>
@@ -124,7 +124,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     </td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Anaconda_Logo.png" width="30"/> <b>Anaconda</b></td>
+    <td><img src="assets/logos/anaconda.png" width="30"/> <b>Anaconda</b></td>
     <td>Python for Data Science Professional Certificate</td>
   </tr>
   <tr>
