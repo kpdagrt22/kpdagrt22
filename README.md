@@ -140,7 +140,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   </tr>
   <!--‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ NEW ENTRIES BELOW ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑-->
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Vanderbilt_University_logo_2019.svg" width="30"/> <b>Vanderbilt University</b></td>
+    <td><img src="assets/logo/vanderbiltUniversity.png" width="30"/> <b>Vanderbilt University</b></td>
     <td>AI Agent Developer Certificate</td>
   </tr>
   <tr>
@@ -148,7 +148,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
     <td>Data Science Professional Certificate</td>
   </tr>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Wolfram_logo_2015.svg" width="30"/> <b>Wolfram Research</b></td>
+    <td><img src="assets/logos/wolfram.png" width="30"/> <b>Wolfram Research</b></td>
     <td>Machine Learning Statistical Foundations Professional Certificate</td>
   </tr>
   <tr>
