@@ -74,17 +74,7 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
 
 ### ☁️ Cloud, Platforms & APIs
 
-<table>
-  <tr>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40"/><br/>Azure</td>
-    <td align="center"><img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" width="60"/><br/>GCP</td>
-    <td align="center"><img src="assets/logos/microsoft fabrix.png" width="60"/><br/>MS Fabric</td>
-    <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40"/><br/>FastAPI</td>
-    <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td>
-    <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>HuggingFace</td>
-  </tr>
-</table>
-
+<table> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40"/><br/>Azure</td> <td align="center"><img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" width="60"/><br/>GCP</td> <td align="center"><img src="assets/logos/microsoft fabrix.png" width="60"/><br/>MS Fabric</td> <td align="center"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40"/><br/>FastAPI</td> <td align="center"><img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width="60"/><br/>Streamlit</td> <td align="center"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40"/><br/>HuggingFace</td> </tr> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/><br/>MySQL</td> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40"/><br/>PostgreSQL</td> </tr> </table>
 ### 🧽 Agile & Collaboration
 
 <table>
