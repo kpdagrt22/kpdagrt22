@@ -73,8 +73,8 @@ I specialize in **NLP**, **Generative AI**, and **MLOps** to deploy real-world A
   <tr>
     <td align="center"><img src="assets/logos/aws.png" width="40"/><br/>AWS</td>
     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" width="40"/><br/>Airflow</td>
-    <td align="center"><img src="assets/logos/dvc.jpeg" width="40"/><br/>DVC</td>
-    <td align="center"><img src="assets/logos/dagshub.png" width="60"/><br/>DAGsHub</td>
+    <td align="center"><img src="assets/logos/dvc.svg" width="40"/><br/>DVC</td>
+    <td align="center"><img src="assets/logos/dagshub.jpeg" width="60"/><br/>DAGsHub</td>
     <td align="center"><img src="https://grafana.com/static/assets/img/fav32.png" width="40"/><br/>Grafana</td>
   </tr>
 </table>
