@@ -1,35 +1,41 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Prakash+Kantumutchu;AI%2FML+Engineer+%F0%9F%A4%96;Data+Scientist+%F0%9F%93%8A;LLMs+%26+MLOps+Enthusiast+%F0%9F%9A%80" alt="Typing SVG" />
-</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20&text=Prakash%20Kantumutchu&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI/ML%20Engineer%20|%20Data%20Scientist&descSize=18&descAlignY=55" />
+</div>
 
-<h3 align="center">🌟 Turning cutting-edge AI into real-world impact with NLP, LLMs, and MLOps 🚀</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+Intelligent+AI+Solutions;NLP+%7C+LLMs+%7C+MLOps+Specialist;Transforming+Data+into+Impact" alt="Typing Animation" />
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Kolkata,%20India-blue?style=flat-square&logo=google-maps" />
+<br>
+
+<div align="center">
   <a href="mailto:k.prakashofficial@gmail.com">
-    <img src="https://img.shields.io/badge/Email-k.prakashofficial@gmail.com-red?style=flat-square&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-k.prakashofficial@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/prakash-kantumutchu/">
-    <img src="https://img.shields.io/badge/LinkedIn-Prakash%20Kantumutchu-blue?style=flat-square&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://www.datacamp.com/portfolio/kprakashofficial">
-    <img src="https://img.shields.io/badge/DataCamp-Portfolio-success?style=flat-square&logo=datacamp" />
+    <img src="https://img.shields.io/badge/DataCamp-Portfolio-03EF62?style=flat-square&logo=datacamp&logoColor=white" />
   </a>
-</p>
+  <img src="https://img.shields.io/badge/Location-Kolkata%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
+</div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kpdagrt22&label=Profile%20Views&style=flat-square&color=blueviolet" />
-  <img src="https://badgen.net/badge/experience/3+yrs/green?icon=terminal" />
-  <img src="https://img.shields.io/github/followers/kpdagrt22?label=Followers&style=social" />
-</p>
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=kpdagrt22&style=flat-square&color=blue" />
+  <img src="https://img.shields.io/github/followers/kpdagrt22?label=Followers&style=flat-square&color=blue&logo=github" />
+  <img src="https://img.shields.io/badge/Experience-3%2B%20Years-brightgreen?style=flat-square" />
+</div>
 
 ---
 
-## 🧬 About Me
+### About Me
 
-<img align="right" alt="AI Animation" width="350" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<img align="right" alt="Coding" width="380" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif">
 
-I'm a passionate **AI/ML Engineer** with a background in aerospace and academia, now focused on building intelligent, scalable, and explainable machine learning solutions.
+Passionate AI/ML Engineer with a foundation in aerospace and academia, now dedicated to building intelligent, scalable, and explainable machine learning solutions. Specializing in Natural Language Processing, Generative AI, and MLOps to deliver real-world AI systems.
 
 ```python
 class AIEngineer:
@@ -37,59 +43,46 @@ class AIEngineer:
         self.name = "Prakash Kantumutchu"
         self.role = "AI/ML Engineer | Data Scientist"
         self.location = "Kolkata, India"
-        self.expertise = [
-            "Natural Language Processing",
-            "Generative AI & LLMs",
-            "MLOps & Model Deployment",
-            "Deep Learning & Computer Vision"
-        ]
-        self.currently_learning = [
-            "Fine-tuning LLMs",
-            "Azure ML Pipelines",
-            "AI Agent Frameworks",
-            "Multimodal Foundation Models"
-        ]
-    
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together!")
-
-me = AIEngineer()
-me.say_hi()
+        self.focus = ["NLP", "LLMs", "MLOps", "Deep Learning"]
+        
+    def current_work(self):
+        return {
+            "exploring": ["LLM Fine-tuning", "Azure ML Pipelines"],
+            "building": ["Scalable MLOps Solutions"],
+            "learning": ["AI Agents", "Multimodal Models"]
+        }
 ```
 
-### 🎯 What I'm Up To
-
-- 🔬 Specializing in **NLP**, **Generative AI**, and **MLOps**
-- 🔍 Fine-tuning LLMs for summarization and retrieval-based Q&A
-- ☁️ Building scalable MLOps pipelines with Azure ML
-- 🧠 Exploring AI agent frameworks & multimodal models
-- 🌱 Making AI solutions that create real-world impact
+**Currently Exploring**
+- Fine-tuning LLMs for summarization and retrieval-based Q&A
+- Building scalable MLOps pipelines with Azure ML
+- AI agent frameworks and multimodal foundation models
 
 ---
 
-## 📊 GitHub Analytics
+### GitHub Statistics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kpdagrt22&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kpdagrt22&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kpdagrt22&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=kpdagrt22&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kpdagrt22&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
-  <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=kpdagrt22&limit=5&theme=radical&hide_border=true&combine_all_yearly_contributions=true" alt="Top Contributed Repos" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kpdagrt22&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=kpdagrt22&limit=5&theme=tokyonight&hide_border=true&combine_all_yearly_contributions=true" />
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+### GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kpdagrt22&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kpdagrt22&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" />
 </div>
 
 ---
 
-## 🐍 Watch My Contributions Get Eaten!
+### Contribution Snake
 
 <div align="center">
   <picture>
@@ -101,276 +94,145 @@ me.say_hi()
 
 ---
 
-## ⚙️ Core Tech Stack
+### Tech Stack
 
-### 🧪 Data Science & ML Libraries
+#### Languages & Core Tools
+<div align="center">
+  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,numpy,tensorflow,pytorch" />
-</p>
+</div>
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy" />
-      <br>NumPy
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" />
-      <br>Pandas
-    </td>
-    <td align="center" width="96">
-      <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="48" alt="Seaborn" />
-      <br>Seaborn
-    </td>
-    <td align="center" width="96">
-      <img src="https://matplotlib.org/_static/images/logo2.svg" height="48" alt="Matplotlib" />
-      <br>Matplotlib
-    </td>
-    <td align="center" width="96">
-      <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width="48" height="48" alt="Scikit-learn" />
-      <br>Scikit-learn
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="48" height="48" alt="Keras" />
-      <br>Keras
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/logo.svg" width="48" height="48" alt="SciPy" />
-      <br>SciPy
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" height="48" alt="spaCy" />
-      <br>spaCy
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="48" height="48" alt="PySpark" />
-      <br>PySpark
-    </td>
-    <td align="center" width="96">
-      <img src="https://pytorch.org/assets/images/pytorch-logo.png" width="48" height="48" alt="PyTorch" />
-      <br>PyTorch
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="48" height="48" alt="TensorFlow" />
-      <br>TensorFlow
-    </td>
-  </tr>
-</table>
+#### Data Science & ML
+<div align="center">
 
-### 🧠 Deep Learning, MLOps & Tools
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="assets/logos/MLflow-logo-final-black.png" height="48" alt="MLflow" />
-      <br>MLflow
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/langchain.png" width="48" height="48" alt="LangChain" />
-      <br>LangChain
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/openAI.png" width="48" height="48" alt="OpenAI" />
-      <br>OpenAI
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
-      <br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" height="48" alt="GitHub" />
-      <br>GitHub
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="assets/logos/aws.png" width="48" height="48" alt="AWS" />
-      <br>AWS
-    </td>
-    <td align="center" width="96">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" width="48" height="48" alt="Airflow" />
-      <br>Airflow
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/dvc.svg" width="48" height="48" alt="DVC" />
-      <br>DVC
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/dagshub.jpeg" height="48" alt="DAGsHub" />
-      <br>DAGsHub
-    </td>
-    <td align="center" width="96">
-      <img src="https://grafana.com/static/assets/img/fav32.png" width="48" height="48" alt="Grafana" />
-      <br>Grafana
-    </td>
-  </tr>
-</table>
+</div>
 
-### ☁️ Cloud, Platforms & APIs
+#### Deep Learning & NLP
+<div align="center">
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="48" height="48" alt="Azure" />
-      <br>Azure
-    </td>
-    <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="48" height="48" alt="GCP" />
-      <br>GCP
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/microsoft fabrix.png" height="48" alt="MS Fabric" />
-      <br>MS Fabric
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="48" height="48" alt="FastAPI" />
-      <br>FastAPI
-    </td>
-    <td align="center" width="96">
-      <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="48" height="48" alt="Streamlit" />
-      <br>Streamlit
-    </td>
-    <td align="center" width="96">
-      <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="HuggingFace" />
-      <br>HuggingFace
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL" />
-      <br>MySQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/shap.png" height="48" alt="SHAP" />
-      <br>SHAP
-    </td>
-    <td align="center" width="96">
-      <img src="https://avatars.githubusercontent.com/u/17983567?s=200&v=4" width="48" height="48" alt="LIME" />
-      <br>LIME
-    </td>
-  </tr>
-</table>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-### 🧽 Agile & Collaboration
+</div>
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="assets/logos/scrum.png" width="48" height="48" alt="Scrum" />
-      <br>Scrum
-    </td>
-    <td align="center" width="96">
-      <img src="assets/logos/kanban.jpg" width="48" height="48" alt="Kanban" />
-      <br>Kanban
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.worldvectorlogo.com/logos/jira-1.svg" width="48" height="48" alt="Jira" />
-      <br>Jira
-    </td>
-  </tr>
-</table>
+#### MLOps & Cloud
+<div align="center">
+
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white)
+
+</div>
+
+#### LLMs & Generative AI
+<div align="center">
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+</div>
+
+#### Databases & Big Data
+<div align="center">
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+
+</div>
+
+#### Tools & Platforms
+<div align="center">
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
+</div>
 
 ---
 
-## 🏅 Professional Certifications
+### Professional Certifications
 
 <details>
-<summary><b>🎓 Click to view all certifications</b></summary>
+<summary>Click to view all certifications</summary>
 
 <br>
 
-<table>
-  <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="30"/> <b>Microsoft</b></td>
-    <td>
-      ✅ Azure AI Engineer Associate (AI‑102)<br/>
-      ✅ Azure AI Fundamentals (AI‑900)<br/>
-      ✅ Career Essentials in Data Analysis / Generative AI / Human Skills in the Age of AI<br/>
-      ✅ AI & ML Engineering Specialization<br/>
-      ✅ Copilot for Productivity
-    </td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/datacamp.png" width="30"/> <b>DataCamp</b></td>
-    <td>
-      ✅ Data Scientist in Python<br/>
-      ✅ Machine Learning Scientist in Python<br/>
-      ✅ AI Engineer for Data Scientist
-    </td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/anaconda.jpg" width="30"/> <b>Anaconda</b></td>
-    <td>✅ Python for Data Science Professional Certificate</td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/atlassian.jpg" width="30"/> <b>Atlassian</b></td>
-    <td>✅ Agile Project Management Professional Certificate</td>
-  </tr>
-  <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" width="30"/> <b>HackerRank</b></td>
-    <td>✅ SQL (Advanced), Problem Solving (Intermediate)</td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30"/> <b>Docker</b></td>
-    <td>✅ Docker Foundations</td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/vanderbiltUniversity.png" width="30"/> <b>Vanderbilt University</b></td>
-    <td>✅ AI Agent Developer Certificate</td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/KNIME.png" width="30"/> <b>KNIME</b></td>
-    <td>✅ Data Science Professional Certificate</td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/wolfram.png" width="30"/> <b>Wolfram Research</b></td>
-    <td>✅ Machine Learning Statistical Foundations Professional Certificate</td>
-  </tr>
-  <tr>
-    <td><img src="assets/logos/linkedin-learning-logo-clipart-rz5ja.jpg" width="30"/> <b>LinkedIn Learning</b></td>
-    <td>✅ Building AI Products: Prototyping Essentials Professional Certificate</td>
-  </tr>
-</table>
+**Microsoft**
+- Azure AI Engineer Associate (AI-102)
+- Azure AI Fundamentals (AI-900)
+- Career Essentials in Data Analysis / Generative AI / Human Skills in the Age of AI
+- AI & ML Engineering Specialization
+- Copilot for Productivity
+
+**DataCamp**
+- Data Scientist in Python
+- Machine Learning Scientist in Python
+- AI Engineer for Data Scientist
+
+**Vanderbilt University**
+- AI Agent Developer Certificate
+
+**KNIME**
+- Data Science Professional Certificate
+
+**Wolfram Research**
+- Machine Learning Statistical Foundations Professional Certificate
+
+**LinkedIn Learning**
+- Building AI Products: Prototyping Essentials Professional Certificate
+
+**Anaconda**
+- Python for Data Science Professional Certificate
+
+**Atlassian**
+- Agile Project Management Professional Certificate
+
+**HackerRank**
+- SQL (Advanced), Problem Solving (Intermediate)
+
+**Docker**
+- Docker Foundations
 
 </details>
 
 ---
 
-## 📈 Contribution Activity
+### Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kpdagrt22&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
-</div>
-
----
-
-## 💬 Random Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kpdagrt22&theme=tokyo-night&hide_border=true&area=true" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Let's%20Build%20the%20Future%20with%20AI!&fontSize=30&fontAlignY=70&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,11,20&section=footer" />
   
-  ### ⭐ Show some love by starring my repositories! ⭐
+  **Thanks for visiting! Let's build something amazing together.**
   
-  <p><i>© 2025 Prakash Kantumutchu | Crafted with 💙 and lots of ☕</i></p>
+  <sub>© 2025 Prakash Kantumutchu</sub>
 </div>
