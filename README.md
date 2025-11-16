@@ -42,7 +42,7 @@ class AIEngineer:
     def __init__(self):
         self.name = "Prakash Kantumutchu"
         self.role = "AI/ML Engineer | Data Scientist"
-        self.location = "Kolkata, India"
+        self.location = "Noida, India"
         self.focus = ["NLP", "LLMs", "MLOps", "Deep Learning"]
         
     def current_work(self):
