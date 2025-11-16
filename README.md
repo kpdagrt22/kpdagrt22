@@ -18,7 +18,7 @@
   <a href="https://www.datacamp.com/portfolio/kprakashofficial">
     <img src="https://img.shields.io/badge/DataCamp-Portfolio-03EF62?style=flat-square&logo=datacamp&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Location-Noida%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Kolkata%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
 </div>
 
 <br>
@@ -26,7 +26,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=kpdagrt22&style=flat-square&color=blue" />
   <img src="https://img.shields.io/github/followers/kpdagrt22?label=Followers&style=flat-square&color=blue&logo=github" />
-  <img src="https://img.shields.io/badge/Experience-7%2B%20Years-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Experience-3%2B%20Years-brightgreen?style=flat-square" />
 </div>
 
 ---
@@ -42,7 +42,7 @@ class AIEngineer:
     def __init__(self):
         self.name = "Prakash Kantumutchu"
         self.role = "AI/ML Engineer | Data Scientist"
-        self.location = "Noida, India"
+        self.location = "Kolkata, India"
         self.focus = ["NLP", "LLMs", "MLOps", "Deep Learning"]
         
     def current_work(self):
@@ -176,48 +176,135 @@ class AIEngineer:
 
 ### Professional Certifications
 
-<details>
-<summary>Click to view all certifications</summary>
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Certifications-25+-00ADD8?style=for-the-badge&logo=certbot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud_Certified-Multi--Cloud-FF9900?style=for-the-badge&logo=icloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI/ML_Certified-Advanced-00599C?style=for-the-badge&logo=tensorflow&logoColor=white" />
+</div>
 
 <br>
 
-**Microsoft**
-- Azure AI Engineer Associate (AI-102)
-- Azure AI Fundamentals (AI-900)
-- Career Essentials in Data Analysis / Generative AI / Human Skills in the Age of AI
-- AI & ML Engineering Specialization
-- Copilot for Productivity
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+      <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🏆</td>
+    <td><b>Azure AI Engineer Associate (AI-102)</b></td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Azure AI Fundamentals (AI-900)</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Career Essentials in Data Analysis / Generative AI / Human Skills in the Age of AI</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>AI & ML Engineering Specialization</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Copilot for Productivity</td>
+  </tr>
+</table>
 
-**DataCamp**
-- Data Scientist in Python
-- Machine Learning Scientist in Python
-- AI Engineer for Data Scientist
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+      <img src="https://img.shields.io/badge/OCI-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🏆</td>
+    <td><b>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</b></td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🏆</td>
+    <td><b>Oracle Database@AWS Certified Architect Professional</b></td>
+  </tr>
+</table>
 
-**Vanderbilt University**
-- AI Agent Developer Certificate
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+      <img src="https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Data Scientist in Python</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Machine Learning Scientist in Python</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>AI Engineer for Data Scientist</td>
+  </tr>
+</table>
 
-**KNIME**
-- Data Science Professional Certificate
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/University-FFD700?style=for-the-badge&logo=googlescholar&logoColor=black" />
+      <img src="https://img.shields.io/badge/Research-9146FF?style=for-the-badge&logo=semanticscholar&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🎓</td>
+    <td><b>Vanderbilt University</b> - AI Agent Developer Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🎓</td>
+    <td><b>Wolfram Research</b> - Machine Learning Statistical Foundations Professional Certificate</td>
+  </tr>
+</table>
 
-**Wolfram Research**
-- Machine Learning Statistical Foundations Professional Certificate
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Professional_Tools-20232A?style=for-the-badge&logo=atom&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>KNIME</b> - Data Science Professional Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>LinkedIn Learning</b> - Building AI Products: Prototyping Essentials</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>Anaconda</b> - Python for Data Science Professional Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>Atlassian</b> - Agile Project Management Professional Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>HackerRank</b> - SQL (Advanced), Problem Solving (Intermediate)</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>Docker</b> - Docker Foundations</td>
+  </tr>
+</table>
 
-**LinkedIn Learning**
-- Building AI Products: Prototyping Essentials Professional Certificate
+<br>
 
-**Anaconda**
-- Python for Data Science Professional Certificate
-
-**Atlassian**
-- Agile Project Management Professional Certificate
-
-**HackerRank**
-- SQL (Advanced), Problem Solving (Intermediate)
-
-**Docker**
-- Docker Foundations
-
-</details>
+<div align="center">
+  <img src="https://img.shields.io/badge/Multi--Cloud_Expertise-Microsoft%20Azure%20%7C%20Oracle%20OCI%20%7C%20AWS%20%7C%20GCP-FF6B6B?style=for-the-badge&logoColor=white" />
+</div>
 
 ---
 
