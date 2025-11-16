@@ -18,7 +18,7 @@
   <a href="https://www.datacamp.com/portfolio/kprakashofficial">
     <img src="https://img.shields.io/badge/DataCamp-Portfolio-03EF62?style=flat-square&logo=datacamp&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Location-Kolkata%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Noida%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
 </div>
 
 <br>
