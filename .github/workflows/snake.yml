@@ -1,8 +1,8 @@
-name: Generate Snake Animation
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate github-contribution-grid-snake.svg
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: kpdagrt22
