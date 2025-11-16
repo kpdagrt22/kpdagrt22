@@ -15,10 +15,7 @@
   <a href="https://www.linkedin.com/in/prakash-kantumutchu/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://www.datacamp.com/portfolio/kprakashofficial">
-    <img src="https://img.shields.io/badge/DataCamp-Portfolio-03EF62?style=flat-square&logo=datacamp&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Location-Kolkata%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Noida%2C%20India-00ADB5?style=flat-square&logo=google-maps&logoColor=white" />
 </div>
 
 <br>
@@ -42,7 +39,7 @@ class AIEngineer:
     def __init__(self):
         self.name = "Prakash Kantumutchu"
         self.role = "AI/ML Engineer | Data Scientist"
-        self.location = "Kolkata, India"
+        self.location = "Noida, India"
         self.focus = ["NLP", "LLMs", "MLOps", "Deep Learning"]
         
     def current_work(self):
@@ -183,6 +180,142 @@ class AIEngineer:
 </div>
 
 <br>
+
+<div align="center">
+  
+<!--START_SECTION:badges-->
+<!--END_SECTION:badges-->
+
+</div>
+
+<details>
+<summary><b>📜 View All Certifications (Organized by Provider)</b></summary>
+
+<br>
+
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+      <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🏆</td>
+    <td><b>Azure AI Engineer Associate (AI-102)</b></td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Azure AI Fundamentals (AI-900)</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Career Essentials in Data Analysis / Generative AI / Human Skills in the Age of AI</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>AI & ML Engineering Specialization</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Copilot for Productivity</td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+      <img src="https://img.shields.io/badge/OCI-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🏆</td>
+    <td><b>Oracle Cloud Infrastructure 2025 Certified Generative AI Professional</b></td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🏆</td>
+    <td><b>Oracle Database@AWS Certified Architect Professional</b></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+      <img src="https://img.shields.io/badge/DataCamp-03EF62?style=for-the-badge&logo=datacamp&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Data Scientist in Python</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>Machine Learning Scientist in Python</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td>AI Engineer for Data Scientist</td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/University-FFD700?style=for-the-badge&logo=googlescholar&logoColor=black" />
+      <img src="https://img.shields.io/badge/Research-9146FF?style=for-the-badge&logo=semanticscholar&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🎓</td>
+    <td><b>Vanderbilt University</b> - AI Agent Developer Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">🎓</td>
+    <td><b>Wolfram Research</b> - Machine Learning Statistical Foundations Professional Certificate</td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <th colspan="2">
+      <img src="https://img.shields.io/badge/Professional_Tools-20232A?style=for-the-badge&logo=atom&logoColor=white" />
+    </th>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>KNIME</b> - Data Science Professional Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>LinkedIn Learning</b> - Building AI Products: Prototyping Essentials</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>Anaconda</b> - Python for Data Science Professional Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>Atlassian</b> - Agile Project Management Professional Certificate</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>HackerRank</b> - SQL (Advanced), Problem Solving (Intermediate)</td>
+  </tr>
+  <tr>
+    <td width="60px" align="center">✓</td>
+    <td><b>Docker</b> - Docker Foundations</td>
+  </tr>
+</table>
+
+</details>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Multi--Cloud_Expertise-Microsoft%20Azure%20%7C%20Oracle%20OCI%20%7C%20AWS%20%7C%20GCP-FF6B6B?style=for-the-badge&logoColor=white" />
+</div>
 
 <table align="center">
   <tr>
