@@ -23,7 +23,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=kpdagrt22&style=flat-square&color=blue" />
   <img src="https://img.shields.io/github/followers/kpdagrt22?label=Followers&style=flat-square&color=blue&logo=github" />
-  <img src="https://img.shields.io/badge/Experience-3%2B%20Years-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Experience-7%2B%20Years-brightgreen?style=flat-square" />
 </div>
 
 ---
