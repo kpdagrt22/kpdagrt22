@@ -1,0 +1,107 @@
+```xml
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:{{PRIMARY_COLOR}};stop-opacity:1">
+        <animate attributeName="stop-color" values="{{PRIMARY_COLOR}};#667eea;{{PRIMARY_COLOR}}" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1">
+        <animate attributeName="stop-color" values="#667eea;#764ba2;#667eea" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
+      
+      .typing-text {
+        font-family: 'JetBrains Mono', 'Courier New', monospace;
+        font-size: 48px;
+        font-weight: bold;
+        fill: white;
+        animation: fadeIn 2s ease-in;
+      }
+      
+      .subtitle {
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        fill: rgba(255, 255, 255, 0.9);
+        animation: slideUp 1.5s ease-out;
+      }
+      
+      .particle {
+        opacity: 0.6;
+        animation: float 20s infinite ease-in-out;
+      }
+      
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes slideUp {
+        from { 
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to { 
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.6; }
+        25% { transform: translate(10px, -15px) scale(1.1); opacity: 0.8; }
+        50% { transform: translate(-10px, -25px) scale(0.9); opacity: 0.4; }
+        75% { transform: translate(15px, -10px) scale(1.05); opacity: 0.7; }
+      }
+      
+      .wave {
+        animation: wave 25s linear infinite;
+      }
+      
+      @keyframes wave {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+    </style>
+    
+    <!-- Animated wave pattern -->
+    <path id="wave" d="M0,96 C150,160 350,0 600,96 C850,192 1050,32 1200,96 V320 H0 Z" 
+          fill="url(#heroGradient)" opacity="0.3"/>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#heroGradient)"/>
+  
+  <!-- Animated waves -->
+  <use class="wave" href="#wave" x="0"/>
+  <use class="wave" href="#wave" x="600"/>
+  
+  <!-- Floating particles -->
+  <circle class="particle" cx="100" cy="50" r="3" fill="white" style="animation-delay: 0s"/>
+  <circle class="particle" cx="300" cy="100" r="2" fill="white" style="animation-delay: 2s"/>
+  <circle class="particle" cx="500" cy="80" r="4" fill="white" style="animation-delay: 4s"/>
+  <circle class="particle" cx="700" cy="120" r="2.5" fill="white" style="animation-delay: 6s"/>
+  <circle class="particle" cx="900" cy="60" r="3.5" fill="white" style="animation-delay: 8s"/>
+  <circle class="particle" cx="1100" cy="90" r="3" fill="white" style="animation-delay: 10s"/>
+  
+  <!-- Main text content -->
+  <text x="600" y="120" text-anchor="middle" class="typing-text">
+    Prakash Kantumutchu
+  </text>
+  
+  <text x="600" y="160" text-anchor="middle" class="subtitle">
+    MLOps Engineer | AI/ML Specialist | Azure AI Expert
+  </text>
+  
+  <text x="600" y="190" text-anchor="middle" class="subtitle" style="font-size: 16px; opacity: 0.8;">
+    🚀 Building Production-Ready AI Solutions
+  </text>
+</svg>
+```
