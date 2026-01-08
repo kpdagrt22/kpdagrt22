@@ -8,7 +8,7 @@ Before ML: Aerospace engineer who got obsessed with what neural networks could d
 
 **What I'm working on:** Training small, fast LLMs that outperform GPT-3.5 on narrow domains. Building agent architectures that don't hallucinate themselves into failure states. Making Azure ML pipelines actually pleasant to debug.
 
-📍 Noida, India • [Email](mailto:k.prakashofficial@gmail.com) • [LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu/)
+📍 Noida, India • [Email](mailto:k.prakashofficial@gmail.com) • [Portfolio](https://kpdagrt22.netlify.app/) • [LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu/)
 
 ---
 
@@ -119,6 +119,6 @@ I believe in learning in public and sharing what works. Currently exploring:
 
 **Let's build something that actually works in production.**
 
-*Available for interesting problems • [k.prakashofficial@gmail.com](mailto:k.prakashofficial@gmail.com)*
+*Available for interesting problems • [k.prakashofficial@gmail.com](mailto:k.prakashofficial@gmail.com) • [View Portfolio](https://kpdagrt22.netlify.app/)*
 
 </div>
