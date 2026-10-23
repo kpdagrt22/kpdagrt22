@@ -10,10 +10,10 @@ Technical Product Manager at RVM Beyond Private Limited (RVM CAD) in Faridabad, 
 
 The production platforms I lead at RVM CAD are company-owned. Detailed engineering write-ups with architectural trade-offs and verification evidence are published on [thisiskp.in](https://thisiskp.in):
 
-- **[Doors, not keys](https://thisiskp.in/work/doors-not-keys)** — Two read-only MCP connectors (19 tools across two production portals) with OAuth 2.1, hashed rotating tokens, per-call identity rechecks, bounded queries, and a 5-table audit log (15 test files / 141 tests).
+- **[Doors, not keys](https://thisiskp.in/work/ai-read-only-access)** — Two read-only MCP connectors (19 tools across two production portals) with OAuth 2.1, hashed rotating tokens, per-call identity rechecks, bounded queries, and a 5-table audit log (15 test files / 141 tests).
 - **[AI trace store](https://thisiskp.in/work/ai-trace-store)** — Six LLM call sites wired to a `CHECK`-enforced AES-256-GCM encrypted trace store with worker-scoped DSAR support, role-gated decryption, and audit-before-decrypt.
 - **[One-page résumé contract](https://thisiskp.in/work/one-page-resume-contract)** — Bilingual (English + Devanagari) PDF résumé pipeline tested across 14 profile shapes × 2 audiences with a deterministic fit ladder and 32 fabrication tests (56/56 verification checks passing).
-- **[Multi-tenancy without a migration](https://thisiskp.in/work/multi-tenancy-without-a-migration)** — Organization-scoped tenancy across 15 tables (postings, credits, candidates, unlocks) rolled out using `off` / `shadow` / `on` mode flags and static query gates.
+- **[Multi-tenancy without a migration](https://thisiskp.in/work/tenancy-without-a-migration)** — Organization-scoped tenancy across 15 tables (postings, credits, candidates, unlocks) rolled out using `off` / `shadow` / `on` mode flags and static query gates.
 
 ## What I Work On
 
