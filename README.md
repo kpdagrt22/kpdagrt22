@@ -6,6 +6,31 @@ Technical Product Manager at RVM Beyond Private Limited (RVM CAD) in Faridabad, 
 
 **Case studies with sources:** [thisiskp.in](https://thisiskp.in) · [LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu)
 
+## Flagship Architecture: StrikeHike
+
+**Descriptive market intelligence for Indian markets, with a 120-year archive behind it.**
+
+StrikeHike is an options-analytics product and a historical market archive in one place: live
+Greeks, implied volatility, open interest and payoff maths, alongside 12,014 sessions of index
+history and a crash atlas back to 1906.
+
+- **Options analytics core** — Black-Scholes Greeks with an implied-volatility solver, open
+  interest, put-call ratio, and a payoff calculator for user-entered legs.
+- **The 120-year archive** — 12,014 daily sessions (1992–2025), 100,606 planetary positions,
+  432,504 aspect values and 22 drawdowns back to 1906, in ten Postgres tables (≈650k rows).
+- **Alerts engine** — pure rule engine (price and percentage conditions, hysteresis, cooldown),
+  a worker that evaluates in one locking transaction, an outbox notifier with in-app, email and
+  Telegram delivery, daily digest and signed unsubscribe.
+- **Platform** — FastAPI, React 18 + Vite, Postgres (Supabase) and Redis, Docker Compose on AWS
+  Lightsail, Caddy with automatic TLS, and GitHub Actions that run five checks and deploy every
+  green push to `main`, with automatic rollback.
+- **Honest research** — the astro-finance study is published with its result: the earlier
+  headline matched the trivial "no crash" baseline, so the site shows descriptive base rates
+  with sample sizes instead of a prediction.
+
+Market prices are simulated and labelled demo until a licensed feed is connected. The site
+describes; it does not advise.
+
 ## Production Systems & Evidence
 
 The production platforms I lead at RVM CAD are company-owned. Detailed engineering write-ups with architectural trade-offs and verification evidence are published on [thisiskp.in](https://thisiskp.in):
