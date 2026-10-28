@@ -251,9 +251,9 @@ Taking Team RVM from a live backend to its first users. Next, once RVM's Google 
 
 - [Oracle Cloud Infrastructure 2025 Certified Generative AI Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=1C5E1382A399A3088D16219C858EE90F8C897CDBBC6B9F7E7CE9EE2A93325EB0) · Oracle · Oct 2025, valid to Oct 2027
 - [Oracle AI Database@AWS Certified Architect Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=23AF2A68AAB40306A8572592A57A2AEC63815E55F7A179CE96F411DA4E7D7955) · Oracle · Oct 2025
-- [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-in/PRAKASHK-6405/76FFE98A20B109E7?sharingId) · Microsoft · Nov 2024
-- [AI Agent Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/IC2XGE86F8BL) · Coursera · May 2025
-- [Microsoft AI & ML Engineering Specialization](https://www.coursera.org/account/accomplishments/specialization/TJHMC7MXOPLO) · Coursera and Microsoft · May 2025
+- [AI Agent Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/IC2XGE86F8BL) · Coursera and Vanderbilt University · May 2025
+- [Microsoft AI & ML Engineering Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/TJHMC7MXOPLO) · Coursera and Microsoft · May 2025
+- [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-in/PRAKASHK-6405/76FFE98A20B109E7?sharingId) · Microsoft · Jun 2025, expired Jun 2026 (Microsoft has retired it)
 - [Docker Foundations Professional Certificate](https://www.linkedin.com/learning/certificates/7e08d4f903051847edb643847c6ebd79df4911de65fbaf7722c9206cd7e9ffcb) · LinkedIn Learning and Docker · May 2025
 - [Data Science Professional Certificate by KNIME](https://www.linkedin.com/learning/certificates/95d4381c889fd54fd4e8fc8452bd347394538e33441b5a3df126cbd7519863de) · LinkedIn Learning and KNIME · May 2025
 - [Atlassian Agile Project Management Professional Certificate](https://www.linkedin.com/learning/certificates/ad3304d20a0ff299403f29ea6c20bcef42cea90c956318bfa747792317147bd8) · LinkedIn Learning and Atlassian · May 2025
