@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-labelledby="t d" fill="none">
+<title id="t">Prakash Kantumutchu (KP)</title>
+<desc id="d">Prakash Kantumutchu (KP), Faridabad, Delhi NCR, India. Technical Product Manager at RVM CAD, where I own, lead and architect its four platforms. Roles: technical lead, backend and data, frontend, DevOps and infrastructure, AI guardrails, architecture, and product management. Former Air India A320 aircraft maintenance engineer. My rule: I verify, then ship.</desc>
+<defs><style>.s{font-family:"Inter Tight",Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}.m{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}.nm{font-size:46px;font-weight:700;letter-spacing:-.5px;fill:#080b09}.tp{font-size:12px;letter-spacing:2.2px;fill:#4f5a53}.lb{font-size:13px;letter-spacing:1.5px;fill:#4f5a53}.tk{font-size:24px;font-weight:500}.ro{fill:#045a33;opacity:0}.fin{fill:#080b09}.ch rect{fill:#dfebe1;stroke:#045a33}.ch text{font-size:11.5px;letter-spacing:1px;fill:#045a33;text-anchor:middle}.bt{font-size:12px;letter-spacing:1px;fill:#4f5a53}.rg{stroke:#a7b3aa}@keyframes kpUp{from{opacity:0;transform:translateY(6px)}}@keyframes kpDraw{from{stroke-dashoffset:1000}to{stroke-dashoffset:0}}@keyframes kpOrbit{from{stroke-dashoffset:0}to{stroke-dashoffset:1125}}@keyframes kpRole{0%{opacity:0;transform:translateY(6px)}15%,85%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-6px)}}@keyframes kpFade{from{opacity:0}}@keyframes kpOut{from{opacity:1}to{opacity:0}}@keyframes kpCr{from{fill:#f2f5ef;stroke:#a7b3aa}}@keyframes kpCt{from{fill:#4f5a53}}.lbR{opacity:0}@media (prefers-reduced-motion:no-preference){.nm{animation:kpUp .5s cubic-bezier(.16,1,.3,1) .05s both}.rg{stroke-dasharray:1000;animation:kpDraw 1.4s ease-out both}.g1{animation-delay:.25s}.g2{animation-delay:.4s}.g3{animation-delay:.55s}.sat{animation:kpOrbit 4.4s cubic-bezier(.45,0,.2,1) .4s both}.ro{animation:kpRole .6s linear both}.fin,.lbU{animation:kpFade .25s 4.75s both}.lbR{animation:kpOut .25s 4.75s both}.ch rect{animation:kpCr .18s both}.ch text{animation:kpCt .18s both}.d0,.d0 rect,.d0 text{animation-delay:0.6s}.d1,.d1 rect,.d1 text{animation-delay:1.2s}.d2,.d2 rect,.d2 text{animation-delay:1.8s}.d3,.d3 rect,.d3 text{animation-delay:2.4s}.d4,.d4 rect,.d4 text{animation-delay:3s}.d5,.d5 rect,.d5 text{animation-delay:3.6s}.d6,.d6 rect,.d6 text{animation-delay:4.2s}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><pattern id="dg" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".9" fill="#c9d2cb"/></pattern><linearGradient id="fg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".4" stop-color="#fff"/></linearGradient><mask id="mk"><rect x="600" y="56" width="340" height="180" fill="url(#fg)"/></mask></defs>
+<rect x=".5" y=".5" width="959" height="299" rx="14" fill="#f2f5ef" stroke="#a7b3aa"/>
+<rect x="600" y="56" width="340" height="180" fill="url(#dg)" mask="url(#mk)"/>
+<text class="m tp" x="40" y="36">KP / OPERATOR FILE</text>
+<text class="m tp" x="920" y="36" text-anchor="end">FARIDABAD, DELHI NCR, INDIA</text>
+<path d="M40 52.5H920" stroke="#c9d2cb"/>
+<g transform="rotate(-14 802 126)"><path class="rg g1" d="M920 126A118 40 0 1 1 684 126A118 40 0 1 1 920 126Z" pathLength="1000"/><path class="rg g2" d="M888 126A86 29 0 1 1 716 126A86 29 0 1 1 888 126Z" pathLength="1000"/><path class="rg g3" d="M856 126A54 18 0 1 1 748 126A54 18 0 1 1 856 126Z" pathLength="1000"/><circle cx="802" cy="126" r="13" fill="#067a45" opacity=".14"/><circle cx="802" cy="126" r="5" fill="#067a45"/><path class="sat" d="M920 126A118 40 0 1 1 684 126A118 40 0 1 1 920 126Z" pathLength="1000" stroke="#c01d16" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.001 999.999" stroke-dashoffset="125"/></g>
+<text class="s nm" x="40" y="112">Prakash Kantumutchu</text>
+<text class="m lb lbR" x="40" y="157">ROLE</text><text class="m lb lbU" x="40" y="157">RULE</text><path d="M84 148.4l6 4-6 4z" fill="#4f5a53"/>
+<text class="m tk ro d0" x="112" y="158">Technical lead</text>
+<text class="m tk ro d1" x="112" y="158">Backend &amp; data</text>
+<text class="m tk ro d2" x="112" y="158">Frontend</text>
+<text class="m tk ro d3" x="112" y="158">DevOps &amp; infra</text>
+<text class="m tk ro d4" x="112" y="158">AI guardrails</text>
+<text class="m tk ro d5" x="112" y="158">Architecture</text>
+<text class="m tk ro d6" x="112" y="158">Product · TPM</text>
+<text class="m tk fin" x="112" y="158">I verify, then ship.</text>
+<g class="m ch d0"><rect x="40.5" y="188.5" width="88" height="25" rx="5"/><text x="84.5" y="205">TECH LEAD</text></g>
+<g class="m ch d1"><rect x="137.5" y="188.5" width="125" height="25" rx="5"/><text x="200" y="205">BACKEND &amp; DATA</text></g>
+<g class="m ch d2"><rect x="271.5" y="188.5" width="80" height="25" rx="5"/><text x="311.5" y="205">FRONTEND</text></g>
+<g class="m ch d3"><rect x="360.5" y="188.5" width="125" height="25" rx="5"/><text x="423" y="205">DEVOPS &amp; INFRA</text></g>
+<g class="m ch d4"><rect x="494.5" y="188.5" width="117" height="25" rx="5"/><text x="553" y="205">AI GUARDRAILS</text></g>
+<g class="m ch d5"><rect x="620.5" y="188.5" width="110" height="25" rx="5"/><text x="675.5" y="205">ARCHITECTURE</text></g>
+<g class="m ch d6"><rect x="739.5" y="188.5" width="117" height="25" rx="5"/><text x="798" y="205">PRODUCT · TPM</text></g>
+<path d="M40 246.5H920" stroke="#c9d2cb"/>
+<text class="m bt" x="40" y="274">OWNER, LEAD &amp; ARCHITECT · 4 RVM CAD PLATFORMS</text>
+<text class="m bt" x="920" y="274" text-anchor="end">EX-AIR INDIA A320 AIRCRAFT MAINTENANCE ENGINEER</text>
+</svg>
