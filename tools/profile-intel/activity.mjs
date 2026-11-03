@@ -103,6 +103,10 @@ export function codeBytes(languages) {
  * For each candidate repo: commits, merged PRs (with files and commits),
  * releases, and whether it is a new repository with real code.
  */
+export function isNoAccess(err) {
+  return err instanceof GitHubError && err.status === 403 && /not accessible/i.test(err.message);
+}
+
 export async function collectActivity(gh, { login, candidates, sinceIso, sinceDate, cfg = CONFIG, log = () => {}, languageCache = new Map() }) {
   const search = await searchMergedPRs(gh, { login, sinceDate });
   const candidateNames = new Set(candidates.map((r) => r.fullName.toLowerCase()));
@@ -130,8 +134,21 @@ export async function collectActivity(gh, { login, candidates, sinceIso, sinceDa
   const budget = { total: cfg.commitDetailCapTotal };
   const results = [];
   // Sequential per repository keeps the request rate gentle and the order stable.
+  const noAccess = [];
   for (const repo of candidates) {
-    const commits = await listCommits(gh, repo, { login, sinceIso });
+    let commits;
+    try {
+      commits = await listCommits(gh, repo, { login, sinceIso });
+    } catch (err) {
+      // A repository the token cannot read is reported and skipped; one missing
+      // permission must not stop the whole weekly run.
+      if (isNoAccess(err)) {
+        noAccess.push({ fullName: repo.fullName, private: Boolean(repo.private) });
+        log(`${repo.fullName}: the token cannot read this repository; skipped`);
+        continue;
+      }
+      throw err;
+    }
     const prNumbers = prsByRepo.get(repo.fullName.toLowerCase()) ?? [];
     const prs = await mapLimit(prNumbers, 3, (n) => loadPullRequest(gh, repo, n, cfg));
     const releases = await listReleases(gh, repo, { login, sinceIso });
@@ -204,5 +221,5 @@ export async function collectActivity(gh, { login, candidates, sinceIso, sinceDa
   }
 
   const companyPrs = [...company.values()].reduce((a, b) => a + b, 0);
-  return { results, outsideRepos, companyPrs, search: { total: search.total, incomplete: search.incomplete } };
+  return { results, outsideRepos, companyPrs, noAccess, search: { total: search.total, incomplete: search.incomplete } };
 }
