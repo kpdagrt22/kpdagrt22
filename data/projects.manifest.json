@@ -78,10 +78,6 @@
           "kind": "language",
           "reason": "GitHub linguist: at least 3% of the repository's code"
         },
-        "PyTorch": {
-          "kind": "framework",
-          "reason": "declared in backend/pyproject.toml; imported in backend/src/astro_finance/api/engine.py"
-        },
         "React": {
           "kind": "framework",
           "reason": "declared in frontend/package.json; imported in frontend/src/app/(engine)/layout.tsx"

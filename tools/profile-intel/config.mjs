@@ -22,6 +22,10 @@ export const CONFIG = Object.freeze({
   // Retired and replaced (owner, 3 Nov 2026: hide repositories not in use): the
   // first StrikeHike frontend shell (now strikehike-monorepo) and the old
   // portfolio (now thisiskp.in).
+  // Technologies a repository declares and imports but does not run. StrikeHike
+  // keeps retired model code that imports PyTorch; production never installs or
+  // loads it (StrikeHike audit, 3 Nov 2026), so it is not listed as in use.
+  technologyExclusions: { 'kpdagrt22/strikehike-monorepo': ['PyTorch'] },
   excludeRepoIds: [1389863107, 1209242537, 1265079576, 1130359452],
   // Company organisations. Their work stays in the README's manual entries
   // (copied verbatim); merged pull requests there are counted in the report
