@@ -195,7 +195,7 @@ Aviation taught me that an inspection only counts if it could have found the fau
 <!-- profile-intel:stack:start -->
 **In active use** <sub>(from projects with meaningful GitHub activity in the 90 days to 3 Nov 2026: languages by GitHub's byte count, frameworks only when a dependency manifest declares them and the code imports them)</sub><br>
 Languages: JavaScript, PLpgSQL, Python, TypeScript<br>
-Frameworks and libraries: Astro, FastAPI, Next.js, pandas, PyArrow, Pydantic, pytest, PyTorch, React, React Three Fiber, scikit-learn, Supabase, Swiss Ephemeris, Tailwind CSS, three.js, Vite, Vitest, Zod
+Frameworks and libraries: Astro, FastAPI, Next.js, pandas, PyArrow, Pydantic, pytest, React, React Three Fiber, scikit-learn, Supabase, Swiss Ephemeris, Tailwind CSS, three.js, Vite, Vitest, Zod
 <!-- profile-intel:stack:end -->
 
 <details>
@@ -242,7 +242,7 @@ Course-based practice, labelled as such in each repository: [TextSummarizer](htt
 
 - **[StrikeHike](https://strikehike.com)**&nbsp;·&nbsp;[source](https://github.com/kpdagrt22/strikehike-monorepo)&nbsp;·&nbsp;live, built and run solo&nbsp;·&nbsp;last change 3 Nov 2026<br>
   Recent: [Events: refresh the upcoming list within five minutes of a swap](https://github.com/kpdagrt22/strikehike-monorepo/pull/11) · [Events: FOMC decisions from the Fed's meeting calendar](https://github.com/kpdagrt22/strikehike-monorepo/pull/10) · [Events workflow: expose the build job's publishable output](https://github.com/kpdagrt22/strikehike-monorepo/pull/9)<br>
-  <sub>FastAPI, JavaScript, Next.js, pandas, PyArrow, Pydantic, pytest, Python, PyTorch, React, React Three Fiber, scikit-learn, Swiss Ephemeris, Tailwind CSS, three.js, TypeScript</sub>
+  <sub>FastAPI, JavaScript, Next.js, pandas, PyArrow, Pydantic, pytest, Python, React, React Three Fiber, scikit-learn, Swiss Ephemeris, Tailwind CSS, three.js, TypeScript</sub>
 - **[thisiskp.in](https://thisiskp.in)**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;live&nbsp;·&nbsp;last change 29 Oct 2026<br>
   <sub>Astro, three.js, TypeScript, Vitest, Zod</sub>
 - **quant\_trading\_app**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;last change 25 Oct 2026<br>
