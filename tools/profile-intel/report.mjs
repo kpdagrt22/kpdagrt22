@@ -123,6 +123,10 @@ export function renderReport(r) {
   }
   L.push('');
   L.push(`Skipped without inspection: ${countBy(r.discovery.skippedReasons, (s) => s).map(([k, n]) => `${n} ${k}`).join('; ') || 'none'}.`);
+  if (r.outside.noAccess?.length) {
+    L.push('');
+    L.push(`Not readable with the current token, so skipped: ${r.outside.noAccess.map((x) => mdEscape(x.fullName)).join(', ')}. Give PROFILE_TOKEN "Contents: read" on all repositories to include them.`);
+  }
   if (r.outside.companyPrs) {
     L.push('');
     L.push(`${plural(r.outside.companyPrs, 'merged pull request')} in company repositories (${r.outside.companyOrgs.map(mdEscape).join(', ')}) counted, not read: that work is covered by the manual entries copied from the README.`);

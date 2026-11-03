@@ -186,6 +186,11 @@ async function main() {
   const languageCache = new Map();
   const privateRepoNames = disc.owned.filter((r) => r.private).map((r) => r.fullName);
   const act = await collectActivity(gh, { login: CONFIG.login, candidates: disc.candidates, sinceIso: since.iso, sinceDate: since.date, log, languageCache });
+  if (act.noAccess.length) {
+    const msg = `The token cannot read ${act.noAccess.length} repositories (${act.noAccess.map((r) => r.fullName).join(', ')}): give PROFILE_TOKEN Contents read on all repositories.`;
+    log(msg);
+    if (process.env.GITHUB_ACTIONS === 'true') console.log(`::warning::${msg}`);
+  }
 
   // 4. Classify, find what is new, verify public links, detect technologies.
   const repoReports = [];
@@ -419,6 +424,7 @@ async function main() {
       privateRepos: act.outsideRepos.filter((o) => o.private).length,
       privatePrs: act.outsideRepos.filter((o) => o.private).reduce((n, o) => n + o.prs, 0),
       companyPrs: act.companyPrs,
+      noAccess: act.noAccess,
       companyOrgs: CONFIG.companyOrgs,
     },
     searchIncomplete: act.search.incomplete,
