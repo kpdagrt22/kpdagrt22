@@ -211,12 +211,19 @@ export async function detectTechnologies(gh, repo, { cfg = CONFIG, languageCache
     budget: cfg.sourceFilesPerRepo,
     maxBytes: cfg.sourceFileMaxBytes,
   });
+  const excluded = new Set(cfg.technologyExclusions?.[repo.fullName.toLowerCase()] ?? []);
+  const dropped = [];
   for (const [name, reason] of [...confirmed.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
+    if (excluded.has(name)) {
+      dropped.push(name);
+      continue;
+    }
     // Private repositories: never publish file paths, only the kind of proof.
     evidence[name] = { kind: 'framework', reason: repo.private ? genericReason(reason) : reason };
   }
   const notes = [];
   if (tree.data.truncated) notes.push('tree truncated by GitHub; some files not considered');
+  if (dropped.length) notes.push(`excluded by config (not used in production): ${dropped.join(', ')}`);
   if (unconfirmed.length) notes.push(`declared but no use found in ${filesRead} sampled files, so not recorded: ${unconfirmed.join(', ')}`);
   return { evidence, notes };
 }
