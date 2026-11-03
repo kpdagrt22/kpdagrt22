@@ -43,9 +43,74 @@
       "source": "manual",
       "readmeSection": "Flagship work",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": null,
-      "lastPortfolioUpdate": null,
-      "technologyEvidence": {},
+      "lastMeaningfulActivity": "2026-11-03",
+      "lastPortfolioUpdate": "2026-11-03",
+      "technologyEvidence": {
+        "FastAPI": {
+          "kind": "framework",
+          "reason": "declared in backend/requirements-minimal.txt; imported in backend/regime/router.py"
+        },
+        "JavaScript": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "Next.js": {
+          "kind": "framework",
+          "reason": "declared in frontend/package.json; configured in frontend/next.config.ts"
+        },
+        "pandas": {
+          "kind": "framework",
+          "reason": "declared in backend/pyproject.toml; imported in backend/src/astro_finance/main.py"
+        },
+        "PyArrow": {
+          "kind": "framework",
+          "reason": "declared in backend/requirements-minimal.txt; imported in backend/regime/cases.py"
+        },
+        "Pydantic": {
+          "kind": "framework",
+          "reason": "declared in backend/requirements-minimal.txt; imported in backend/regime/schemas.py"
+        },
+        "pytest": {
+          "kind": "framework",
+          "reason": "declared in backend/requirements-minimal.txt; configured in backend/tests/conftest.py"
+        },
+        "Python": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "PyTorch": {
+          "kind": "framework",
+          "reason": "declared in backend/pyproject.toml; imported in backend/src/astro_finance/api/engine.py"
+        },
+        "React": {
+          "kind": "framework",
+          "reason": "declared in frontend/package.json; imported in frontend/src/app/(engine)/layout.tsx"
+        },
+        "React Three Fiber": {
+          "kind": "framework",
+          "reason": "declared in frontend/package.json; imported in frontend/src/components/AmbientCosmos.jsx"
+        },
+        "scikit-learn": {
+          "kind": "framework",
+          "reason": "declared in backend/pyproject.toml; imported in backend/regime/service.py"
+        },
+        "Swiss Ephemeris": {
+          "kind": "framework",
+          "reason": "declared in backend/requirements-minimal.txt; imported in backend/src/astro_finance/historical_parallels.py"
+        },
+        "Tailwind CSS": {
+          "kind": "framework",
+          "reason": "declared in frontend/package.json; imported in frontend/src/app/globals.css"
+        },
+        "three.js": {
+          "kind": "framework",
+          "reason": "declared in frontend/package.json; imported in frontend/src/components/AmbientCosmos.jsx"
+        },
+        "TypeScript": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        }
+      },
       "evidence": [
         {
           "type": "readme",
@@ -53,6 +118,90 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Flagship work\""
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#11",
+          "date": "2026-11-03T14:00:29Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/11",
+          "title": "Events: refresh the upcoming list within five minutes of a swap"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#10",
+          "date": "2026-11-03T13:53:24Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/10",
+          "title": "Events: FOMC decisions from the Fed's meeting calendar"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#9",
+          "date": "2026-11-03T13:46:56Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/9",
+          "title": "Events workflow: expose the build job's publishable output"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#8",
+          "date": "2026-11-03T13:41:36Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/8",
+          "title": "Events: use FRED's single-release calendar endpoint"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#7",
+          "date": "2026-11-03T13:31:43Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/7",
+          "title": "Events: real scheduled events, five per theme, weekly versioned bundles"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#6",
+          "date": "2026-11-03T10:48:09Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/6",
+          "title": "Regime: 90-day cycle map in the hover card, with an on/off switch"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#5",
+          "date": "2026-11-03T10:07:45Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/5",
+          "title": "Regime: colour-keyed asset pills, compare checkboxes, ROI % / Price"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#4",
+          "date": "2026-11-03T09:55:11Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/4",
+          "title": "CI: pin runners to ubuntu-24.04"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#3",
+          "date": "2026-11-03T09:50:32Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/3",
+          "title": "SEO/GEO: server-rendered content, metadata, structured data and share cards"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#2",
+          "date": "2026-10-29T02:55:18Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/2",
+          "title": "Regime: distinct colours for assets and Core Index states"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#1",
+          "date": "2026-10-29T02:07:53Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/1",
+          "title": "Quiet-luxury rebuild: header, smooth Regime, Core Index v2, case catalogue, Study of Patterns v2"
+        },
+        {
+          "type": "commit",
+          "ref": "kpdagrt22/strikehike-monorepo@2ac9405db47649a7159be46e94d942d39fe310fb",
+          "date": "2026-10-27T09:41:41Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/2ac9405db47649a7159be46e94d942d39fe310fb",
+          "title": "feat: smart auto-collapsing bubble navigation and global layout cleanup"
         }
       ]
     },
@@ -314,9 +463,30 @@
       "source": "manual",
       "readmeSection": "Flagship work / Also built end to end",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": null,
-      "lastPortfolioUpdate": null,
-      "technologyEvidence": {},
+      "lastMeaningfulActivity": "2026-10-29",
+      "lastPortfolioUpdate": "2026-11-03",
+      "technologyEvidence": {
+        "Astro": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "three.js": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "TypeScript": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "Vitest": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "Zod": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        }
+      },
       "evidence": [
         {
           "type": "readme",
@@ -324,6 +494,66 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Flagship work / Also built end to end\""
+        },
+        {
+          "type": "pr",
+          "ref": "private:52fa6ea069e5d668",
+          "date": "2026-10-29T02:11:56Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:dde0f538da749a6a",
+          "date": "2026-10-29T01:56:06Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:5a4ebe881da0df4f",
+          "date": "2026-10-29T01:52:52Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:ecaad75b9f0ea5fa",
+          "date": "2026-10-29T01:46:20Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:7572b9a99e558589",
+          "date": "2026-10-27T09:04:04Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:d6a612dd0a2f8b29",
+          "date": "2026-10-27T08:57:04Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:bc63667b5091386d",
+          "date": "2026-10-27T08:50:38Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:7fc58749f32ca6b0",
+          "date": "2026-10-27T08:15:08Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:fef3c1f14930570b",
+          "date": "2026-10-27T07:44:51Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:c9e66ddab09865b9",
+          "date": "2026-10-25T07:59:20Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:c03474c9ff0dbadf",
+          "date": "2026-10-25T07:29:09Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:9b16573c2c067c22",
+          "date": "2026-10-25T07:26:29Z"
         }
       ]
     },
@@ -632,8 +862,8 @@
       "source": "manual",
       "readmeSection": "Open code",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": null,
-      "lastPortfolioUpdate": null,
+      "lastMeaningfulActivity": "2026-10-23",
+      "lastPortfolioUpdate": "2026-11-03",
       "technologyEvidence": {},
       "evidence": [
         {
@@ -642,6 +872,13 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Open code\""
+        },
+        {
+          "type": "pr",
+          "ref": "kubernetes/kubernetes#142729",
+          "date": "2026-10-22T21:57:59Z",
+          "url": "https://github.com/kubernetes/kubernetes/pull/142729",
+          "title": "cloud-provider: document when HasClusterID is checked and what it gates"
         }
       ]
     },
@@ -663,8 +900,8 @@
       "source": "manual",
       "readmeSection": "Open code / Learning projects",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": null,
-      "lastPortfolioUpdate": null,
+      "lastMeaningfulActivity": "2026-10-23",
+      "lastPortfolioUpdate": "2026-11-03",
       "technologyEvidence": {},
       "evidence": [
         {
@@ -673,6 +910,13 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/TextSummarizer#1",
+          "date": "2026-10-23T07:41:56Z",
+          "url": "https://github.com/kpdagrt22/TextSummarizer/pull/1",
+          "title": "docs: add Learning project banner, credit Krish Naik tutorial, and align README with repo structure"
         }
       ]
     },
@@ -694,8 +938,8 @@
       "source": "manual",
       "readmeSection": "Open code / Learning projects",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": null,
-      "lastPortfolioUpdate": null,
+      "lastMeaningfulActivity": "2026-10-23",
+      "lastPortfolioUpdate": "2026-11-03",
       "technologyEvidence": {},
       "evidence": [
         {
@@ -704,6 +948,13 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/azure-data-pipeline-incremental-ingestion#1",
+          "date": "2026-10-23T07:41:42Z",
+          "url": "https://github.com/kpdagrt22/azure-data-pipeline-incremental-ingestion/pull/1",
+          "title": "docs: merge ADF pipeline artifacts from development, add Learning project README and MIT license"
         }
       ]
     },
@@ -725,8 +976,8 @@
       "source": "manual",
       "readmeSection": "Open code / Learning projects",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": null,
-      "lastPortfolioUpdate": null,
+      "lastMeaningfulActivity": "2026-10-23",
+      "lastPortfolioUpdate": "2026-11-03",
       "technologyEvidence": {},
       "evidence": [
         {
@@ -735,6 +986,13 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/Apple-Music-End-to-End-Data-Engineering-Project-using-AZURE#1",
+          "date": "2026-10-23T07:41:35Z",
+          "url": "https://github.com/kpdagrt22/Apple-Music-End-to-End-Data-Engineering-Project-using-AZURE/pull/1",
+          "title": "docs: add Learning project label and align README with repository files"
         }
       ]
     },
@@ -798,6 +1056,146 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Now\""
+        }
+      ]
+    },
+    {
+      "id": "repo-quant-trading-app",
+      "name": "quant_trading_app",
+      "shortDescription": "Options analytics prototype for Indian markets: Greeks, implied volatility, open interest and put-call ratio for indices and F&O stocks, plus an option payoff calculator. FastAPI + Redis worker, React/Vite, Supabase. Demo data; information only, not investment advice.",
+      "detailedDescription": null,
+      "category": "project",
+      "role": "repository owner",
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [
+        "FastAPI",
+        "JavaScript",
+        "PLpgSQL",
+        "Pydantic",
+        "pytest",
+        "Python",
+        "React",
+        "Supabase",
+        "Tailwind CSS",
+        "Vite",
+        "Vitest"
+      ],
+      "repo": "kpdagrt22/quant_trading_app",
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "auto",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": "2026-10-25",
+      "lastPortfolioUpdate": "2026-11-03",
+      "technologyEvidence": {
+        "FastAPI": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "JavaScript": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "PLpgSQL": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "Pydantic": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "pytest": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "Python": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "React": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "Supabase": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "Tailwind CSS": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "Vite": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "Vitest": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        }
+      },
+      "evidence": [
+        {
+          "type": "pr",
+          "ref": "private:25a5fadc776953bb",
+          "date": "2026-10-25T07:48:21Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:5abcbd95f84813f9",
+          "date": "2026-10-25T07:37:11Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:b72a0429f747216d",
+          "date": "2026-10-25T07:08:14Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:86f46b87ef972673",
+          "date": "2026-10-25T07:00:41Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:269a14ce57232854",
+          "date": "2026-10-25T06:41:06Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:00f7476864f9aa1f",
+          "date": "2026-10-25T06:16:01Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:3e18c2d7e43d2425",
+          "date": "2026-10-25T06:06:14Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:b75c27423f9a6525",
+          "date": "2026-10-23T17:11:14Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:c441517844d2db1b",
+          "date": "2026-10-23T16:54:13Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:7f3b0c06e874c6d4",
+          "date": "2026-10-23T16:39:26Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:2b238eef57378f04",
+          "date": "2026-10-23T16:21:52Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:f241d88f9b5a99cf",
+          "date": "2026-10-23T16:17:01Z"
         }
       ]
     }
