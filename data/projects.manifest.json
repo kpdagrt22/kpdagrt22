@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 1,
+  "owner": "kpdagrt22",
+  "entries": [
+    {
+      "id": "strikehike",
+      "name": "StrikeHike",
+      "shortDescription": "A research site that sets the US macro record beside the planetary sky, date by date: recession windows since 1854, a macro and volatility index, market series, and past events and upcoming dates with similar planetary geometry.",
+      "detailedDescription": "I built and run every layer: domain and DNS, an AWS Lightsail server, Docker Compose behind Caddy, a FastAPI backend and a Next.js 16 frontend. Every push to `main` is tested before the new stack goes up, then probed for health, TLS and a real API response; a failed probe fails the deploy.",
+      "category": "flagship",
+      "role": "built and run solo",
+      "status": "live",
+      "statusText": "live, built and run solo",
+      "verifiedContributions": [
+        "**Frontend:** Next.js 16, React 19, Tailwind CSS 4, three.js through React Three Fiber.",
+        "**Backend:** FastAPI with Swiss Ephemeris (pyswisseph), pandas and PyArrow, and scikit-learn; a SQLite store of 159 dated historical events and a Parquet artifact of macro and market series (FRED, plus daily S&P 500 and Nifty 50 history), built by an ingestion job and committed with the code.",
+        "**Delivery:** Docker Compose (backend, frontend, Caddy) with health checks and log rotation; GitHub Actions deploys over SSH once the tests pass, then probes health, TLS and the API.",
+        "**History:** the first version, an options-analytics build, ran on Azure App Service in April and May 2026 and then on Docker Compose on AWS Lightsail. The current engine replaced it on 25 Oct 2026. An earlier research build reported a 97.67% \"crash accuracy\"; a model that always answers \"no crash\" scores the same, so I'm withdrawing the number."
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "three.js",
+        "React Three Fiber",
+        "FastAPI",
+        "Swiss Ephemeris",
+        "pandas",
+        "PyArrow",
+        "scikit-learn",
+        "SQLite",
+        "Parquet",
+        "Docker Compose",
+        "Caddy",
+        "AWS Lightsail",
+        "GitHub Actions"
+      ],
+      "repo": "kpdagrt22/strikehike-monorepo",
+      "repoUrl": "https://github.com/kpdagrt22/strikehike-monorepo",
+      "liveUrl": "https://strikehike.com",
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work\""
+        }
+      ]
+    },
+    {
+      "id": "badabhai",
+      "name": "BadaBhai",
+      "shortDescription": "An AI placement platform for skilled-trade workers in India: a Hinglish (Hindi and English) chat turns a worker with no résumé into a profile and a one-page trade résumé, then connects them to employer postings.",
+      "detailedDescription": null,
+      "category": "rvm-cad",
+      "role": "owner, lead and architect, team of three",
+      "status": "live",
+      "statusText": "live alpha",
+      "verifiedContributions": [
+        "840 of 1,625 merged PRs",
+        "I made the platform's first commit; 1,170 of the 2,102 commits on its main branch are mine.",
+        "Organisation tenancy across 15 business tables with no new column, no backfill and no API change: one resolver, a branded tenant key and an off → shadow → on switch.",
+        "An encrypted trace store for six AI call sites. The database rejects anything that isn't AES-256-GCM ciphertext, erasing a worker removes their traces by construction, and decrypting is a separate, audited act.",
+        "A deterministic one-page résumé engine: 56 of 56 fixture sheets fit one A4 page, 32 tests guard against invented facts, and a font contract fails the PDF rather than ship it with the wrong fonts.",
+        "A handle-based relay that keeps workers' phone numbers off the employer path, with consent re-checked at the moment of use.",
+        "Model routing with Gemini first and Claude as fallback, behind spend caps and a kill switch; Matching V1 and feed pagination, built behind flags.",
+        "Continuous deployment to AWS Lightsail with health gates and immutable image tags: 767 commits deployed to production since 18 Aug 2026 (818 deployment records, 32 of them failed).",
+        "Most of the CI: 96 of the 153 workflow commits since 26 Jun 2026, including the static-analysis and dependency-audit gates. 647 of my 896 non-merge commits there in that period also change a test file.",
+        "My teammates built the deterministic profiling interview, the free-chat assistant and its routing, the chat evaluation harness, most of the Flutter worker app and the skills taxonomy.",
+        "Limits: live alpha. No revenue, retention or scale claims; several matching and feed capabilities are still behind flags."
+      ],
+      "technologies": [
+        "NestJS",
+        "Next.js",
+        "FastAPI",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "AWS Lightsail"
+      ],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work / RVM CAD systems",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work / RVM CAD systems\""
+        }
+      ]
+    },
+    {
+      "id": "rvm-cad-job-portal",
+      "name": "RVM CAD Job Portal",
+      "shortDescription": "An industrial hiring platform at [jobs.rvmcad.org](https://jobs.rvmcad.org) for candidates, verified employers and RVM's placement team, with a read-only MCP connector I built so an AI placement bot can read live numbers without a database credential.",
+      "detailedDescription": null,
+      "category": "rvm-cad",
+      "role": "owner, lead and architect",
+      "status": "live",
+      "statusText": "live",
+      "verifiedContributions": [
+        "399 of 856 commits, the most of anyone",
+        "One Next.js and Supabase codebase serves all three audiences.",
+        "Custom JWT sessions for candidates, employers and admins, replacing Supabase Auth, plus role-based admin access with a write-gate.",
+        "Payment reliability and GST invoicing on Razorpay: webhook signature checks, idempotent capture, invoices for buyers with several GSTINs, and an in-app reconciliation scheduler.",
+        "Public company profiles, Google Jobs structured data and sitemaps, candidate onboarding in four languages, and remote-interview automation on Google Meet.",
+        "The MCP connector: 11 read-only tools, OAuth 2.1 with PKCE, hashed refresh tokens that rotate (reusing one revokes them all), an audience-bound bot identity re-checked on every call, a 7-day default and 400-day cap on queries, and no partial numbers. 141 tests; delivered 12 days before the requested date.",
+        "Colleagues built the plan-based monetisation, the data bank and the lead dialer, and set up the deploy pipeline."
+      ],
+      "technologies": [
+        "Next.js",
+        "Supabase",
+        "Razorpay",
+        "MCP"
+      ],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": "https://jobs.rvmcad.org",
+      "visibility": "private",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work / RVM CAD systems",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work / RVM CAD systems\""
+        }
+      ]
+    },
+    {
+      "id": "rvm-cad-scheduler",
+      "name": "RVM CAD Scheduler",
+      "shortDescription": "The operations platform of a four-branch CAD/CAM training institute, from admissions and fees to staff attendance, HR and inventory.",
+      "detailedDescription": "A colleague started it in 2025 and built its first version; since I took ownership in April 2026 I have led, re-architected and expanded it. From my first commit (30 Apr) to 28 Oct 2026 it grew from 116 to 534 API routes, from 24 to 43 screens and from one baseline schema file to 152 database migrations, and its backend went from no automated tests to 2,556 passing in CI.",
+      "category": "rvm-cad",
+      "role": "owner, lead and architect since Apr 2026",
+      "status": "live",
+      "statusText": "live, internal",
+      "verifiedContributions": [
+        "API routes 116 → 534",
+        "**Architecture:** a service layer between the routes and the database (from 0 to 41 service modules), versioned migrations, role-based access tests, and a backend deploy that lints the migrations and runs the whole test suite before it ships. Before, the deploy was a single SSH step with no tests.",
+        "**My share:** 837 of the 950 commits made on its two repositories since my first one, 113 of its 125 migration commits, and 162 of the 175 pull requests merged since pull requests began on 10 Aug 2026.",
+        "A five-table append-only audit trail (actor and role at the time, allow-listed before-and-after values, redaction) with eight read-only investigation tools bound to the CEO's account and no raw SQL.",
+        "An operations and HR connector for the company's AI bots, built the same way: 57 read-only tools in its live manifest on 28 Oct 2026, 55 of which serve data.",
+        "Staff attendance with layered controls against proxy punching: mobile-only punches, GPS accuracy and a geofence, one bound phone per employee, a short-lived signed challenge, shift and late rules, and a midnight close.",
+        "HRMS: employee records, org chart, compensation history, documents and hiring pipelines.",
+        "The DLT-route SMS OTP module and the transactional email module.",
+        "Deploys that test the Nginx config before reloading, back out the newly enabled site if that test fails, and issue certificates during the deploy.",
+        "Tests in CI on 28 Oct 2026: 2,556 backend tests in 118 files and 333 frontend tests in 27 files, all passing. Before April there were no backend tests and one frontend test file.",
+        "A colleague started the Scheduler in September 2025 and built its first version: batch scheduling and allotment, faculty substitutions, student intake and admissions, fees and receipts, tickets and the first CEO dashboard. Since April, colleagues have also built faculty leave and student holds, collection-rate reporting, and QR-verified completion certificates with invoice fixes."
+      ],
+      "technologies": [
+        "React",
+        "Vite",
+        "Express",
+        "PostgreSQL",
+        "Supabase",
+        "Nginx",
+        "MCP"
+      ],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work / RVM CAD systems",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work / RVM CAD systems\""
+        }
+      ]
+    },
+    {
+      "id": "team-rvm",
+      "name": "Team RVM",
+      "shortDescription": "RVM CAD's employee self-service Android app, with its backend live since 16 Oct 2026.",
+      "detailedDescription": "I turned the brief into recorded product decisions and 21 architecture decision records, wrote the API contract, and built the backend, migrations and delivery pipeline. The Flutter app is built by our mobile developer against my contract.",
+      "category": "rvm-cad",
+      "role": "owner, lead and architect",
+      "status": "in-development",
+      "statusText": "backend live, pilot next",
+      "verifiedContributions": [
+        "24 green deploys in 12 days",
+        "Features: attendance with location, requests and approvals, an inbox, a staff wall, a helpdesk, documents, an ID card and My Team.",
+        "I made the first commit, and 76 of its 122 commits are mine, including every commit to the API contract and the database migrations and 18 of the 19 workflow commits.",
+        "A separate Node and Express service with its own process and subdomain. It shares the Scheduler's database and adds only its own tables; its writes to Scheduler data are limited to six sanctioned, audited cases, and attendance approvals go through HR's own override function. It verifies the Scheduler's sign-in token locally, so one sign-in works for both and the Scheduler's code doesn't change.",
+        "Contract-first: one OpenAPI 3.1 file (version 0.14.0, 130 paths, 155 operations), linted in CI. 1,320 contract tests check every reply against it and exercise every documented status.",
+        "36 additive migrations that never touch a Scheduler table and are safe to run twice, with rollback scripts for 34 of them. Until a migration is applied, its endpoints answer a clear 503, so code can ship ahead of the database.",
+        "2,727 tests passing in CI on Node 20 and Node 24; CI also lints the contract and tests the Nginx config on two Nginx versions.",
+        "A merge to `main` deploys automatically, behind an on/off switch, once the tests and Nginx checks pass, and the deploy waits until the health check reports the new commit: 24 production deploys between 16 and 27 Oct 2026, all green.",
+        "Push notifications are built, and write to the log until the company's push-notification project is set up.",
+        "Next, once RVM's Google Play organisation account is approved: a closed-testing pilot with one branch for two weeks. The app has not been rolled out to employees yet."
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "OpenAPI",
+        "PostgreSQL",
+        "Nginx",
+        "Flutter"
+      ],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work / RVM CAD systems",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work / RVM CAD systems\""
+        }
+      ]
+    },
+    {
+      "id": "material-control",
+      "name": "Material control for a commercial-interiors contractor",
+      "shortDescription": "Material moves from request through two approvals, purchase order, receipt and issue to applied work; issue stops once issued and applied drift more than 10% apart.",
+      "detailedDescription": "Append-only records, an offline-first PWA for site supervisors, 193 test files; 94 of its 95 commits are mine. Usage isn't measured yet.",
+      "category": "client",
+      "role": null,
+      "status": null,
+      "statusText": "client-owned, deployed for internal use (Sep–Oct 2026)",
+      "verifiedContributions": [],
+      "technologies": [
+        "Fastify",
+        "React",
+        "Vite",
+        "Render"
+      ],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work / Also built end to end",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work / Also built end to end\""
+        }
+      ]
+    },
+    {
+      "id": "thisiskp",
+      "name": "thisiskp.in",
+      "shortDescription": "my portfolio and case-study site",
+      "detailedDescription": "Astro on AWS Lightsail behind Caddy, deployed by GitHub Actions with a live check after each release. Claims are tracked in a claims register, and the deploy's launch check fails while any page still carries an unconfirmed-fact marker.",
+      "category": "portfolio",
+      "role": null,
+      "status": "live",
+      "verifiedContributions": [],
+      "technologies": [
+        "Astro",
+        "AWS Lightsail",
+        "Caddy",
+        "GitHub Actions"
+      ],
+      "repo": "kpdagrt22/thisiskp",
+      "repoUrl": null,
+      "liveUrl": "https://thisiskp.in",
+      "visibility": "private",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Flagship work / Also built end to end",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Flagship work / Also built end to end\""
+        }
+      ]
+    },
+    {
+      "id": "cs-ai-read-only-access",
+      "name": "Doors, not keys",
+      "shortDescription": "read-only AI access to live data on the Job Portal and the Scheduler, with no database credential.",
+      "detailedDescription": null,
+      "category": "case-study",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": "https://thisiskp.in/work/ai-read-only-access",
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Case studies",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Case studies\""
+        }
+      ]
+    },
+    {
+      "id": "cs-ai-trace-store",
+      "name": "An AI trace store that treats its own data as dirty",
+      "shortDescription": "encrypted, erasable per worker, audited before decryption.",
+      "detailedDescription": null,
+      "category": "case-study",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": "https://thisiskp.in/work/ai-trace-store",
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Case studies",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Case studies\""
+        }
+      ]
+    },
+    {
+      "id": "cs-one-page-resume-contract",
+      "name": "The one-page contract",
+      "shortDescription": "résumés that fail closed instead of overflowing or inventing facts.",
+      "detailedDescription": null,
+      "category": "case-study",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": "https://thisiskp.in/work/one-page-resume-contract",
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Case studies",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Case studies\""
+        }
+      ]
+    },
+    {
+      "id": "cs-tenancy-without-a-migration",
+      "name": "Multi-tenancy without a migration",
+      "shortDescription": "fifteen tables re-scoped with no new column and no backfill.",
+      "detailedDescription": null,
+      "category": "case-study",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": "https://thisiskp.in/work/tenancy-without-a-migration",
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Case studies",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Case studies\""
+        }
+      ]
+    },
+    {
+      "id": "cs-agent-built-saas-prototypes",
+      "name": "Four SaaS prototypes for local service businesses",
+      "shortDescription": "each designed to degrade gracefully when an integration is missing.",
+      "detailedDescription": null,
+      "category": "case-study",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": "https://thisiskp.in/work/agent-built-saas-prototypes",
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Case studies",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Case studies\""
+        }
+      ]
+    },
+    {
+      "id": "servicequote-ai",
+      "name": "servicequote-ai",
+      "shortDescription": "contractor job notes into line-item estimates",
+      "detailedDescription": "The four prototypes are from June 2026: I specified, directed and reviewed them, and they have never been deployed.",
+      "category": "prototype",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [
+        "153 tests passing"
+      ],
+      "technologies": [],
+      "repo": "kpdagrt22/servicequote-ai",
+      "repoUrl": "https://github.com/kpdagrt22/servicequote-ai",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code\""
+        }
+      ]
+    },
+    {
+      "id": "leadparrot",
+      "name": "leadparrot",
+      "shortDescription": "finds buyer-intent posts and drafts replies for review",
+      "detailedDescription": "The four prototypes are from June 2026: I specified, directed and reviewed them, and they have never been deployed.",
+      "category": "prototype",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [
+        "139 tests passing"
+      ],
+      "technologies": [],
+      "repo": "kpdagrt22/leadparrot",
+      "repoUrl": "https://github.com/kpdagrt22/leadparrot",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code\""
+        }
+      ]
+    },
+    {
+      "id": "reviewloop-ai",
+      "name": "reviewloop-ai",
+      "shortDescription": "completed jobs into review requests",
+      "detailedDescription": "The four prototypes are from June 2026: I specified, directed and reviewed them, and they have never been deployed.",
+      "category": "prototype",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [
+        "114 tests passing"
+      ],
+      "technologies": [],
+      "repo": "kpdagrt22/reviewloop-ai",
+      "repoUrl": "https://github.com/kpdagrt22/reviewloop-ai",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code\""
+        }
+      ]
+    },
+    {
+      "id": "servicelead-ai",
+      "name": "servicelead-ai",
+      "shortDescription": "missed-call text-back and AI lead intake",
+      "detailedDescription": "The four prototypes are from June 2026: I specified, directed and reviewed them, and they have never been deployed.",
+      "category": "prototype",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [
+        "74 tests passing"
+      ],
+      "technologies": [],
+      "repo": "kpdagrt22/servicelead-ai",
+      "repoUrl": "https://github.com/kpdagrt22/servicelead-ai",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code\""
+        }
+      ]
+    },
+    {
+      "id": "upstream-kubernetes",
+      "name": "Kubernetes",
+      "shortDescription": "a documentation fix merged into Kubernetes, [kubernetes/kubernetes#142729](https://github.com/kubernetes/kubernetes/pull/142729) (cloud-provider, October 2026).",
+      "detailedDescription": null,
+      "category": "upstream",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": "kubernetes/kubernetes",
+      "repoUrl": "https://github.com/kubernetes/kubernetes",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code\""
+        }
+      ]
+    },
+    {
+      "id": "learning-textsummarizer",
+      "name": "TextSummarizer",
+      "shortDescription": "Course-based practice, labelled as such in each repository",
+      "detailedDescription": null,
+      "category": "learning",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": "kpdagrt22/TextSummarizer",
+      "repoUrl": "https://github.com/kpdagrt22/TextSummarizer",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code / Learning projects",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        }
+      ]
+    },
+    {
+      "id": "learning-azure-incremental-ingestion",
+      "name": "an Azure incremental-ingestion pipeline",
+      "shortDescription": "Course-based practice, labelled as such in each repository",
+      "detailedDescription": null,
+      "category": "learning",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": "kpdagrt22/azure-data-pipeline-incremental-ingestion",
+      "repoUrl": "https://github.com/kpdagrt22/azure-data-pipeline-incremental-ingestion",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code / Learning projects",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        }
+      ]
+    },
+    {
+      "id": "learning-apple-music-data-engineering",
+      "name": "an Apple Music data-engineering project",
+      "shortDescription": "Course-based practice, labelled as such in each repository",
+      "detailedDescription": null,
+      "category": "learning",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": "kpdagrt22/Apple-Music-End-to-End-Data-Engineering-Project-using-AZURE",
+      "repoUrl": "https://github.com/kpdagrt22/Apple-Music-End-to-End-Data-Engineering-Project-using-AZURE",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code / Learning projects",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        }
+      ]
+    },
+    {
+      "id": "learning-take-home-assessment",
+      "name": "a take-home assessment",
+      "shortDescription": "Course-based practice, labelled as such in each repository",
+      "detailedDescription": null,
+      "category": "learning",
+      "role": null,
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": "kpdagrt22/homellc_data_engineer_assessment_skeleton",
+      "repoUrl": "https://github.com/kpdagrt22/homellc_data_engineer_assessment_skeleton",
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Open code / Learning projects",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Open code / Learning projects\""
+        }
+      ]
+    },
+    {
+      "id": "now",
+      "name": "Now",
+      "shortDescription": "Taking Team RVM from a live backend to its first users.",
+      "detailedDescription": "Next, once RVM's Google Play organisation account is approved: a closed-testing pilot with one branch for two weeks, before any wider rollout.",
+      "category": "now",
+      "role": null,
+      "status": null,
+      "statusText": "OCTOBER 2026",
+      "verifiedContributions": [],
+      "technologies": [],
+      "repo": null,
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "public",
+      "publication": "approved",
+      "source": "manual",
+      "readmeSection": "Now",
+      "firstDiscovered": "2026-11-03",
+      "lastMeaningfulActivity": null,
+      "lastPortfolioUpdate": null,
+      "technologyEvidence": {},
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "kpdagrt22/kpdagrt22@44ea5277331e2dfc3344c7611b3271405e0b431d:README.md",
+          "date": "2026-10-28T14:09:19Z",
+          "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
+          "title": "Owner-approved profile README, section \"Now\""
+        }
+      ]
+    }
+  ]
+}
