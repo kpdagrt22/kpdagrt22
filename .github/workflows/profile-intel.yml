@@ -1,0 +1,77 @@
+# Weekly profile intelligence: reviews KP's GitHub activity and proposes
+# evidence-backed updates to this README (and, later, thisiskp.in) as pull
+# requests that merge themselves once every check passes.
+# Docs: tools/profile-intel/README.md
+name: profile-intel
+
+on:
+  schedule:
+    - cron: '30 3 * * 1' # Monday 09:00 IST (03:30 UTC)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run: compute, scan and report only; push nothing'
+        type: boolean
+        default: false
+      since_days:
+        description: 'Days of activity to review (1-90)'
+        type: number
+        default: 7
+
+# The workflow's own token can only read. Every write goes through
+# PROFILE_TOKEN (fine-grained: contents and pull requests on repositories
+# owned by kpdagrt22).
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-intel
+  cancel-in-progress: false
+
+jobs:
+  profile-intel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          package-manager-cache: false
+
+      - name: Unit tests
+        run: node --test "tools/profile-intel/test/*.test.mjs"
+
+      - name: Review activity and publish
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
+          SINCE_DAYS: ${{ github.event_name == 'workflow_dispatch' && inputs.since_days || 7 }}
+          # Kill switch: set the repository variable to false to leave PRs open.
+          PROFILE_INTEL_AUTOMERGE: ${{ vars.PROFILE_INTEL_AUTOMERGE || 'true' }}
+          # Off until thisiskp.in reads src/data/recent-work.json.
+          PORTFOLIO_PUBLISH: 'false'
+        run: node tools/profile-intel/run.mjs --out out
+
+      - name: Job summary
+        if: always()
+        run: |
+          if [ -f out/report.md ]; then
+            cat out/report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "profile-intel produced no report; see the step log above." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload outputs
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: profile-intel-${{ github.run_id }}
+          path: out/
+          retention-days: 30
+          if-no-files-found: warn
