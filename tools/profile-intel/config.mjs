@@ -19,7 +19,10 @@ export const CONFIG = Object.freeze({
   // Excluded by numeric id, so their names are not repeated here: two private
   // snapshot copies of company repositories (the README's measurement method
   // excludes them too; the real projects are manual RVM CAD entries).
-  excludeRepoIds: [1389863107, 1209242537],
+  // Retired and replaced (owner, 3 Nov 2026: hide repositories not in use): the
+  // first StrikeHike frontend shell (now strikehike-monorepo) and the old
+  // portfolio (now thisiskp.in).
+  excludeRepoIds: [1389863107, 1209242537, 1265079576, 1130359452],
   // Company organisations. Their work stays in the README's manual entries
   // (copied verbatim); merged pull requests there are counted in the report
   // but never read or published, even where a repository is public.
