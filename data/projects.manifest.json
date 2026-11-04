@@ -43,8 +43,8 @@
       "source": "manual",
       "readmeSection": "Flagship work",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-11-03",
-      "lastPortfolioUpdate": "2026-11-03",
+      "lastMeaningfulActivity": "2026-11-04",
+      "lastPortfolioUpdate": "2026-11-04",
       "technologyEvidence": {
         "FastAPI": {
           "kind": "framework",
@@ -88,7 +88,7 @@
         },
         "scikit-learn": {
           "kind": "framework",
-          "reason": "declared in backend/pyproject.toml; imported in backend/regime/service.py"
+          "reason": "declared in backend/pyproject.toml; imported in backend/src/astro_finance/energy_metric_compiler.py"
         },
         "Swiss Ephemeris": {
           "kind": "framework",
@@ -114,6 +114,13 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Flagship work\""
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#12",
+          "date": "2026-11-04T05:20:25Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/12",
+          "title": "Events Phase D: weekly data refresh and model lifecycle"
         },
         {
           "type": "pr",
@@ -191,13 +198,6 @@
           "date": "2026-10-29T02:07:53Z",
           "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/1",
           "title": "Quiet-luxury rebuild: header, smooth Regime, Core Index v2, case catalogue, Study of Patterns v2"
-        },
-        {
-          "type": "commit",
-          "ref": "kpdagrt22/strikehike-monorepo@2ac9405db47649a7159be46e94d942d39fe310fb",
-          "date": "2026-10-27T09:41:41Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/2ac9405db47649a7159be46e94d942d39fe310fb",
-          "title": "feat: smart auto-collapsing bubble navigation and global layout cleanup"
         }
       ]
     },
@@ -459,8 +459,8 @@
       "source": "manual",
       "readmeSection": "Flagship work / Also built end to end",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-10-29",
-      "lastPortfolioUpdate": "2026-11-03",
+      "lastMeaningfulActivity": "2026-11-04",
+      "lastPortfolioUpdate": "2026-11-04",
       "technologyEvidence": {
         "Astro": {
           "kind": "framework",
@@ -490,6 +490,16 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Flagship work / Also built end to end\""
+        },
+        {
+          "type": "pr",
+          "ref": "private:d844ba2ad4d8265d",
+          "date": "2026-11-04T05:55:47Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:bed228065f9bf4ec",
+          "date": "2026-11-03T15:22:41Z"
         },
         {
           "type": "pr",
@@ -540,16 +550,6 @@
           "type": "commit",
           "ref": "private:c9e66ddab09865b9",
           "date": "2026-10-25T07:59:20Z"
-        },
-        {
-          "type": "commit",
-          "ref": "private:c03474c9ff0dbadf",
-          "date": "2026-10-25T07:29:09Z"
-        },
-        {
-          "type": "commit",
-          "ref": "private:9b16573c2c067c22",
-          "date": "2026-10-25T07:26:29Z"
         }
       ]
     },
@@ -1192,6 +1192,91 @@
           "type": "pr",
           "ref": "private:f241d88f9b5a99cf",
           "date": "2026-10-23T16:17:01Z"
+        }
+      ]
+    },
+    {
+      "id": "repo-manifest-extension",
+      "name": "manifest_extension",
+      "shortDescription": "AI Job Copilot: a Chrome extension (Manifest V3, React, TypeScript) that drafts a tailored cover letter and résumé PDF for a Greenhouse job application and fills the form for the user to review. FastAPI on AWS Lightsail, Supabase, Claude API. In development; not yet launched.",
+      "detailedDescription": null,
+      "category": "project",
+      "role": "repository owner",
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [
+        "Claude API",
+        "FastAPI",
+        "PLpgSQL",
+        "Pydantic",
+        "pytest",
+        "Python",
+        "React",
+        "Supabase",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "repo": "kpdagrt22/manifest_extension",
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "auto",
+      "firstDiscovered": "2026-11-04",
+      "lastMeaningfulActivity": "2026-11-04",
+      "lastPortfolioUpdate": "2026-11-04",
+      "technologyEvidence": {
+        "Claude API": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "FastAPI": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "PLpgSQL": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "Pydantic": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "pytest": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "Python": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "React": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "Supabase": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; imported in source"
+        },
+        "Tailwind CSS": {
+          "kind": "framework",
+          "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "TypeScript": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        }
+      },
+      "evidence": [
+        {
+          "type": "pr",
+          "ref": "private:f8313bbc827895b6",
+          "date": "2026-11-04T05:56:01Z"
+        },
+        {
+          "type": "repo",
+          "ref": "private:72d8d18e8c563e52",
+          "date": "2026-10-31T09:21:49Z"
         }
       ]
     }
