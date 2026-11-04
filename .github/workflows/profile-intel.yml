@@ -1,6 +1,6 @@
 # Weekly profile intelligence: reviews KP's GitHub activity and proposes
-# evidence-backed updates to this README (and, later, thisiskp.in) as pull
-# requests that merge themselves once every check passes.
+# evidence-backed updates to this README and to thisiskp.in's "Recently built"
+# data as pull requests that merge themselves once every check passes.
 # Docs: tools/profile-intel/README.md
 name: profile-intel
 
@@ -54,8 +54,9 @@ jobs:
           SINCE_DAYS: ${{ github.event_name == 'workflow_dispatch' && inputs.since_days || 7 }}
           # Kill switch: set the repository variable to false to leave PRs open.
           PROFILE_INTEL_AUTOMERGE: ${{ vars.PROFILE_INTEL_AUTOMERGE || 'true' }}
-          # Off until thisiskp.in reads src/data/recent-work.json.
-          PORTFOLIO_PUBLISH: 'false'
+          # thisiskp.in reads src/data/recent-work.json (validated by its build).
+          # A merge to kpdagrt22/thisiskp main deploys the site. 'false' stops it.
+          PORTFOLIO_PUBLISH: 'true'
         run: node tools/profile-intel/run.mjs --out out
 
       - name: Job summary

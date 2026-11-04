@@ -9,7 +9,9 @@ export const CONFIG = Object.freeze({
   manifestPath: 'data/projects.manifest.json',
   readmePath: 'README.md',
 
-  // thisiskp.in (Astro). Publishing there is OFF until the site reads this file.
+  // thisiskp.in (Astro): "Recently built" on /projects reads this file and its
+  // build validates it. On when the workflow sets PORTFOLIO_PUBLISH=true; a
+  // merge to the site's main deploys it.
   portfolioRepo: 'kpdagrt22/thisiskp',
   portfolioTargetPath: 'src/data/recent-work.json',
 
