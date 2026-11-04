@@ -11,7 +11,7 @@
 By title I'm a Technical Product Manager at RVM CAD; in practice I own, lead and architect its four platforms, and the engineers on them work under me. On my own products I run the whole chain myself, from the domain and mail records to the server, CI/CD, backend and frontend. Before software I signed off Airbus A320 maintenance at Air India, and I still don't ship what I haven't verified.
 
 <p align="center">
-  <a href="https://thisiskp.in"><b>thisiskp.in</b></a> (case studies with sources)&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/prakash-kantumutchu">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:k.prakashofficial@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://strikehike.com">strikehike.com</a>
+  <a href="https://thisiskp.in"><b>thisiskp.in</b></a> (case studies with sources)&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/prakash-kantumutchu">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:k.prakashofficial@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://strikehike.com">strikehike.com</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://paypal.me/kpdagrt22">Buy me a drink</a>
 </p>
 
 <picture>
