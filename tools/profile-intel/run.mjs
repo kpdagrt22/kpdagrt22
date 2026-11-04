@@ -10,10 +10,14 @@
 //   --out DIR            where the report and outputs go (default out)
 //   --base-from DIR      dry runs only: read README.md and data/projects.manifest.json
 //                        from DIR instead of main (to prove a re-run changes nothing)
+//   --portfolio-base-from FILE
+//                        dry runs only: read the site's recent-work.json from FILE
+//                        instead of kpdagrt22/thisiskp main (pairs with --base-from)
 // Environment:
 //   GH_TOKEN                  token (PROFILE_TOKEN in Actions); never printed
 //   PROFILE_INTEL_AUTOMERGE   "false" leaves pull requests open (default true)
-//   PORTFOLIO_PUBLISH         "true" also publishes to the portfolio repository (default false)
+//   PORTFOLIO_PUBLISH         "true" also publishes to the portfolio repository (default false;
+//                             the workflow sets it to true)
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -27,7 +31,7 @@ import { discoverRepos } from './discover.mjs';
 import { verifyEvidence } from './evidence.mjs';
 import { checkPublicUrl, createClient } from './github.mjs';
 import { findEntryForRepo, mergeRun, parseManifest, serializeManifest, storableEvidence, validateManifest } from './manifest.mjs';
-import { buildRecentWork, serializeRecentWork, stampPortfolioUpdates } from './portfolio.mjs';
+import { buildRecentWork, serializeRecentWork, stampPortfolioUpdates, stampUpdated, validateRecentWork } from './portfolio.mjs';
 import { publishTarget } from './publish.mjs';
 import { generatedBlocks, renderRecent, renderStack, updateReadme } from './readme.mjs';
 import { privateReason, renderBlockedReport, renderReport } from './report.mjs';
@@ -44,6 +48,7 @@ export function parseArgs(argv, env = {}) {
     sinceDays: env.SINCE_DAYS ? Number(env.SINCE_DAYS) : 7,
     out: 'out',
     baseFrom: null,
+    portfolioBaseFrom: null,
     automerge: (env.PROFILE_INTEL_AUTOMERGE ?? 'true').trim().toLowerCase() !== 'false',
     portfolioPublish: (env.PORTFOLIO_PUBLISH ?? 'false').trim().toLowerCase() === 'true',
   };
@@ -53,10 +58,12 @@ export function parseArgs(argv, env = {}) {
     else if (a === '--since-days') args.sinceDays = Number(argv[++i]);
     else if (a === '--out') args.out = argv[++i];
     else if (a === '--base-from') args.baseFrom = argv[++i];
+    else if (a === '--portfolio-base-from') args.portfolioBaseFrom = argv[++i];
     else throw new Error(`Unknown option ${a}`);
   }
   if (!Number.isInteger(args.sinceDays) || args.sinceDays < 1 || args.sinceDays > 90) throw new Error('--since-days must be a whole number from 1 to 90');
   if (args.baseFrom && !args.dryRun) throw new Error('--base-from is only allowed with --dry-run');
+  if (args.portfolioBaseFrom && !args.dryRun) throw new Error('--portfolio-base-from is only allowed with --dry-run');
   return args;
 }
 
@@ -113,10 +120,16 @@ function prBody({ today, window, changes, readme, scannerFiles, reportUrl, targe
     '',
     'Checked before this pull request was opened:',
     `- output scanner (secrets, emails, phone numbers, IP addresses, non-public URLs, private repository links): passed on ${scannerFiles} outputs`,
-    '- README content outside the profile-intel markers: byte-identical to the base branch',
-    '- manifest schema: valid',
+    ...(target === 'profile'
+      ? ['- README content outside the profile-intel markers: byte-identical to the base branch', '- manifest schema: valid']
+      : [
+          "- src/data/recent-work.json: passes the checks of the site's build-time schema (private repositories carry no repository or evidence links)",
+          '- generated from the profile manifest, which passed its schema check',
+        ]),
     '',
-    'Merged automatically once GitHub reports it clean, unless the repository variable PROFILE_INTEL_AUTOMERGE is false. Undo by reverting the merge.',
+    target === 'profile'
+      ? 'Merged automatically once GitHub reports it clean, unless the repository variable PROFILE_INTEL_AUTOMERGE is false. Undo by reverting the merge.'
+      : 'Merged automatically once GitHub reports it clean, unless the kpdagrt22/kpdagrt22 repository variable PROFILE_INTEL_AUTOMERGE is false. The merge deploys thisiskp.in; its build validates this file again and stops the deploy if it is invalid. Undo by reverting the merge.',
     reportUrl ? `\nFull report: ${reportUrl}` : '',
   ]
     .join('\n')
@@ -162,6 +175,26 @@ async function main() {
     }
   }
   const manifest = parseManifest(manifestText);
+
+  // The site's current recent-work.json: the base for its `updated` date, its
+  // diff and its pull request. Read on every run (dry runs too, so they show
+  // the change they would publish). It must be readable when publishing is on.
+  const portfolio = { baseSha: null, baseText: null, known: false };
+  if (args.portfolioBaseFrom) {
+    portfolio.baseText = await readFile(args.portfolioBaseFrom, 'utf8');
+    portfolio.known = true;
+    warnings.push(`Portfolio base read from a local file (--portfolio-base-from) instead of ${CONFIG.portfolioRepo}.`);
+  } else {
+    try {
+      const pRef = await gh.get(`/repos/${CONFIG.portfolioRepo}/git/ref/heads/${CONFIG.baseBranch}`);
+      portfolio.baseSha = pRef.object.sha;
+      portfolio.baseText = await getText(gh, CONFIG.portfolioRepo, CONFIG.portfolioTargetPath, portfolio.baseSha);
+      portfolio.known = true;
+    } catch (err) {
+      if (args.portfolioPublish) throw new Error(`cannot read ${CONFIG.portfolioRepo}, so nothing was published: ${err.message}`);
+      warnings.push(`Could not read ${CONFIG.portfolioRepo} (${err.message}); the portfolio file was dated today.`);
+    }
+  }
 
   // 2. Window. If the manifest has not changed for longer than the window
   //    (a failed run, a pull request left open), reach back to cover the gap.
@@ -280,8 +313,11 @@ async function main() {
   const recent = renderRecent(merged);
   const stack = renderStack(merged);
   const readme = updateReadme(readmeBase, { recent, stack, today });
-  const recentWorkText = serializeRecentWork(buildRecentWork(merged));
-  const oldRecentWorkText = serializeRecentWork(buildRecentWork(manifest));
+  // The site's copy: dated, then held to the site's own schema before anything else.
+  const recentWorkText = serializeRecentWork(validateRecentWork(stampUpdated(buildRecentWork(merged), portfolio.baseText, today)));
+  const portfolioChanged = portfolio.known
+    ? recentWorkText !== portfolio.baseText
+    : serializeRecentWork(buildRecentWork(merged)) !== serializeRecentWork(buildRecentWork(manifest));
 
   // Seed text that no longer appears in the README is worth a look (not an error).
   for (const e of merged.entries) {
@@ -298,6 +334,7 @@ async function main() {
   // 6. Scan every output that could be published, before anything is pushed.
   const readmeDiff = unifiedDiff(readmeBase.replace(/\r\n/g, '\n'), readme.text.replace(/\r\n/g, '\n'), { from: 'a/README.md', to: 'b/README.md' });
   const manifestDiff = unifiedDiff(manifestBase ?? '', newManifestText, { from: `a/${CONFIG.manifestPath}`, to: `b/${CONFIG.manifestPath}` });
+  const portfolioDiff = unifiedDiff(portfolio.baseText ?? '', recentWorkText, { from: `a/${CONFIG.portfolioTargetPath}`, to: `b/${CONFIG.portfolioTargetPath}` });
   const addedLines = (d) => d.split('\n').filter((l) => l.startsWith('+') && !l.startsWith('+++')).join('\n');
   const decisionsJson = `${JSON.stringify(
     repoReports.map((x) => ({
@@ -319,6 +356,7 @@ async function main() {
     { name: 'decisions.json', text: decisionsJson },
     { name: 'README.diff (added lines)', text: addedLines(readmeDiff) },
     { name: 'manifest.diff (added lines)', text: addedLines(manifestDiff) },
+    { name: 'recent-work.diff (added lines)', text: addedLines(portfolioDiff) },
   ];
   // The pull request bodies and the report are scanned too.
   const scannedCount = outputs.length + 3;
@@ -339,6 +377,7 @@ async function main() {
   await writeOut(outDir, `profile/${CONFIG.manifestPath}`, newManifestText);
   await writeOut(outDir, 'profile/manifest.diff', manifestDiff || '(no change)\n');
   await writeOut(outDir, 'portfolio/recent-work.json', recentWorkText);
+  await writeOut(outDir, 'portfolio/recent-work.diff', portfolio.known ? portfolioDiff || '(no change)\n' : '(the site could not be read, so there is no diff)\n');
   await writeOut(outDir, 'decisions.json', decisionsJson);
 
   // 7. Publish (one PR per target), only after every output passed the scanner.
@@ -372,23 +411,23 @@ async function main() {
   if (!args.portfolioPublish) {
     publish.portfolio = {
       status: 'disabled',
-      note: `publishing is off (PORTFOLIO_PUBLISH=false) until thisiskp.in reads ${CONFIG.portfolioTargetPath}; the file is ready in out/portfolio/recent-work.json${recentWorkText !== oldRecentWorkText ? ' (changed this run)' : ''}`,
+      note: `publishing is off (PORTFOLIO_PUBLISH is not true); the file is ready in out/portfolio/recent-work.json${portfolioChanged ? ' (changed this run)' : ''}`,
     };
   } else if (errors.length) {
     publish.portfolio = { status: 'skipped', note: 'not attempted because the profile step failed' };
+  } else if (args.portfolioBaseFrom) {
+    publish.portfolio = portfolioChanged ? { status: 'dry-run', changedPaths: [CONFIG.portfolioTargetPath] } : { status: 'unchanged', changedPaths: [] };
   } else {
     try {
-      const pRef = await gh.get(`/repos/${CONFIG.portfolioRepo}/git/ref/heads/${CONFIG.baseBranch}`);
-      const pBase = await getText(gh, CONFIG.portfolioRepo, CONFIG.portfolioTargetPath, pRef.object.sha);
       publish.portfolio = await publishTarget(
         gh,
         {
           repo: CONFIG.portfolioRepo,
           owner: CONFIG.login,
           baseBranch: CONFIG.baseBranch,
-          baseSha: pRef.object.sha,
+          baseSha: portfolio.baseSha,
           branch: CONFIG.branch,
-          files: [{ path: CONFIG.portfolioTargetPath, content: recentWorkText, baseContent: pBase }],
+          files: [{ path: CONFIG.portfolioTargetPath, content: recentWorkText, baseContent: portfolio.baseText }],
           title: `Recent work data, ${humanDate(today)} [profile-intel]`,
           body: portfolioBody,
           commitMessage: `chore(profile-intel): refresh recent work data, ${humanDate(today)} [profile-intel]`,
@@ -433,7 +472,7 @@ async function main() {
     entryFor,
     readme: { changed: readme.changed, blocksChanged: readme.blocksChanged, stat: diffStat(readmeBase.replace(/\r\n/g, '\n'), readme.text.replace(/\r\n/g, '\n')) },
     manifestChanged: newManifestText !== manifestBase,
-    portfolio: { changed: recentWorkText !== oldRecentWorkText, items: JSON.parse(recentWorkText).items.length, stamped: portfolioChangedIds.length },
+    portfolio: { changed: portfolioChanged, items: JSON.parse(recentWorkText).items.length, stamped: portfolioChangedIds.length },
     tech: techResults,
     publish,
     scanner: { ok: true, files: scannedCount },
