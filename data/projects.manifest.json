@@ -43,8 +43,8 @@
       "source": "manual",
       "readmeSection": "Flagship work",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-11-04",
-      "lastPortfolioUpdate": "2026-11-04",
+      "lastMeaningfulActivity": "2026-11-07",
+      "lastPortfolioUpdate": "2026-11-09",
       "technologyEvidence": {
         "FastAPI": {
           "kind": "framework",
@@ -61,6 +61,10 @@
         "pandas": {
           "kind": "framework",
           "reason": "declared in backend/pyproject.toml; imported in backend/src/astro_finance/main.py"
+        },
+        "Playwright": {
+          "kind": "framework",
+          "reason": "declared in frontend/package.json; configured in frontend/playwright.config.ts"
         },
         "PyArrow": {
           "kind": "framework",
@@ -117,87 +121,87 @@
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#12",
-          "date": "2026-11-04T05:20:25Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/12",
-          "title": "Events Phase D: weekly data refresh and model lifecycle"
+          "ref": "kpdagrt22/strikehike-monorepo#26",
+          "date": "2026-11-07T05:58:07Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/26",
+          "title": "Growth P6: Caddy access logs, snippet-dir migration, weekly aggregates export"
+        },
+        {
+          "type": "commit",
+          "ref": "kpdagrt22/strikehike-monorepo@690fe5c613be64d3938969ccf2f19f90c7e4c537",
+          "date": "2026-11-06T14:25:59Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/690fe5c613be64d3938969ccf2f19f90c7e4c537",
+          "title": "Upcoming, theme pages and the sitemap render per request, not from the build"
+        },
+        {
+          "type": "commit",
+          "ref": "kpdagrt22/strikehike-monorepo@3eda8164cced3e45944b1eae43343e2e266f2ced",
+          "date": "2026-11-06T14:02:09Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/3eda8164cced3e45944b1eae43343e2e266f2ced",
+          "title": "Deploy: name the probe that fails, so a red deploy is diagnosable"
+        },
+        {
+          "type": "commit",
+          "ref": "kpdagrt22/strikehike-monorepo@0ec83ce4e4bbae964b9be33bccb53a1dbed47d31",
+          "date": "2026-11-06T13:41:18Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/0ec83ce4e4bbae964b9be33bccb53a1dbed47d31",
+          "title": "Gauge captions keep their clarity over the orrery; deploy probes retry a cold atlas"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#11",
-          "date": "2026-11-03T14:00:29Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/11",
-          "title": "Events: refresh the upcoming list within five minutes of a swap"
+          "ref": "kpdagrt22/strikehike-monorepo#27",
+          "date": "2026-11-06T12:55:14Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/27",
+          "title": "Gauge polish: legible score on its own face, a fire that reads as flame"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#10",
-          "date": "2026-11-03T13:53:24Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/10",
-          "title": "Events: FOMC decisions from the Fed's meeting calendar"
+          "ref": "kpdagrt22/strikehike-monorepo#28",
+          "date": "2026-11-06T11:49:54Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/28",
+          "title": "Growth P8: event pages, theme pages, 2027 date pages, event card actions"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#9",
-          "date": "2026-11-03T13:46:56Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/9",
-          "title": "Events workflow: expose the build job's publishable output"
+          "ref": "kpdagrt22/strikehike-monorepo#25",
+          "date": "2026-11-05T11:46:13Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/25",
+          "title": "Growth P5: home promise and first action, always-visible navigation"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#8",
-          "date": "2026-11-03T13:41:36Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/8",
-          "title": "Events: use FRED's single-release calendar endpoint"
+          "ref": "kpdagrt22/strikehike-monorepo#24",
+          "date": "2026-11-05T08:58:53Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/24",
+          "title": "Growth P4: /upcoming page, release times, calendar feeds"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#7",
-          "date": "2026-11-03T13:31:43Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/7",
-          "title": "Events: real scheduled events, five per theme, weekly versioned bundles"
+          "ref": "kpdagrt22/strikehike-monorepo#23",
+          "date": "2026-11-05T06:33:27Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/23",
+          "title": "Fix feedback: stored messages answer 204 and show Sent"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#6",
-          "date": "2026-11-03T10:48:09Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/6",
-          "title": "Regime: 90-day cycle map in the hover card, with an on/off switch"
+          "ref": "kpdagrt22/strikehike-monorepo#22",
+          "date": "2026-11-05T06:17:05Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/22",
+          "title": "Growth P3: first-party measurement + feedback that reaches KP"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#5",
-          "date": "2026-11-03T10:07:45Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/5",
-          "title": "Regime: colour-keyed asset pills, compare checkboxes, ROI % / Price"
+          "ref": "kpdagrt22/strikehike-monorepo#21",
+          "date": "2026-11-04T13:28:51Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/21",
+          "title": "Deploy: a passing rollback rehearsal ends green"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#4",
-          "date": "2026-11-03T09:55:11Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/4",
-          "title": "CI: pin runners to ubuntu-24.04"
-        },
-        {
-          "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#3",
-          "date": "2026-11-03T09:50:32Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/3",
-          "title": "SEO/GEO: server-rendered content, metadata, structured data and share cards"
-        },
-        {
-          "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#2",
-          "date": "2026-10-29T02:55:18Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/2",
-          "title": "Regime: distinct colours for assets and Core Index states"
-        },
-        {
-          "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#1",
-          "date": "2026-10-29T02:07:53Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/1",
-          "title": "Quiet-luxury rebuild: header, smooth Regime, Core Index v2, case catalogue, Study of Patterns v2"
+          "ref": "kpdagrt22/strikehike-monorepo#20",
+          "date": "2026-11-04T13:17:38Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/20",
+          "title": "Fix deploy: drop script_stop so the new probes run"
         }
       ]
     },
@@ -493,6 +497,11 @@
         },
         {
           "type": "pr",
+          "ref": "private:e711a9742d4db521",
+          "date": "2026-11-04T06:57:33Z"
+        },
+        {
+          "type": "pr",
           "ref": "private:d844ba2ad4d8265d",
           "date": "2026-11-04T05:55:47Z"
         },
@@ -545,11 +554,6 @@
           "type": "commit",
           "ref": "private:fef3c1f14930570b",
           "date": "2026-10-27T07:44:51Z"
-        },
-        {
-          "type": "commit",
-          "ref": "private:c9e66ddab09865b9",
-          "date": "2026-10-25T07:59:20Z"
         }
       ]
     },
@@ -1270,6 +1274,21 @@
       "evidence": [
         {
           "type": "pr",
+          "ref": "private:68047166d8b0ace6",
+          "date": "2026-11-04T08:16:04Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:b69a1551ecef5bd1",
+          "date": "2026-11-04T07:41:36Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:560eef53583382f0",
+          "date": "2026-11-04T07:30:29Z"
+        },
+        {
+          "type": "pr",
           "ref": "private:f8313bbc827895b6",
           "date": "2026-11-04T05:56:01Z"
         },
@@ -1277,6 +1296,81 @@
           "type": "repo",
           "ref": "private:72d8d18e8c563e52",
           "date": "2026-10-31T09:21:49Z"
+        }
+      ]
+    },
+    {
+      "id": "repo-strikehike-growth-ops",
+      "name": "strikehike-growth-ops",
+      "shortDescription": "Python codebase, created Nov 2026.",
+      "detailedDescription": null,
+      "category": "project",
+      "role": "repository owner",
+      "status": null,
+      "verifiedContributions": [],
+      "technologies": [
+        "Python"
+      ],
+      "repo": "kpdagrt22/strikehike-growth-ops",
+      "repoUrl": null,
+      "liveUrl": null,
+      "visibility": "private",
+      "publication": "approved",
+      "source": "auto",
+      "firstDiscovered": "2026-11-09",
+      "lastMeaningfulActivity": "2026-11-07",
+      "lastPortfolioUpdate": "2026-11-09",
+      "technologyEvidence": {
+        "Python": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        }
+      },
+      "evidence": [
+        {
+          "type": "repo",
+          "ref": "private:2230b62dad7a7da6",
+          "date": "2026-11-07T05:36:56Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:ae5563f203fc1dae",
+          "date": "2026-11-06T11:03:34Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:12832515cc52d33d",
+          "date": "2026-11-06T05:54:27Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:aa6b7222aa74c92a",
+          "date": "2026-11-06T05:54:25Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:fd590be5dba1ded8",
+          "date": "2026-11-06T05:54:25Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:d47eb260903c949d",
+          "date": "2026-11-06T05:54:24Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:66c3f75d615696a7",
+          "date": "2026-11-06T05:54:23Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:94cab203ffc21a67",
+          "date": "2026-11-06T05:54:23Z"
+        },
+        {
+          "type": "commit",
+          "ref": "private:1ca816f5e99062f6",
+          "date": "2026-11-06T05:54:22Z"
         }
       ]
     }
