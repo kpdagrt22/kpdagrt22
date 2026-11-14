@@ -113,7 +113,7 @@ An industrial hiring platform at [jobs.rvmcad.org](https://jobs.rvmcad.org) for 
 - Payment reliability and GST invoicing on Razorpay: webhook signature checks, idempotent capture, invoices for buyers with several GSTINs, and an in-app reconciliation scheduler.
 - Public company profiles, Google Jobs structured data and sitemaps, and candidate onboarding in four languages.
 - Remote interviews on Google Meet. Both sides accept a consent notice before recording starts (my statement, 15 Nov 2026). Restricted spaces, auto-record and auto-transcript flags, attendee add/remove, and reschedule that reuses the same space.
-- The recording lifecycle is a state machine (not started → live → ended → processing → available, or not recorded after 24 hours), delivered in one commit of 5,596 insertions across 70 files, with 616 of 616 tests passing at that commit. [Job Portal on thisiskp.in](https://thisiskp.in/projects#job-portal)
+- The recording lifecycle is a state machine (not started → live → ended → processing → available, or not recorded after 24 hours), delivered in one commit of 5,596 insertions across 70 files, with 616 of 616 tests passing at that commit. [Job Portal interviews on thisiskp.in](https://thisiskp.in/work/interviews-that-run-themselves)
 - The MCP connector: 11 read-only tools, OAuth 2.1 with PKCE, hashed refresh tokens that rotate (reusing one revokes them all), an audience-bound bot identity re-checked on every call, a 7-day default and 400-day cap on queries, and no partial numbers. 141 tests; delivered 12 days before the requested date.
 - Colleagues built the plan-based monetisation, the data bank and the lead dialer, and set up the deploy pipeline.
 
