@@ -111,7 +111,9 @@ An industrial hiring platform at [jobs.rvmcad.org](https://jobs.rvmcad.org) for 
 - One Next.js and Supabase codebase serves all three audiences.
 - Custom JWT sessions for candidates, employers and admins, replacing Supabase Auth, plus role-based admin access with a write-gate.
 - Payment reliability and GST invoicing on Razorpay: webhook signature checks, idempotent capture, invoices for buyers with several GSTINs, and an in-app reconciliation scheduler.
-- Public company profiles, Google Jobs structured data and sitemaps, candidate onboarding in four languages, and remote-interview automation on Google Meet.
+- Public company profiles, Google Jobs structured data and sitemaps, and candidate onboarding in four languages.
+- Remote interviews on Google Meet: restricted spaces, auto-record and auto-transcript flags, attendee add/remove, and reschedule that reuses the same space. Recording starts only after both sides accept the consent notice.
+- The recording lifecycle is a state machine (not started → live → ended → processing → available, or not recorded after 24 hours), delivered in one commit: 5,596 insertions across 70 files, 616 tests. [Job Portal on thisiskp.in](https://thisiskp.in/projects#job-portal)
 - The MCP connector: 11 read-only tools, OAuth 2.1 with PKCE, hashed refresh tokens that rotate (reusing one revokes them all), an audience-bound bot identity re-checked on every call, a 7-day default and 400-day cap on queries, and no partial numbers. 141 tests; delivered 12 days before the requested date.
 - Colleagues built the plan-based monetisation, the data bank and the lead dialer, and set up the deploy pipeline.
 
@@ -189,7 +191,7 @@ Aviation taught me that an inspection only counts if it could have found the fau
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
-  <img src="assets/stack-light.svg" width="100%" alt="Stack used in production or public code; daily drivers marked. Languages: TypeScript (daily), JavaScript, Python (daily), SQL and PL/pgSQL. Frontend: Next.js (daily), React, Vite, Tailwind CSS, TanStack Query, Astro, three.js. Backend: Node.js, NestJS, Express and FastAPI (daily), Fastify, OpenAPI, Zod and Pydantic. Data: PostgreSQL, Supabase and Drizzle ORM (daily), row-level security, Redis, SQLite and Parquet. AI systems: MCP servers, OAuth 2.1 with PKCE, Gemini with Claude fallback, encrypted AI traces, scikit-learn. Infra and DevOps: AWS Lightsail, Docker Compose and GitHub Actions (daily), Caddy, Nginx, PM2, GHCR and ECR, Render. Mail, SMS and payments: Resend, mail API with SMTP fallback, DKIM and DMARC, DLT-route SMS OTP, Razorpay. Quality gates: Vitest, pytest, Playwright, axe-core, gitleaks, semgrep, pnpm audit.">
+  <img src="assets/stack-light.svg" width="100%" alt="Stack used in production or public code; daily drivers marked. Languages: TypeScript (daily), JavaScript, Python (daily), SQL and PL/pgSQL. Frontend: Next.js (daily), React, Vite, Tailwind CSS, TanStack Query, Astro, three.js. Backend: Node.js, NestJS, Express and FastAPI (daily), Fastify, OpenAPI, Zod and Pydantic. Data: PostgreSQL, Supabase and Drizzle ORM (daily), row-level security, Redis, SQLite and Parquet. AI systems: MCP servers, OAuth 2.1 with PKCE, Gemini with Claude fallback, encrypted AI traces, scikit-learn, AI coding agents. Infra and DevOps: AWS Lightsail, Docker Compose and GitHub Actions (daily), Caddy, Nginx, PM2, GHCR and ECR, Render. Mail, SMS and payments: Resend, mail API with SMTP fallback, DKIM and DMARC, DLT-route SMS OTP, Razorpay. Quality gates: Vitest, pytest, Playwright, axe-core, gitleaks, semgrep, pnpm audit. Specialties (my roles, self-reported): AWS Glue, Azure Data Factory, Azure AI Foundry, Prometheus and Grafana.">
 </picture>
 
 <!-- profile-intel:stack:start -->
@@ -212,6 +214,7 @@ Frameworks and libraries: Astro, Claude API, FastAPI, Next.js, pandas, Playwrigh
 | Infra and DevOps | AWS Lightsail, Docker Compose, Caddy, Nginx, PM2, certbot, GitHub Actions, GHCR, Amazon ECR, Render; Azure App Service earlier | every deployed system |
 | Mail, SMS, payments | Resend, transactional mail API with SMTP fallback, DKIM and DMARC, DLT-route SMS OTP, Razorpay | thisiskp.in, Job Portal, Scheduler, BadaBhai |
 | Quality and security gates | Vitest, pytest, Playwright, axe-core, gitleaks, semgrep, pnpm audit | across systems and the public prototypes |
+| Specialties (from my roles) | AWS Glue, Azure Data Factory, Azure AI Foundry, Prometheus, Grafana | my roles (self-reported) |
 
 </details>
 
@@ -273,8 +276,17 @@ M.Tech, Cryogenics and Vacuum Technology, NIT Rourkela (2015–17)&nbsp;·&nbsp;
 
 ## Now
 
-<sub>OCTOBER 2026</sub><br>
+<sub>AS OF 28 OCT 2026</sub><br>
 Taking Team RVM from a live backend to its first users. Next, once RVM's Google Play organisation account is approved: a closed-testing pilot with one branch for two weeks, before any wider rollout.
+
+## Next
+
+<sub>AS OF 14 NOV 2026</sub><br>
+**Kubernetes certification**&nbsp;·&nbsp;in training&nbsp;·&nbsp;target: soon&nbsp;·&nbsp;[upstream docs PR #142729](https://github.com/kubernetes/kubernetes/pull/142729)<br>
+**Terraform certification**&nbsp;·&nbsp;planned&nbsp;·&nbsp;target: soon<br>
+**In-house GPU inference**&nbsp;·&nbsp;planned&nbsp;·&nbsp;target: soon
+
+Planned and in progress; listed here as intentions, not experience.
 
 ## Credentials
 
@@ -282,11 +294,11 @@ Taking Team RVM from a live backend to its first users. Next, once RVM's Google 
 <summary>Ten certifications, each with a public verification link</summary>
 <br>
 
+- [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-in/PRAKASHK-6405/76FFE98A20B109E7?sharingId) · Microsoft · Jun 2025, expired Jun 2026 (Microsoft has retired it)
 - [Oracle Cloud Infrastructure 2025 Certified Generative AI Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=1C5E1382A399A3088D16219C858EE90F8C897CDBBC6B9F7E7CE9EE2A93325EB0) · Oracle · Oct 2025, valid to Oct 2027
 - [Oracle AI Database@AWS Certified Architect Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=23AF2A68AAB40306A8572592A57A2AEC63815E55F7A179CE96F411DA4E7D7955) · Oracle · Oct 2025
 - [AI Agent Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/IC2XGE86F8BL) · Coursera and Vanderbilt University · May 2025
 - [Microsoft AI & ML Engineering Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/TJHMC7MXOPLO) · Coursera and Microsoft · May 2025
-- [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-in/PRAKASHK-6405/76FFE98A20B109E7?sharingId) · Microsoft · Jun 2025, expired Jun 2026 (Microsoft has retired it)
 - [Docker Foundations Professional Certificate](https://www.linkedin.com/learning/certificates/7e08d4f903051847edb643847c6ebd79df4911de65fbaf7722c9206cd7e9ffcb) · LinkedIn Learning and Docker · May 2025
 - [Data Science Professional Certificate by KNIME](https://www.linkedin.com/learning/certificates/95d4381c889fd54fd4e8fc8452bd347394538e33441b5a3df126cbd7519863de) · LinkedIn Learning and KNIME · May 2025
 - [Atlassian Agile Project Management Professional Certificate](https://www.linkedin.com/learning/certificates/ad3304d20a0ff299403f29ea6c20bcef42cea90c956318bfa747792317147bd8) · LinkedIn Learning and Atlassian · May 2025
@@ -295,11 +307,25 @@ Taking Team RVM from a live backend to its first users. Next, once RVM's Google 
 
 </details>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/small-print-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/small-print-light.svg">
+  <img src="assets/small-print-light.svg" width="100%" alt="The best engineer money can buy. Runs on one cup of coffee. Not cheap. Mind it.">
+</picture>
+
+<details>
+<summary>Read the small print</summary>
+<br>
+
+**Looking for the best engineer money can buy?** Nerdy, trustworthy, agile and adaptable. Pulls all-nighters on one cup of coffee. Treats deadlines as personal insults. Always learning, quietly competitive, leads from the front and thinks three moves ahead. **Then I'm the engineer you were looking for.** *Small print: good things come at a cost. Mind it.*
+
+</details>
+
 ## Contact
 
 [k.prakashofficial@gmail.com](mailto:k.prakashofficial@gmail.com)&nbsp;·&nbsp;[LinkedIn](https://www.linkedin.com/in/prakash-kantumutchu)&nbsp;·&nbsp;roles: [thisiskp.in/hire](https://thisiskp.in/hire)&nbsp;·&nbsp;consulting: [thisiskp.in/consulting](https://thisiskp.in/consulting)
 
-Based in Faridabad, Delhi NCR, India. If you're building something where AI has to touch real data, I'd like to hear about it.
+Based in Faridabad, Delhi NCR, India. Open to remote, hybrid and on-site roles, in any location. If you're building something where AI has to touch real data, I'd like to hear about it.
 
 <details>
 <summary><sub>How the numbers on this page were measured</sub></summary>
@@ -313,5 +339,7 @@ Measured on 28 Oct 2026 from git, the GitHub API and CI logs, read-only. Only co
 - **47% of commits change a test:** 1,117 of my 2,397 non-merge commits across 20 product repositories touch a test file (BadaBhai counted from 26 Jun 2026).
 - **The Scheduler before and after:** the committed tree at the parent of my first commit in each repository (30 Apr 2026) against `main` on 28 Oct 2026, read with `git ls-tree` and `git grep`. API routes are the `router.get/post/put/patch/delete` registrations, screens are the page modules routed in the frontend's `App.tsx`, migrations are the timestamped SQL files, and the current test totals come from the CI runs on `main` on 28 Oct 2026.
 - **Per-project figures** (commit and pull-request shares, migration commits, deployment records, test counts and connector tool counts) come from the same sources, from each project's CI logs and from the connector's live manifest, and are dated where they appear.
+
+“Next” items and specialties are my own statements of 14 Nov 2026; the specialties are from my roles, not public artefacts.
 
 </details>
