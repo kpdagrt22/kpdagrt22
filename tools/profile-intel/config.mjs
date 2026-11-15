@@ -7,6 +7,7 @@ export const CONFIG = Object.freeze({
   baseBranch: 'main',
   branch: 'auto/profile-intel',
   manifestPath: 'data/projects.manifest.json',
+  figuresPath: 'data/figures.json',
   readmePath: 'README.md',
 
   // thisiskp.in (Astro): "Recently built" on /projects reads this file and its
@@ -14,6 +15,7 @@ export const CONFIG = Object.freeze({
   // merge to the site's main deploys it.
   portfolioRepo: 'kpdagrt22/thisiskp',
   portfolioTargetPath: 'src/data/recent-work.json',
+  portfolioFiguresPath: 'src/data/figures.json',
 
   // The profile repository itself is never a project: the pipeline's own pull
   // requests land there and would otherwise count as "activity".
@@ -96,6 +98,7 @@ export const GENERATED_RE = new RegExp(
     String.raw`\.map$`,
     String.raw`\.snap$`,
     String.raw`(^|/)src/data/recent-work\.json$`,
+    String.raw`(^|/)(?:src/)?data/figures\.json$`,
   ].join('|'),
 );
 

@@ -29,6 +29,7 @@ import { CONFIG } from './config.mjs';
 import { diffStat, unifiedDiff } from './diff.mjs';
 import { discoverRepos } from './discover.mjs';
 import { verifyEvidence } from './evidence.mjs';
+import { applyGuards, measureWeekly, serializeFigures, updateFiguresBlock, writeFiguresAtomically } from './figures.mjs';
 import { checkPublicUrl, createClient } from './github.mjs';
 import { findEntryForRepo, mergeRun, parseManifest, serializeManifest, storableEvidence, validateManifest } from './manifest.mjs';
 import { buildRecentWork, serializeRecentWork, stampPortfolioUpdates, stampUpdated, validateRecentWork } from './portfolio.mjs';
@@ -151,6 +152,7 @@ async function main() {
   const errors = [];
   const warnings = [];
   const gh = createClient({ token: process.env.GH_TOKEN, log });
+  const figuresGh = process.env.FIGURES_TOKEN ? createClient({ token: process.env.FIGURES_TOKEN, log }) : null;
   log(`${args.dryRun ? 'dry run' : 'live run'}; window ${args.sinceDays} days; auto-merge ${args.automerge ? 'on' : 'off'}; portfolio publishing ${args.portfolioPublish ? 'on' : 'off'}`);
 
   // 1. The base this run builds on.
@@ -159,10 +161,19 @@ async function main() {
   let readmeBase;
   let manifestBase;
   let manifestText;
+  let figuresBase;
+  let figuresText;
   if (args.baseFrom) {
     readmeBase = await readFile(path.join(args.baseFrom, CONFIG.readmePath), 'utf8');
     manifestBase = await readFile(path.join(args.baseFrom, CONFIG.manifestPath), 'utf8');
     manifestText = manifestBase;
+    try {
+      figuresBase = await readFile(path.join(args.baseFrom, CONFIG.figuresPath), 'utf8');
+      figuresText = figuresBase;
+    } catch {
+      figuresBase = null;
+      figuresText = await readFile(path.join(REPO_ROOT, CONFIG.figuresPath), 'utf8');
+    }
     warnings.push(`Base read from a local directory (--base-from) instead of ${CONFIG.baseBranch}: a dry-run simulation of the run after a merge.`);
   } else {
     readmeBase = await getText(gh, CONFIG.profileRepo, CONFIG.readmePath, baseSha);
@@ -173,15 +184,19 @@ async function main() {
       manifestText = await readFile(path.join(REPO_ROOT, CONFIG.manifestPath), 'utf8');
       warnings.push(`${CONFIG.manifestPath} is not on ${CONFIG.baseBranch} yet; started from the seed in this checkout.`);
     }
+    figuresBase = await getText(gh, CONFIG.profileRepo, CONFIG.figuresPath, baseSha);
+    figuresText = figuresBase ?? (await readFile(path.join(REPO_ROOT, CONFIG.figuresPath), 'utf8'));
   }
   const manifest = parseManifest(manifestText);
+  const previousFigures = JSON.parse(figuresText);
 
-  // The site's current recent-work.json: the base for its `updated` date, its
+  // The site's current recent-work.json and figures.json: the base for its `updated` date, its
   // diff and its pull request. Read on every run (dry runs too, so they show
   // the change they would publish). It must be readable when publishing is on.
-  const portfolio = { baseSha: null, baseText: null, known: false };
+  const portfolio = { baseSha: null, baseText: null, figuresBaseText: null, known: false };
   if (args.portfolioBaseFrom) {
     portfolio.baseText = await readFile(args.portfolioBaseFrom, 'utf8');
+    portfolio.figuresBaseText = figuresText;
     portfolio.known = true;
     warnings.push(`Portfolio base read from a local file (--portfolio-base-from) instead of ${CONFIG.portfolioRepo}.`);
   } else {
@@ -189,6 +204,7 @@ async function main() {
       const pRef = await gh.get(`/repos/${CONFIG.portfolioRepo}/git/ref/heads/${CONFIG.baseBranch}`);
       portfolio.baseSha = pRef.object.sha;
       portfolio.baseText = await getText(gh, CONFIG.portfolioRepo, CONFIG.portfolioTargetPath, portfolio.baseSha);
+      portfolio.figuresBaseText = await getText(gh, CONFIG.portfolioRepo, CONFIG.portfolioFiguresPath, portfolio.baseSha);
       portfolio.known = true;
     } catch (err) {
       if (args.portfolioPublish) throw new Error(`cannot read ${CONFIG.portfolioRepo}, so nothing was published: ${err.message}`);
@@ -313,11 +329,40 @@ async function main() {
   const recent = renderRecent(merged);
   const stack = renderStack(merged);
   const readme = updateReadme(readmeBase, { recent, stack, today });
+
+  // 5b. Weekly figures measurement and guards.
+  const { measured: measuredFigures, unconfigured: unconfiguredFigures, notices: figureNotices, methods: figureMethods } = await measureWeekly(gh, {
+    figuresGh,
+    today,
+    log,
+  });
+  for (const n of figureNotices) warnings.push(n);
+  const figuresGuard = applyGuards(previousFigures, measuredFigures, { today, unconfigured: unconfiguredFigures });
+  let newFiguresText = figuresText;
+  if (!figuresGuard.publish) {
+    errors.push(`Figures check failed: ${figuresGuard.held} of ${figuresGuard.configured} configured weekly figures were HELD (> 1/3); figures were not published.`);
+    process.exitCode = 1;
+  } else {
+    for (const [id, method] of Object.entries(figureMethods ?? {})) {
+      const f = figuresGuard.figures.find((x) => x.id === id);
+      if (f) f.method = `${String(f.method).replace(/; unlinked-author aliases .*$/, '')}; ${method}`;
+    }
+    newFiguresText = serializeFigures(previousFigures, figuresGuard, today);
+    const figBlock = updateFiguresBlock(readme.text, figuresGuard.figures, humanDate(today));
+    if (figBlock.changed) {
+      readme.text = figBlock.text;
+      readme.changed = readme.text !== readmeBase;
+      if (!readme.blocksChanged.includes('figures')) readme.blocksChanged.push('figures');
+    }
+  }
+
   // The site's copy: dated, then held to the site's own schema before anything else.
   const recentWorkText = serializeRecentWork(validateRecentWork(stampUpdated(buildRecentWork(merged), portfolio.baseText, today)));
-  const portfolioChanged = portfolio.known
-    ? recentWorkText !== portfolio.baseText
-    : serializeRecentWork(buildRecentWork(merged)) !== serializeRecentWork(buildRecentWork(manifest));
+  const figuresChanged = figuresGuard.publish && (portfolio.known ? newFiguresText !== portfolio.figuresBaseText : newFiguresText !== figuresText);
+  const portfolioChanged =
+    (portfolio.known
+      ? recentWorkText !== portfolio.baseText
+      : serializeRecentWork(buildRecentWork(merged)) !== serializeRecentWork(buildRecentWork(manifest))) || figuresChanged;
 
   // Seed text that no longer appears in the README is worth a look (not an error).
   for (const e of merged.entries) {
@@ -352,7 +397,9 @@ async function main() {
   const outputs = [
     { name: 'README.md (generated blocks)', text: generatedBlocks(readme.text) },
     { name: CONFIG.manifestPath, text: newManifestText },
+    { name: CONFIG.figuresPath, text: newFiguresText },
     { name: 'portfolio/recent-work.json', text: recentWorkText },
+    { name: 'portfolio/figures.json', text: newFiguresText },
     { name: 'decisions.json', text: decisionsJson },
     { name: 'README.diff (added lines)', text: addedLines(readmeDiff) },
     { name: 'manifest.diff (added lines)', text: addedLines(manifestDiff) },
@@ -376,7 +423,10 @@ async function main() {
   await writeOut(outDir, 'profile/README.diff', readmeDiff || '(no change)\n');
   await writeOut(outDir, `profile/${CONFIG.manifestPath}`, newManifestText);
   await writeOut(outDir, 'profile/manifest.diff', manifestDiff || '(no change)\n');
+  await mkdir(path.join(outDir, 'profile/data'), { recursive: true });
+  await writeFiguresAtomically(path.join(outDir, `profile/${CONFIG.figuresPath}`), newFiguresText);
   await writeOut(outDir, 'portfolio/recent-work.json', recentWorkText);
+  await writeFiguresAtomically(path.join(outDir, 'portfolio/figures.json'), newFiguresText);
   await writeOut(outDir, 'portfolio/recent-work.diff', portfolio.known ? portfolioDiff || '(no change)\n' : '(the site could not be read, so there is no diff)\n');
   await writeOut(outDir, 'decisions.json', decisionsJson);
 
@@ -384,6 +434,11 @@ async function main() {
   const publish = { profile: null, portfolio: null };
   await writeOut(outDir, 'pr-body.md', finalBody);
   try {
+    const profileFiles = [
+      { path: CONFIG.readmePath, content: readme.text, baseContent: readmeBase },
+      { path: CONFIG.manifestPath, content: newManifestText, baseContent: manifestBase },
+      ...(figuresGuard.publish ? [{ path: CONFIG.figuresPath, content: newFiguresText, baseContent: figuresBase }] : []),
+    ];
     publish.profile = await publishTarget(
       gh,
       {
@@ -392,10 +447,7 @@ async function main() {
         baseBranch: CONFIG.baseBranch,
         baseSha,
         branch: CONFIG.branch,
-        files: [
-          { path: CONFIG.readmePath, content: readme.text, baseContent: readmeBase },
-          { path: CONFIG.manifestPath, content: newManifestText, baseContent: manifestBase },
-        ],
+        files: profileFiles,
         title: `Weekly profile update, ${humanDate(today)} [profile-intel]`,
         body: finalBody,
         commitMessage: `chore(profile-intel): weekly profile update, ${humanDate(today)} [profile-intel]`,
@@ -416,9 +468,15 @@ async function main() {
   } else if (errors.length) {
     publish.portfolio = { status: 'skipped', note: 'not attempted because the profile step failed' };
   } else if (args.portfolioBaseFrom) {
-    publish.portfolio = portfolioChanged ? { status: 'dry-run', changedPaths: [CONFIG.portfolioTargetPath] } : { status: 'unchanged', changedPaths: [] };
+    publish.portfolio = portfolioChanged
+      ? { status: 'dry-run', changedPaths: [CONFIG.portfolioTargetPath, ...(figuresChanged ? [CONFIG.portfolioFiguresPath] : [])] }
+      : { status: 'unchanged', changedPaths: [] };
   } else {
     try {
+      const portfolioFiles = [
+        { path: CONFIG.portfolioTargetPath, content: recentWorkText, baseContent: portfolio.baseText },
+        ...(figuresGuard.publish ? [{ path: CONFIG.portfolioFiguresPath, content: newFiguresText, baseContent: portfolio.figuresBaseText }] : []),
+      ];
       publish.portfolio = await publishTarget(
         gh,
         {
@@ -427,7 +485,7 @@ async function main() {
           baseBranch: CONFIG.baseBranch,
           baseSha: portfolio.baseSha,
           branch: CONFIG.branch,
-          files: [{ path: CONFIG.portfolioTargetPath, content: recentWorkText, baseContent: portfolio.baseText }],
+          files: portfolioFiles,
           title: `Recent work data, ${humanDate(today)} [profile-intel]`,
           body: portfolioBody,
           commitMessage: `chore(profile-intel): refresh recent work data, ${humanDate(today)} [profile-intel]`,

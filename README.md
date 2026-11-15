@@ -17,10 +17,15 @@ By title I'm a Technical Product Manager at RVM CAD; in practice I own, lead and
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/numbers-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/numbers-light.svg">
-  <img src="assets/numbers-light.svg" width="100%" alt="By the numbers, from git and the GitHub API on 28 October 2026: 5 deployed systems whose first commit is mine; 47% of my commits also change a test file; 3,048 commits to main branches in the last 12 months across 34 repositories; 1,056 merged pull requests authored, across all repositories.">
+  <img src="assets/numbers-light.svg" width="100%" alt="By the numbers, from git and the GitHub API on 15 November 2026: 5 deployed systems whose first commit is mine; 47% of my commits also change a test file; 3,530 commits to main branches in the last 12 months across 37 repositories; 1,318 merged pull requests authored, across all repositories.">
 </picture>
 
 <sub>Method and commands at the end of the page.</sub>
+
+<!-- profile-intel:figures:start -->
+**Live figures** <sub>(measured 15 Nov 2026)</sub><br>
+**3,530** commits in 12 months · **1,318** merged pull requests · **5** deployed systems whose first commit is mine
+<!-- profile-intel:figures:end -->
 
 - **Four platforms at RVM CAD, owned, led and architected by me:** BadaBhai (live alpha), the RVM CAD Job Portal (live), the RVM CAD Scheduler (live, internal) and Team RVM (backend live, pilot next).
 - **Guardrails before AI touches data.** Read-only MCP connectors with bound identities and logged calls, an encrypted AI trace store, and model routing that falls back and caps spend.
@@ -79,29 +84,29 @@ I built and run every layer: domain and DNS, an AWS Lightsail server, Docker Com
 
 ### RVM CAD systems
 
-<sub>Company-owned code; described as on <a href="https://thisiskp.in/projects">thisiskp.in/projects</a>. Figures from git, the GitHub API and CI logs, 28 Oct 2026.</sub>
+<sub>Company-owned code; described as on <a href="https://thisiskp.in/projects">thisiskp.in/projects</a>. Figures from git, the GitHub API and CI logs, 15 Nov 2026.</sub>
 
-**BadaBhai**&nbsp;·&nbsp;live alpha&nbsp;·&nbsp;owner, lead and architect, team of three&nbsp;·&nbsp;840 of 1,625 merged PRs<br>
+**BadaBhai**&nbsp;·&nbsp;live alpha&nbsp;·&nbsp;owner, lead and architect, team of three&nbsp;·&nbsp;869 of 1,812 merged PRs<br>
 An AI placement platform for skilled-trade workers in India: a Hinglish (Hindi and English) chat turns a worker with no résumé into a profile and a one-page trade résumé, then connects them to employer postings.
 
 <details>
 <summary>What I built on BadaBhai, and what the team built</summary>
 <br>
 
-- I made the platform's first commit; 1,170 of the 2,102 commits on its main branch are mine.
+- I made the platform's first commit; 1,217 of the 2,381 commits on its main branch are mine.
 - Organisation tenancy across 15 business tables with no new column, no backfill and no API change: one resolver, a branded tenant key and an off → shadow → on switch.
 - An encrypted trace store for six AI call sites. The database rejects anything that isn't AES-256-GCM ciphertext, erasing a worker removes their traces by construction, and decrypting is a separate, audited act.
 - A deterministic one-page résumé engine: 56 of 56 fixture sheets fit one A4 page, 32 tests guard against invented facts, and a font contract fails the PDF rather than ship it with the wrong fonts.
 - A handle-based relay that keeps workers' phone numbers off the employer path, with consent re-checked at the moment of use.
 - Model routing with Gemini first and Claude as fallback, behind spend caps and a kill switch; Matching V1 and feed pagination, built behind flags.
-- Continuous deployment to AWS Lightsail with health gates and immutable image tags: 767 commits deployed to production since 18 Aug 2026 (818 deployment records, 32 of them failed).
+- Continuous deployment to AWS Lightsail with health gates and immutable image tags: 934 commits deployed to production since 18 Aug 2026 (997 deployment records, 42 of them failed).
 - Most of the CI: 96 of the 153 workflow commits since 26 Jun 2026, including the static-analysis and dependency-audit gates. 647 of my 896 non-merge commits there in that period also change a test file.
 - My teammates built the deterministic profiling interview, the free-chat assistant and its routing, the chat evaluation harness, most of the Flutter worker app and the skills taxonomy.
 - Limits: live alpha. No revenue, retention or scale claims; several matching and feed capabilities are still behind flags.
 
 </details>
 
-**RVM CAD Job Portal**&nbsp;·&nbsp;live&nbsp;·&nbsp;owner, lead and architect&nbsp;·&nbsp;399 of 856 commits, the most of anyone<br>
+**RVM CAD Job Portal**&nbsp;·&nbsp;live&nbsp;·&nbsp;owner, lead and architect&nbsp;·&nbsp;399 of 866 commits, the most of anyone<br>
 An industrial hiring platform at [jobs.rvmcad.org](https://jobs.rvmcad.org) for candidates, verified employers and RVM's placement team, with a read-only MCP connector I built so an AI placement bot can read live numbers without a database credential.
 
 <details>
@@ -119,27 +124,27 @@ An industrial hiring platform at [jobs.rvmcad.org](https://jobs.rvmcad.org) for 
 
 </details>
 
-**RVM CAD Scheduler**&nbsp;·&nbsp;live, internal&nbsp;·&nbsp;owner, lead and architect since Apr 2026&nbsp;·&nbsp;API routes 116 → 534<br>
-The operations platform of a four-branch CAD/CAM training institute, from admissions and fees to staff attendance, HR and inventory. A colleague started it in 2025 and built its first version; since I took ownership in April 2026 I have led, re-architected and expanded it. From my first commit (30 Apr) to 28 Oct 2026 it grew from 116 to 534 API routes, from 24 to 43 screens and from one baseline schema file to 152 database migrations, and its backend went from no automated tests to 2,556 passing in CI.
+**RVM CAD Scheduler**&nbsp;·&nbsp;live, internal&nbsp;·&nbsp;owner, lead and architect since Apr 2026&nbsp;·&nbsp;API routes 116 → 692<br>
+The operations platform of a four-branch CAD/CAM training institute, from admissions and fees to staff attendance, HR and inventory. A colleague started it in 2025 and built its first version; since I took ownership in April 2026 I have led, re-architected and expanded it. From my first commit (30 Apr) to 15 Nov 2026 it grew from 116 to 692 API routes, from 24 to 46 screens and from one baseline schema file to 222 database migrations, and its backend went from no automated tests to 3,640 passing in CI.
 
 <details>
 <summary>What changed on the Scheduler since April 2026, and what colleagues built</summary>
 <br>
 
-- **Architecture:** a service layer between the routes and the database (from 0 to 41 service modules), versioned migrations, role-based access tests, and a backend deploy that lints the migrations and runs the whole test suite before it ships. Before, the deploy was a single SSH step with no tests.
-- **My share:** 837 of the 950 commits made on its two repositories since my first one, 113 of its 125 migration commits, and 162 of the 175 pull requests merged since pull requests began on 10 Aug 2026.
+- **Architecture:** a service layer between the routes and the database (from 0 to 59 service modules), versioned migrations, role-based access tests, and a backend deploy that lints the migrations and runs the whole test suite before it ships. Before, the deploy was a single SSH step with no tests.
+- **My share:** 1,096 of the 1,220 commits made on its two repositories since my first one, and 297 of the 310 pull requests merged since pull requests began on 10 Aug 2026.
 - A five-table append-only audit trail (actor and role at the time, allow-listed before-and-after values, redaction) with eight read-only investigation tools bound to the CEO's account and no raw SQL.
-- An operations and HR connector for the company's AI bots, built the same way: 57 read-only tools in its live manifest on 28 Oct 2026, 55 of which serve data.
+- An operations and HR connector for the company's AI bots, built the same way: 92 read-only tools.
 - Staff attendance with layered controls against proxy punching: mobile-only punches, GPS accuracy and a geofence, one bound phone per employee, a short-lived signed challenge, shift and late rules, and a midnight close.
 - HRMS: employee records, org chart, compensation history, documents and hiring pipelines.
 - The DLT-route SMS OTP module and the transactional email module.
 - Deploys that test the Nginx config before reloading, back out the newly enabled site if that test fails, and issue certificates during the deploy.
-- Tests in CI on 28 Oct 2026: 2,556 backend tests in 118 files and 333 frontend tests in 27 files, all passing. Before April there were no backend tests and one frontend test file.
+- Tests in CI on 15 Nov 2026: 3,640 backend tests in 216 files and 371 frontend tests in 31 files, all passing. Before April there were no backend tests and one frontend test file.
 - A colleague started the Scheduler in September 2025 and built its first version: batch scheduling and allotment, faculty substitutions, student intake and admissions, fees and receipts, tickets and the first CEO dashboard. Since April, colleagues have also built faculty leave and student holds, collection-rate reporting, and QR-verified completion certificates with invoice fixes.
 
 </details>
 
-**Team RVM**&nbsp;·&nbsp;backend live, pilot next&nbsp;·&nbsp;owner, lead and architect&nbsp;·&nbsp;24 green deploys in 12 days<br>
+**Team RVM**&nbsp;·&nbsp;backend live, pilot next&nbsp;·&nbsp;owner, lead and architect&nbsp;·&nbsp;31 green deploys since 16 Oct 2026<br>
 RVM CAD's employee self-service Android app, with its backend live since 16 Oct 2026. I turned the brief into recorded product decisions and 21 architecture decision records, wrote the API contract, and built the backend, migrations and delivery pipeline. The Flutter app is built by our mobile developer against my contract.
 
 <details>
@@ -147,12 +152,12 @@ RVM CAD's employee self-service Android app, with its backend live since 16 Oct 
 <br>
 
 - Features: attendance with location, requests and approvals, an inbox, a staff wall, a helpdesk, documents, an ID card and My Team.
-- I made the first commit, and 76 of its 122 commits are mine, including every commit to the API contract and the database migrations and 18 of the 19 workflow commits.
+- I made the first commit, and 89 of its 147 commits are mine, including every commit to the API contract and the database migrations and 18 of the 19 workflow commits.
 - A separate Node and Express service with its own process and subdomain. It shares the Scheduler's database and adds only its own tables; its writes to Scheduler data are limited to six sanctioned, audited cases, and attendance approvals go through HR's own override function. It verifies the Scheduler's sign-in token locally, so one sign-in works for both and the Scheduler's code doesn't change.
-- Contract-first: one OpenAPI 3.1 file (version 0.14.0, 130 paths, 155 operations), linted in CI. 1,320 contract tests check every reply against it and exercise every documented status.
-- 36 additive migrations that never touch a Scheduler table and are safe to run twice, with rollback scripts for 34 of them. Until a migration is applied, its endpoints answer a clear 503, so code can ship ahead of the database.
-- 2,727 tests passing in CI on Node 20 and Node 24; CI also lints the contract and tests the Nginx config on two Nginx versions.
-- A merge to `main` deploys automatically, behind an on/off switch, once the tests and Nginx checks pass, and the deploy waits until the health check reports the new commit: 24 production deploys between 16 and 27 Oct 2026, all green.
+- Contract-first: one OpenAPI 3.1 file (version 0.16.0, 137 paths, 163 operations), linted in CI. 1,321 contract tests check every reply against it and exercise every documented status.
+- 41 additive migrations that never touch a Scheduler table and are safe to run twice, with rollback scripts for 41 of them. Until a migration is applied, its endpoints answer a clear 503, so code can ship ahead of the database.
+- 2,735 tests passing in CI on Node 20 and Node 24; CI also lints the contract and tests the Nginx config on two Nginx versions.
+- A merge to `main` deploys automatically, behind an on/off switch, once the tests and Nginx checks pass, and the deploy waits until the health check reports the new commit: 31 production deploys since 16 Oct 2026, all green.
 - Push notifications are built, and write to the log until the company's push-notification project is set up.
 - Next, once RVM's Google Play organisation account is approved: a closed-testing pilot with one branch for two weeks. The app has not been rolled out to employees yet.
 
@@ -161,7 +166,7 @@ RVM CAD's employee self-service Android app, with its backend live since 16 Oct 
 ### Also built end to end
 
 **Material control for a commercial-interiors contractor**&nbsp;·&nbsp;client-owned, deployed for internal use (Sep–Oct 2026)<br>
-Material moves from request through two approvals, purchase order, receipt and issue to applied work; issue stops once issued and applied drift more than 10% apart. Append-only records, an offline-first PWA for site supervisors, 193 test files; 94 of its 95 commits are mine. Usage isn't measured yet.
+Material moves from request through two approvals, purchase order, receipt and issue to applied work; issue stops once issued and applied drift more than 10% apart. Append-only records and an offline-first PWA for site supervisors; 99 of its 100 commits are mine. Usage isn't measured yet.
 
 **[thisiskp.in](https://thisiskp.in)**&nbsp;·&nbsp;my portfolio and case-study site<br>
 Astro on AWS Lightsail behind Caddy, deployed by GitHub Actions with a live check after each release. Claims are tracked in a claims register, and the deploy's launch check fails while any page still carries an unconfirmed-fact marker.
@@ -331,14 +336,14 @@ Based in Faridabad, Delhi NCR, India. Open to remote, hybrid and on-site roles, 
 <summary><sub>How the numbers on this page were measured</sub></summary>
 <br>
 
-Measured on 28 Oct 2026 from git, the GitHub API and CI logs, read-only. Only commits and pull requests made under my own identities count as mine, including the ones I made with AI coding agents; commits by colleagues, shared accounts and bots don't.
+Measured on 15 Nov 2026 from git, the GitHub API and CI logs, read-only. Only commits and pull requests made under my own identities count as mine, including the ones I made with AI coding agents; commits by colleagues, shared accounts and bots don't.
 
-- **3,048 commits:** commits on the default branch of every repository I own or belong to, from 28 Oct 2025 to 28 Oct 2026, across 34 repositories: `gh api "repos/<owner>/<repo>/commits?sha=<default>&author=kpdagrt22&since=2025-10-28T00:00:00Z&per_page=1"`, reading the last page from the Link header, plus the commits from my unlinked e-mail addresses. Forks and personal snapshot copies of company repositories are excluded; merge commits count.
-- **1,056 merged pull requests:** `gh api -X GET search/issues -f q="is:pr is:merged author:kpdagrt22"`, across all repositories; one of them is the upstream Kubernetes fix.
+- **3,530 commits:** commits on the default branch of every repository I own or belong to, from 15 Nov 2025 to 15 Nov 2026, across 37 repositories: `gh api "repos/<owner>/<repo>/commits?sha=<default>&author=kpdagrt22&since=2025-11-15T00:00:00Z&per_page=1"`, reading the last page from the Link header, plus the commits from my unlinked e-mail addresses. Forks, automated `profile-intel` commits in `kpdagrt22` and personal snapshot copies of company repositories are excluded; merge commits count.
+- **1,318 merged pull requests:** `gh api -X GET search/issues -f q="is:pr is:merged author:kpdagrt22"`, across all repositories; one of them is the upstream Kubernetes fix. Re-measured 15 Nov 2026.
 - **5 deployed systems whose first commit is mine:** the first commit on the default branch of BadaBhai, Team RVM, a client system, strikehike-monorepo and thisiskp is mine, and all five are deployed.
 - **47% of commits change a test:** 1,117 of my 2,397 non-merge commits across 20 product repositories touch a test file (BadaBhai counted from 26 Jun 2026).
-- **The Scheduler before and after:** the committed tree at the parent of my first commit in each repository (30 Apr 2026) against `main` on 28 Oct 2026, read with `git ls-tree` and `git grep`. API routes are the `router.get/post/put/patch/delete` registrations, screens are the page modules routed in the frontend's `App.tsx`, migrations are the timestamped SQL files, and the current test totals come from the CI runs on `main` on 28 Oct 2026.
-- **Per-project figures** (commit and pull-request shares, migration commits, deployment records, test counts and connector tool counts) come from the same sources, from each project's CI logs and from the connector's live manifest, and are dated where they appear.
+- **The Scheduler before and after:** the committed tree at the parent of my first commit in each repository (30 Apr 2026) against `main` on 15 Nov 2026, read with `git ls-tree` and `git grep`. API routes are the `router.get/post/put/patch/delete` registrations, screens are the page modules routed in the frontend's `App.tsx`, migrations are the timestamped SQL files, and the current test totals come from the CI runs on `main` on 15 Nov 2026.
+- **Per-project figures** (commit and pull-request shares, migration commits, deployment records, test counts and connector tool counts) come from the same sources, from each project's CI logs and from each connector's tool registry, and are dated where they appear.
 
 “Next” items and specialties are my own statements of 14 Nov 2026; the specialties are from my roles, not public artefacts.
 

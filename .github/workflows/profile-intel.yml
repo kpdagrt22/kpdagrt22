@@ -50,6 +50,8 @@ jobs:
       - name: Review activity and publish
         env:
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          FIGURES_TOKEN: ${{ secrets.FIGURES_TOKEN }}
+          FIGURES_SOURCES: ${{ secrets.FIGURES_SOURCES }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           SINCE_DAYS: ${{ github.event_name == 'workflow_dispatch' && inputs.since_days || 7 }}
           # Kill switch: set the repository variable to false to leave PRs open.
