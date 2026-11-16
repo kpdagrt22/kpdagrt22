@@ -43,8 +43,8 @@
       "source": "manual",
       "readmeSection": "Flagship work",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-11-07",
-      "lastPortfolioUpdate": "2026-11-09",
+      "lastMeaningfulActivity": "2026-11-16",
+      "lastPortfolioUpdate": "2026-11-16",
       "technologyEvidence": {
         "FastAPI": {
           "kind": "framework",
@@ -86,25 +86,9 @@
           "kind": "framework",
           "reason": "declared in frontend/package.json; imported in frontend/src/app/(engine)/layout.tsx"
         },
-        "React Three Fiber": {
-          "kind": "framework",
-          "reason": "declared in frontend/package.json; imported in frontend/src/components/AmbientCosmos.jsx"
-        },
-        "scikit-learn": {
-          "kind": "framework",
-          "reason": "declared in backend/pyproject.toml; imported in backend/src/astro_finance/energy_metric_compiler.py"
-        },
-        "Swiss Ephemeris": {
-          "kind": "framework",
-          "reason": "declared in backend/requirements-minimal.txt; imported in backend/src/astro_finance/historical_parallels.py"
-        },
         "Tailwind CSS": {
           "kind": "framework",
           "reason": "declared in frontend/package.json; imported in frontend/src/app/globals.css"
-        },
-        "three.js": {
-          "kind": "framework",
-          "reason": "declared in frontend/package.json; imported in frontend/src/components/AmbientCosmos.jsx"
         },
         "TypeScript": {
           "kind": "language",
@@ -121,87 +105,87 @@
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#26",
-          "date": "2026-11-07T05:58:07Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/26",
-          "title": "Growth P6: Caddy access logs, snippet-dir migration, weekly aggregates export"
-        },
-        {
-          "type": "commit",
-          "ref": "kpdagrt22/strikehike-monorepo@690fe5c613be64d3938969ccf2f19f90c7e4c537",
-          "date": "2026-11-06T14:25:59Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/690fe5c613be64d3938969ccf2f19f90c7e4c537",
-          "title": "Upcoming, theme pages and the sitemap render per request, not from the build"
-        },
-        {
-          "type": "commit",
-          "ref": "kpdagrt22/strikehike-monorepo@3eda8164cced3e45944b1eae43343e2e266f2ced",
-          "date": "2026-11-06T14:02:09Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/3eda8164cced3e45944b1eae43343e2e266f2ced",
-          "title": "Deploy: name the probe that fails, so a red deploy is diagnosable"
-        },
-        {
-          "type": "commit",
-          "ref": "kpdagrt22/strikehike-monorepo@0ec83ce4e4bbae964b9be33bccb53a1dbed47d31",
-          "date": "2026-11-06T13:41:18Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/commit/0ec83ce4e4bbae964b9be33bccb53a1dbed47d31",
-          "title": "Gauge captions keep their clarity over the orrery; deploy probes retry a cold atlas"
+          "ref": "kpdagrt22/strikehike-monorepo#60",
+          "date": "2026-11-16T10:49:04Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/60",
+          "title": "B5: A11Y-all sweep, two text-spacing overlaps fixed"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#27",
-          "date": "2026-11-06T12:55:14Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/27",
-          "title": "Gauge polish: legible score on its own face, a fire that reads as flame"
+          "ref": "kpdagrt22/strikehike-monorepo#59",
+          "date": "2026-11-16T10:04:35Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/59",
+          "title": "B5: data guards on every writer, /upcoming HTML trim"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#28",
-          "date": "2026-11-06T11:49:54Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/28",
-          "title": "Growth P8: event pages, theme pages, 2027 date pages, event card actions"
+          "ref": "kpdagrt22/strikehike-monorepo#58",
+          "date": "2026-11-16T09:21:26Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/58",
+          "title": "Weekly email v3: strikehike.com theme, icons, HTML charts"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#25",
-          "date": "2026-11-05T11:46:13Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/25",
-          "title": "Growth P5: home promise and first action, always-visible navigation"
+          "ref": "kpdagrt22/strikehike-monorepo#57",
+          "date": "2026-11-16T08:11:23Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/57",
+          "title": "B5: SEND-safety tests and light-mode link contrast fix"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#24",
-          "date": "2026-11-05T08:58:53Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/24",
-          "title": "Growth P4: /upcoming page, release times, calendar feeds"
+          "ref": "kpdagrt22/strikehike-monorepo#56",
+          "date": "2026-11-16T06:40:54Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/56",
+          "title": "B5 (part 2): restore drill, CSP enforce dry run"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#23",
-          "date": "2026-11-05T06:33:27Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/23",
-          "title": "Fix feedback: stored messages answer 204 and show Sent"
+          "ref": "kpdagrt22/strikehike-monorepo#55",
+          "date": "2026-11-15T18:27:09Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/55",
+          "title": "B5 (part 1): perf retry, pipeline health, weekly crawl, live deploy verification"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#22",
-          "date": "2026-11-05T06:17:05Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/22",
-          "title": "Growth P3: first-party measurement + feedback that reaches KP"
+          "ref": "kpdagrt22/strikehike-monorepo#54",
+          "date": "2026-11-15T16:27:57Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/54",
+          "title": "B4: orrery poster default, perf CI, fresh-watch, runtime backups, launch crawl, TBT-3, reflow"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#21",
-          "date": "2026-11-04T13:28:51Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/21",
-          "title": "Deploy: a passing rollback rehearsal ends green"
+          "ref": "kpdagrt22/strikehike-monorepo#53",
+          "date": "2026-11-15T13:34:16Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/53",
+          "title": "B3: TBT cuts, orrery poster setting, CSP reports, deps-watch"
         },
         {
           "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#20",
-          "date": "2026-11-04T13:17:38Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/20",
-          "title": "Fix deploy: drop script_stop so the new probes run"
+          "ref": "kpdagrt22/strikehike-monorepo#52",
+          "date": "2026-11-15T09:41:11Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/52",
+          "title": "S3 + Q1 quality stack: server snapshot, ISR home, a11y, RUM sampling, CSP switch"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#51",
+          "date": "2026-11-15T08:59:21Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/51",
+          "title": "P20.1: light-mode contrast, secret preview dispatch, preview nonce"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#50",
+          "date": "2026-11-15T04:27:30Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/50",
+          "title": "P20: weekly email v2 with calendar actions and charts"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#49",
+          "date": "2026-11-14T21:50:07Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/49",
+          "title": "S2: SEO/GEO quick wins, P19 follow-ups and review fixes"
         }
       ]
     },
@@ -463,12 +447,20 @@
       "source": "manual",
       "readmeSection": "Flagship work / Also built end to end",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-11-04",
-      "lastPortfolioUpdate": "2026-11-04",
+      "lastMeaningfulActivity": "2026-11-16",
+      "lastPortfolioUpdate": "2026-11-16",
       "technologyEvidence": {
         "Astro": {
           "kind": "framework",
           "reason": "declared in a dependency manifest; configured in the repository"
+        },
+        "JavaScript": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
+        },
+        "Python": {
+          "kind": "language",
+          "reason": "GitHub linguist: at least 3% of the repository's code"
         },
         "three.js": {
           "kind": "framework",
@@ -497,63 +489,63 @@
         },
         {
           "type": "pr",
-          "ref": "private:e711a9742d4db521",
-          "date": "2026-11-04T06:57:33Z"
+          "ref": "private:b554596900e5f47a",
+          "date": "2026-11-16T10:15:20Z"
         },
         {
           "type": "pr",
-          "ref": "private:d844ba2ad4d8265d",
-          "date": "2026-11-04T05:55:47Z"
+          "ref": "private:6ea753487c0d1709",
+          "date": "2026-11-16T10:06:10Z"
         },
         {
           "type": "pr",
-          "ref": "private:bed228065f9bf4ec",
-          "date": "2026-11-03T15:22:41Z"
+          "ref": "private:3d0f6d4d8811c7eb",
+          "date": "2026-11-16T07:42:46Z"
         },
         {
           "type": "pr",
-          "ref": "private:52fa6ea069e5d668",
-          "date": "2026-10-29T02:11:56Z"
+          "ref": "private:f597661e5c0bd549",
+          "date": "2026-11-15T17:00:41Z"
         },
         {
           "type": "pr",
-          "ref": "private:dde0f538da749a6a",
-          "date": "2026-10-29T01:56:06Z"
+          "ref": "private:d745af68eb3e1553",
+          "date": "2026-11-15T15:55:31Z"
         },
         {
           "type": "pr",
-          "ref": "private:5a4ebe881da0df4f",
-          "date": "2026-10-29T01:52:52Z"
+          "ref": "private:da7008504145caa8",
+          "date": "2026-11-15T13:43:08Z"
         },
         {
           "type": "pr",
-          "ref": "private:ecaad75b9f0ea5fa",
-          "date": "2026-10-29T01:46:20Z"
+          "ref": "private:90337c3d0d0084c6",
+          "date": "2026-11-15T08:29:54Z"
         },
         {
-          "type": "commit",
-          "ref": "private:7572b9a99e558589",
-          "date": "2026-10-27T09:04:04Z"
+          "type": "pr",
+          "ref": "private:040fca2484d864d0",
+          "date": "2026-11-15T03:59:05Z"
         },
         {
-          "type": "commit",
-          "ref": "private:d6a612dd0a2f8b29",
-          "date": "2026-10-27T08:57:04Z"
+          "type": "pr",
+          "ref": "private:73f8efe929466844",
+          "date": "2026-11-14T22:46:56Z"
         },
         {
-          "type": "commit",
-          "ref": "private:bc63667b5091386d",
-          "date": "2026-10-27T08:50:38Z"
+          "type": "pr",
+          "ref": "private:9d2d7801b97cddfa",
+          "date": "2026-11-14T22:14:28Z"
         },
         {
-          "type": "commit",
-          "ref": "private:7fc58749f32ca6b0",
-          "date": "2026-10-27T08:15:08Z"
+          "type": "pr",
+          "ref": "private:161cb841ac3742f0",
+          "date": "2026-11-14T21:33:20Z"
         },
         {
-          "type": "commit",
-          "ref": "private:fef3c1f14930570b",
-          "date": "2026-10-27T07:44:51Z"
+          "type": "pr",
+          "ref": "private:a41aa57964b7923c",
+          "date": "2026-11-14T20:32:00Z"
         }
       ]
     },
