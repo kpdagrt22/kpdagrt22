@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "CL15",
-  "measuredAt": "2026-11-15",
+  "measuredAt": "2026-11-16",
   "figures": [
     {
       "id": "commits-12m",
@@ -9,7 +9,7 @@
       "display": "3,530",
       "label": "commits in 12 months",
       "measuredAt": "2026-11-15",
-      "method": "Default-branch commits, 15 Nov 2025 - 15 Nov 2026, every repo KP owns or belongs to; excludes automated profile-intel commits and two snapshot copies",
+      "method": "Default-branch commits, 15 Nov 2025 - 15 Nov 2026, every repo KP owns or belongs to; excludes automated profile-intel commits and two snapshot copies; unlinked-author aliases from FIGURES_SOURCES included",
       "scope": "GitHub",
       "claim": "C201",
       "cadence": "weekly"
@@ -544,10 +544,10 @@
     },
     {
       "id": "strikehike-commits",
-      "value": 131,
-      "display": "131",
+      "value": 142,
+      "display": "142",
       "label": "commits on StrikeHike main, all mine",
-      "measuredAt": "2026-11-15",
+      "measuredAt": "2026-11-16",
       "method": "git rev-list --count origin/main at e912a41",
       "scope": "StrikeHike",
       "claim": "C119",
@@ -558,7 +558,7 @@
       "value": 159,
       "display": "159",
       "label": "dated historical events in the StrikeHike archive",
-      "measuredAt": "2026-11-15",
+      "measuredAt": "2026-11-16",
       "method": "backend/data/historical_events.json in the public strikehike-monorepo",
       "scope": "StrikeHike",
       "claim": "C121",

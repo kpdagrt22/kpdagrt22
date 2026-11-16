@@ -23,7 +23,7 @@ By title I'm a Technical Product Manager at RVM CAD; in practice I own, lead and
 <sub>Method and commands at the end of the page.</sub>
 
 <!-- profile-intel:figures:start -->
-**Live figures** <sub>(measured 15 Nov 2026)</sub><br>
+**Live figures** <sub>(measured 16 Nov 2026)</sub><br>
 **3,530** commits in 12 months · **1,318** merged pull requests · **5** deployed systems whose first commit is mine
 <!-- profile-intel:figures:end -->
 
@@ -200,9 +200,9 @@ Aviation taught me that an inspection only counts if it could have found the fau
 </picture>
 
 <!-- profile-intel:stack:start -->
-**In active use** <sub>(from projects with meaningful GitHub activity in the 90 days to 7 Nov 2026: languages by GitHub's byte count, frameworks only when a dependency manifest declares them and the code imports them)</sub><br>
+**In active use** <sub>(from projects with meaningful GitHub activity in the 90 days to 16 Nov 2026: languages by GitHub's byte count, frameworks only when a dependency manifest declares them and the code imports them)</sub><br>
 Languages: JavaScript, PLpgSQL, Python, TypeScript<br>
-Frameworks and libraries: Astro, Claude API, FastAPI, Next.js, pandas, Playwright, PyArrow, Pydantic, pytest, React, React Three Fiber, scikit-learn, Supabase, Swiss Ephemeris, Tailwind CSS, three.js, Vite, Vitest, Zod
+Frameworks and libraries: Astro, Claude API, FastAPI, Next.js, pandas, Playwright, PyArrow, Pydantic, pytest, React, Supabase, Tailwind CSS, three.js, Vite, Vitest, Zod
 <!-- profile-intel:stack:end -->
 
 <details>
@@ -248,17 +248,17 @@ Course-based practice, labelled as such in each repository: [TextSummarizer](htt
 
 <sub>Meaningful changes from my GitHub activity, refreshed weekly by an automated job that filters out noise (bots, merges, formatting, lockfiles, small docs edits, reverts). Public work links to its commit or pull request; private repositories are named without links or code.</sub>
 
-- **[StrikeHike](https://strikehike.com)**&nbsp;·&nbsp;[source](https://github.com/kpdagrt22/strikehike-monorepo)&nbsp;·&nbsp;live, built and run solo&nbsp;·&nbsp;last change 7 Nov 2026<br>
-  Recent: [Growth P6: Caddy access logs, snippet-dir migration, weekly aggregates export](https://github.com/kpdagrt22/strikehike-monorepo/pull/26) · [Upcoming, theme pages and the sitemap render per request, not from the build](https://github.com/kpdagrt22/strikehike-monorepo/commit/690fe5c613be64d3938969ccf2f19f90c7e4c537) · [Deploy: name the probe that fails, so a red deploy is diagnosable](https://github.com/kpdagrt22/strikehike-monorepo/commit/3eda8164cced3e45944b1eae43343e2e266f2ced)<br>
-  <sub>FastAPI, JavaScript, Next.js, pandas, Playwright, PyArrow, Pydantic, pytest, Python, React, React Three Fiber, scikit-learn, Swiss Ephemeris, Tailwind CSS, three.js, TypeScript</sub>
+- **[StrikeHike](https://strikehike.com)**&nbsp;·&nbsp;[source](https://github.com/kpdagrt22/strikehike-monorepo)&nbsp;·&nbsp;live, built and run solo&nbsp;·&nbsp;last change 16 Nov 2026<br>
+  Recent: [B5: A11Y-all sweep, two text-spacing overlaps fixed](https://github.com/kpdagrt22/strikehike-monorepo/pull/60) · [B5: data guards on every writer, /upcoming HTML trim](https://github.com/kpdagrt22/strikehike-monorepo/pull/59) · [Weekly email v3: strikehike.com theme, icons, HTML charts](https://github.com/kpdagrt22/strikehike-monorepo/pull/58)<br>
+  <sub>FastAPI, JavaScript, Next.js, pandas, Playwright, PyArrow, Pydantic, pytest, Python, React, Tailwind CSS, TypeScript</sub>
+- **[thisiskp.in](https://thisiskp.in)**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;live&nbsp;·&nbsp;last change 16 Nov 2026<br>
+  <sub>Astro, JavaScript, Python, three.js, TypeScript, Vitest, Zod</sub>
 - **strikehike-growth-ops**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;last change 7 Nov 2026<br>
   Python codebase, created Nov 2026.<br>
   <sub>Python</sub>
 - **manifest\_extension**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;last change 4 Nov 2026<br>
   AI Job Copilot: a Chrome extension (Manifest V3, React, TypeScript) that drafts a tailored cover letter and résumé PDF for a Greenhouse job application and fills the form for the user to review. FastAPI on AWS Lightsail, Supabase, Claude API. In development; not yet launched.<br>
   <sub>Claude API, FastAPI, PLpgSQL, Pydantic, pytest, Python, React, Supabase, Tailwind CSS, TypeScript</sub>
-- **[thisiskp.in](https://thisiskp.in)**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;live&nbsp;·&nbsp;last change 4 Nov 2026<br>
-  <sub>Astro, three.js, TypeScript, Vitest, Zod</sub>
 - **quant\_trading\_app**&nbsp;·&nbsp;private repository&nbsp;·&nbsp;last change 25 Oct 2026<br>
   Options analytics prototype for Indian markets: Greeks, implied volatility, open interest and put-call ratio for indices and F&O stocks, plus an option payoff calculator. FastAPI + Redis worker, React/Vite, Supabase. Demo data; information only, not investment advice.<br>
   <sub>FastAPI, JavaScript, PLpgSQL, Pydantic, pytest, Python, React, Supabase, Tailwind CSS, Vite, Vitest</sub>
@@ -267,7 +267,7 @@ Course-based practice, labelled as such in each repository: [TextSummarizer](htt
 <!-- profile-intel:recent:end -->
 
 <!-- profile-intel:updated:start -->
-<sub>Latest engineering work and In active use last changed on 9 Nov 2026, generated by <a href="https://github.com/kpdagrt22/kpdagrt22/tree/main/tools/profile-intel">profile-intel</a> from GitHub activity.</sub>
+<sub>Latest engineering work and In active use last changed on 16 Nov 2026, generated by <a href="https://github.com/kpdagrt22/kpdagrt22/tree/main/tools/profile-intel">profile-intel</a> from GitHub activity.</sub>
 <!-- profile-intel:updated:end -->
 
 ## Path
