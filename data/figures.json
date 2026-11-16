@@ -88,7 +88,7 @@
       "measuredAt": "2026-11-15",
       "method": "CI log, apps/api suite",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "manual"
     },
     {
@@ -99,7 +99,7 @@
       "measuredAt": "2026-11-15",
       "method": "Repository tree, packages/db/migrations/*.sql",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "weekly"
     },
     {
@@ -110,7 +110,7 @@
       "measuredAt": "2026-11-15",
       "method": "EVENT_REGISTRY entries",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "weekly"
     },
     {
@@ -121,7 +121,7 @@
       "measuredAt": "2026-11-15",
       "method": "Numbered records in docs/decisions",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "weekly"
     },
     {
@@ -132,7 +132,7 @@
       "measuredAt": "2026-11-15",
       "method": "Production deployment records since 18 Aug 2026",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "weekly"
     },
     {
@@ -143,7 +143,7 @@
       "measuredAt": "2026-11-15",
       "method": "GitHub deployments, production environment",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "weekly"
     },
     {
@@ -154,7 +154,7 @@
       "measuredAt": "2026-11-15",
       "method": "GitHub deployments, production environment",
       "scope": "BadaBhai",
-      "claim": "C194",
+      "claim": "C221",
       "cadence": "weekly"
     },
     {
@@ -187,7 +187,7 @@
       "measuredAt": "2026-11-15",
       "method": "app/api/**/route.ts files",
       "scope": "Job Portal",
-      "claim": "C194",
+      "claim": "C222",
       "cadence": "weekly"
     },
     {
@@ -198,7 +198,7 @@
       "measuredAt": "2026-11-15",
       "method": "supabase/migrations/*.sql",
       "scope": "Job Portal",
-      "claim": "C194",
+      "claim": "C222",
       "cadence": "weekly"
     },
     {
@@ -209,7 +209,7 @@
       "measuredAt": "2026-11-15",
       "method": "tests/e2e/*.spec.ts",
       "scope": "Job Portal",
-      "claim": "C194",
+      "claim": "C222",
       "cadence": "weekly"
     },
     {
@@ -220,7 +220,7 @@
       "measuredAt": "2026-11-15",
       "method": "CI log, npm test",
       "scope": "Job Portal",
-      "claim": "C194",
+      "claim": "C222",
       "cadence": "manual"
     },
     {
