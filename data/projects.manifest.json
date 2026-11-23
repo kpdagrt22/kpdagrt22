@@ -43,8 +43,8 @@
       "source": "manual",
       "readmeSection": "Flagship work",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-11-16",
-      "lastPortfolioUpdate": "2026-11-16",
+      "lastMeaningfulActivity": "2026-11-17",
+      "lastPortfolioUpdate": "2026-11-23",
       "technologyEvidence": {
         "FastAPI": {
           "kind": "framework",
@@ -102,6 +102,27 @@
           "date": "2026-10-28T14:09:19Z",
           "url": "https://github.com/kpdagrt22/kpdagrt22/blob/44ea5277331e2dfc3344c7611b3271405e0b431d/README.md",
           "title": "Owner-approved profile README, section \"Flagship work\""
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#63",
+          "date": "2026-11-16T19:40:50Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/63",
+          "title": "Ops hardening: encrypted off-host backups (ready to switch on), Retry-After, scheduled purge, cached pages after restart"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#62",
+          "date": "2026-11-16T18:46:02Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/62",
+          "title": "Roundup: approve 2026-W48 (owner pre-approved)"
+        },
+        {
+          "type": "pr",
+          "ref": "kpdagrt22/strikehike-monorepo#61",
+          "date": "2026-11-16T13:14:19Z",
+          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/61",
+          "title": "Launch hardening: 503/last-good copy instead of 404 on backend failure, phone hint, TBT-4"
         },
         {
           "type": "pr",
@@ -165,27 +186,6 @@
           "date": "2026-11-15T09:41:11Z",
           "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/52",
           "title": "S3 + Q1 quality stack: server snapshot, ISR home, a11y, RUM sampling, CSP switch"
-        },
-        {
-          "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#51",
-          "date": "2026-11-15T08:59:21Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/51",
-          "title": "P20.1: light-mode contrast, secret preview dispatch, preview nonce"
-        },
-        {
-          "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#50",
-          "date": "2026-11-15T04:27:30Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/50",
-          "title": "P20: weekly email v2 with calendar actions and charts"
-        },
-        {
-          "type": "pr",
-          "ref": "kpdagrt22/strikehike-monorepo#49",
-          "date": "2026-11-14T21:50:07Z",
-          "url": "https://github.com/kpdagrt22/strikehike-monorepo/pull/49",
-          "title": "S2: SEO/GEO quick wins, P19 follow-ups and review fixes"
         }
       ]
     },
@@ -447,8 +447,8 @@
       "source": "manual",
       "readmeSection": "Flagship work / Also built end to end",
       "firstDiscovered": "2026-11-03",
-      "lastMeaningfulActivity": "2026-11-16",
-      "lastPortfolioUpdate": "2026-11-16",
+      "lastMeaningfulActivity": "2026-11-17",
+      "lastPortfolioUpdate": "2026-11-23",
       "technologyEvidence": {
         "Astro": {
           "kind": "framework",
@@ -489,6 +489,56 @@
         },
         {
           "type": "pr",
+          "ref": "private:71e55ebdbd680a63",
+          "date": "2026-11-17T17:38:27Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:1296f69aabc25682",
+          "date": "2026-11-17T14:36:14Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:2a0707870c38247f",
+          "date": "2026-11-16T22:32:35Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:8beaf0dd8b7071ff",
+          "date": "2026-11-16T22:11:27Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:b777060af2d94036",
+          "date": "2026-11-16T18:06:52Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:58caffc2581ca0e3",
+          "date": "2026-11-16T15:08:46Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:c7e242daf979925a",
+          "date": "2026-11-16T14:49:42Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:d4507d4491ec7f73",
+          "date": "2026-11-16T12:46:56Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:67c186c0487db485",
+          "date": "2026-11-16T12:37:48Z"
+        },
+        {
+          "type": "pr",
+          "ref": "private:8f3090b43d63916a",
+          "date": "2026-11-16T12:12:20Z"
+        },
+        {
+          "type": "pr",
           "ref": "private:b554596900e5f47a",
           "date": "2026-11-16T10:15:20Z"
         },
@@ -496,56 +546,6 @@
           "type": "pr",
           "ref": "private:6ea753487c0d1709",
           "date": "2026-11-16T10:06:10Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:3d0f6d4d8811c7eb",
-          "date": "2026-11-16T07:42:46Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:f597661e5c0bd549",
-          "date": "2026-11-15T17:00:41Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:d745af68eb3e1553",
-          "date": "2026-11-15T15:55:31Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:da7008504145caa8",
-          "date": "2026-11-15T13:43:08Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:90337c3d0d0084c6",
-          "date": "2026-11-15T08:29:54Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:040fca2484d864d0",
-          "date": "2026-11-15T03:59:05Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:73f8efe929466844",
-          "date": "2026-11-14T22:46:56Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:9d2d7801b97cddfa",
-          "date": "2026-11-14T22:14:28Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:161cb841ac3742f0",
-          "date": "2026-11-14T21:33:20Z"
-        },
-        {
-          "type": "pr",
-          "ref": "private:a41aa57964b7923c",
-          "date": "2026-11-14T20:32:00Z"
         }
       ]
     },
